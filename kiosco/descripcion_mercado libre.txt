@@ -1,0 +1,36 @@
+Gestión para Kioscos KioscoFlow - La Solución Moderna para tu Negocio
+
+Optimiza la gestión de tu kiosco, despensa o polirubro con KioscoFlow, el software mas intuitivo y visual del mercado. Olvídate de las planillas de calculo complejas y los sistemas antiguos; nuestro sistema esta diseñado para ser fácil de usar, rápido y eficiente, adaptándose a cualquier dispositivo.
+
+CARACTERISTICAS PRINCIPALES:
+
+- Interfaz Visual Premium: Diseño moderno tipo "Glassmorphism" con modo oscuro, fácil de leer y agradable a la vista, ideal para trabajar durante horas sin cansar la vista.
+- Lector de Códigos de Barras: Compatible con lectores USB (plug and play), Bluetooth, laser de mano, tipo pistola y cualquier lector que funcione como teclado (HID). Escanea productos y agrégalos al carrito instantáneamente sin necesidad de buscarlos manualmente. Asigna códigos de barras a cada producto desde el inventario. Perfecto para agilizar la atención en momentos de alta demanda y atender mas clientes en menos tiempo.
+- Sistema de Caja Rápida (POS): Vende seleccionando productos visualmente con iconos o usando el buscador inteligente. Calcula totales y vueltos al instante.
+- Gestión de Inventario: Agrega, edita y elimina productos fácilmente. Controla tu stock en tiempo real y recibe alertas visuales cuando queda poca mercadería.
+- Gestión de Clientes: Registra a tus clientes habituales con nombre y teléfono. Mantén un seguimiento de cada cliente y sus compras. Ideal para ofrecerles promociones personalizadas y mantener una relación comercial solida.
+- Compras Fiadas (Cuenta Corriente): Permite a tus clientes comprar "a crédito" o "fiado". Registra automáticamente la deuda de cada cliente. Cobra el fiado cuando el cliente pueda pagar. Controla cuanto debe cada cliente en tiempo real.
+- Historial de Ventas Detallado: Registro completo de todas tus operaciones con fecha, hora, cliente y tipo de pago (efectivo, fiado o pago de deuda).
+- Exportación e Importación de Datos: Resguarda tu información exportando tus ventas a Excel y JSON. Importa datos fácilmente para restaurar copias de seguridad.
+- Impresión de Tickets: Genera comprobantes de venta simples y profesionales con un solo clic.
+- 100% Responsivo: Úsalo donde quieras. Funciona perfectamente en Computadoras de Escritorio, Notebooks, Tablets y Celulares. La interfaz se adapta automáticamente al tamaño de tu pantalla.
+- Sin Instalaciones Complejas: Es una aplicación web estática super ligera. No requiere servidores pesados ni configuraciones difíciles.
+- Privacidad Total: Los datos se guardan en tu propio dispositivo (LocalStorage), no dependen de una nube externa obligatoria.
+
+IDEAL PARA:
+- Kioscos
+- Drugstores
+- Despensas
+- Almacenes de barrio
+- Pequeños comercios
+
+REQUISITOS:
+- Cualquier dispositivo con navegador web moderno (Chrome, Edge, Firefox, Safari).
+
+IMPORTANTE - PERSONALIZACION INCLUIDA:
+Una vez realizada la compra, es necesario que nos envíes el NOMBRE DE TU KIOSCO y tu LOGO (si tienes uno). Nosotros nos encargamos de personalizar la aplicación para que quede lista con tu identidad visual antes de entregártela.
+
+SOPORTE:
+- Incluye guía de uso básica y soporte post-venta para puesta en marcha.
+
+Mejora la atención a tus clientes y el control de tu negocio hoy mismo con KioscoFlow.

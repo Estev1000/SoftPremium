@@ -4,9 +4,25 @@ const products = [
         title: "Gestión para Kioscos",
         category: "ventas",
         price: "Consultar",
-        image: "kiosco/1.png",
-        description: "Sistema completo para control de stock, caja diaria y ventas rápidas. Ideal para kioscos, drugstores y minimercados.",
-        features: ["Control de Stock", "Caja Diaria", "Lectura de Códigos de Barras", "Reportes de Ventas"]
+        image: "kiosco/Publicidad KioscoFlow.png",
+        images: ["kiosco/Publicidad KioscoFlow.png", "kiosco/1.png", "kiosco/2.png", "kiosco/3.png", "kiosco/4.png", "kiosco/5.png", "kiosco/6.png", "kiosco/7.png", "kiosco/8.png", "kiosco/9.png", "kiosco/10.png"],
+        description: `Gestión para Kioscos KioscoFlow - La Solución Moderna para tu Negocio.
+
+Optimiza la gestión de tu kiosco, despensa o polirubro con KioscoFlow, el software mas intuitivo y visual del mercado. Olvídate de las planillas de calculo complejas y los sistemas antiguos; nuestro sistema esta diseñado para ser fácil de usar, rápido y eficiente, adaptándose a cualquier dispositivo.
+
+CARACTERISTICAS PRINCIPALES:
+- Interfaz Visual Premium: Diseño moderno tipo "Glassmorphism" con modo oscuro, fácil de leer y agradable a la vista.
+- Lector de Códigos de Barras: Compatible con lectores USB, Bluetooth, etc. Escanea y vende al instante.
+- Sistema de Caja Rápida (POS): Vende seleccionando productos visualmente o con buscador inteligente.
+- Gestión de Inventario: Controla tu stock en tiempo real y recibe alertas de stock bajo.
+- Gestión de Clientes: Registra clientes, historial de compras y promociones personalizadas.
+- Compras Fiadas (Cuenta Corriente): Gestiona deudas de clientes y pagos parciales fácilmente.
+- Historial de Ventas Detallado: Registro completo de operaciones y tipos de pago.
+- Exportación e Importación de Datos: Respalda tu información en Excel y JSON.
+- Impresión de Tickets: Genera comprobantes de venta con un clic.
+- 100% Responsivo: Funciona en PC, Notebooks, Tablets y Celulares.
+- Privacidad Total: Datos guardados en tu dispositivo, sin depender de la nube.`,
+        features: ["Control de Stock", "Caja Diaria", "Lectura de Códigos de Barras", "Reportes de Ventas", "Cuentas Corrientes", "Impresión de Tickets"]
     },
     {
         id: 2,
@@ -49,9 +65,28 @@ const products = [
         title: "Gestión de Gimnasios",
         category: "deportes",
         price: "Consultar",
-        image: "gimnasio/1.png",
-        description: "Control de acceso, vencimiento de cuotas y rutinas personalizadas para tus socios.",
-        features: ["Control de Acceso", "Rutinas Digitales", "Pagos Recurrentes", "Ficha de Socio"]
+        image: "gimnasio/Gym_Software_Ad.png",
+        images: ["gimnasio/Gym_Software_Ad.png", "gimnasio/1.png", "gimnasio/2.png", "gimnasio/3.png", "gimnasio/4.png", "gimnasio/5.png", "gimnasio/6.png", "gimnasio/7.png", "gimnasio/8.png", "gimnasio/9.png", "gimnasio/10.png", "gimnasio/11.png"],
+        description: `SOFTWARE INTEGRAL "FITPRO ELITE" - VERSION COMPLETA (SIN MENSUALIDADES)
+
+Optimice la administración de su gimnasio con esta solución definitiva. Adquiere el software completo con un único pago. Sin suscripciones ni costos ocultos.
+
+NOVEDAD EXCLUSIVA: SISTEMA DE CONTROL DE ACCESO CON TECLADO NUMERICO
+Convierta cualquier PC o Tablet en un "Torno Digital". El socio ingresa su DNI y el sistema valida su cuota con alertas visuales y sonoras (Verde: Bienvenido / Rojo: Acceso Denegado).
+
+FUNCIONES PRINCIPALES:
+1. Gestión de Socios Ilimitada: Alta, baja, modificación e historial de actividad.
+2. Control de Caja y Finanzas: Registro de cuotas, matrículas y ventas de productos. Reportes de ingresos detallados.
+3. Interfaz Moderna: Diseño limpio y profesional, fácil de usar en cualquier PC o navegador.
+4. Reportes y Exportación: Exporta listados a Excel/JSON para seguridad.
+
+VENTAJAS:
+- PAGO UNICO: Sin mensualidades.
+- INSTALACION SENCILLA: Guía paso a paso incluida.
+- SOPORTE POST-VENTA: Asistencia en la puesta en marcha.
+
+IDEAL PARA: Gimnasios, Crossfits, Escuelas de Danza, Dojos y centros deportivos.`,
+        features: ["Control de Acceso", "Rutinas Digitales", "Pagos Recurrentes", "Ficha de Socio", "Teclado Numérico", "Sin Mensualidades"]
     },
     {
         id: 7,

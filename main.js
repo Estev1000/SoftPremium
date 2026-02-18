@@ -103,10 +103,59 @@ document.addEventListener('DOMContentLoaded', () => {
         const modalImgContainer = document.querySelector('.modal-image');
         modalImgContainer.innerHTML = ''; // Clear previous
 
-        if (product.image && !product.image.startsWith('img/')) {
+        modalImgContainer.innerHTML = ''; // Clear previous
+
+        if (product.images && product.images.length > 0) {
+            // Create Carousel
+            const carousel = document.createElement('div');
+            carousel.className = 'carousel';
+
+            let currentSlide = 0;
+
+            product.images.forEach((imgSrc, index) => {
+                const img = document.createElement('img');
+                img.src = imgSrc;
+                img.className = 'carousel-slide';
+                if (index === 0) img.classList.add('active');
+                carousel.appendChild(img);
+            });
+
+            if (product.images.length > 1) {
+                const prevBtn = document.createElement('button');
+                prevBtn.className = 'carousel-btn prev';
+                prevBtn.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
+                prevBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    const slides = carousel.querySelectorAll('.carousel-slide');
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                    slides[currentSlide].classList.add('active');
+                };
+
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'carousel-btn next';
+                nextBtn.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
+                nextBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    const slides = carousel.querySelectorAll('.carousel-slide');
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add('active');
+                };
+
+                carousel.appendChild(prevBtn);
+                carousel.appendChild(nextBtn);
+            }
+
+            modalImgContainer.appendChild(carousel);
+
+        } else if (product.image && !product.image.startsWith('img/')) {
             const imgEl = document.createElement('img');
             imgEl.src = product.image;
             imgEl.alt = product.title;
+            imgEl.style.width = '100%';
+            imgEl.style.height = '100%';
+            imgEl.style.objectFit = 'contain';
             modalImgContainer.appendChild(imgEl);
         } else {
             let iconClass = 'fa-box-open';
