@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Software Premium | Soluciones Digitales</title>
+    <meta name="description"
+        content="Descubre nuestra colección de software profesional diseñado para potenciar tu negocio. Gestión, ventas, organización y mucho más.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span>SoftPremium</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link btn-primary">Contacto</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Software Profesional</span>
+                    <h1>Potencia tu Negocio con <span class="gradient-text">Herramientas Digitales</span> de Alto Nivel
+                    </h1>
+                    <p>Más de 25 soluciones de software diseñadas para optimizar la gestión, aumentar las ventas y
+                        simplificar tu vida. Sin suscripciones mensuales, pago único.</p>
+                    <div class="hero-buttons">
+                        <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
+                        <a href="https://wa.me/5491112345678" target="_blank" class="btn btn-outline"><i
+                                class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for hero image, creates a nice abstract tech visual with CSS -->
+                    <div class="tech-visual">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="card-float card-1">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <span>Ventas +30%</span>
+                        </div>
+                        <div class="card-float card-2">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Ahorro de Tiempo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>¿Por qué elegir nuestro software?</h2>
+                    <p>Diseñado pensando en la usabilidad y el rendimiento.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3>Rápido y Ligero</h3>
+                        <p>Optimizado para funcionar en cualquier equipo sin ralentizar tu trabajo diario.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-infinity"></i>
+                        </div>
+                        <h3>Pago Único</h3>
+                        <p>Olvídate de las suscripciones mensuales. Pagás una vez y el software es tuyo para siempre.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3>Soporte Directo</h3>
+                        <p>Atención personalizada para ayudarte en la instalación y puesta en marcha.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Seguro y Privado</h3>
+                        <p>Tus datos quedan en tu computadora. No dependemos de la nube para funcionar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" class="catalogo section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestro Catálogo</h2>
+                    <p>Explora nuestras soluciones por categoría.</p>
+
+                    <div class="filters">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="gestion">Gestión</button>
+                        <button class="filter-btn" data-filter="ventas">Ventas</button>
+                        <button class="filter-btn" data-filter="agenda">Agenda</button>
+                        <button class="filter-btn" data-filter="herramientas">Herramientas</button>
+                    </div>
+                </div>
+
+                <div class="products-grid" id="products-container">
+                    <!-- Products will be loaded here via JavaScript -->
+                    <div class="loading-spinner">
+                        <i class="fa-solid fa-spinner fa-spin"></i> Cargando catálogo...
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta section-padding">
+            <div class="container cta-container">
+                <div class="cta-content">
+                    <h2>¿Necesitas algo a medida?</h2>
+                    <p>Si no encuentras exactamente lo que buscas, podemos desarrollar una solución personalizada para
+                        tu negocio.</p>
+                    <a href="https://wa.me/5491112345678" target="_blank" class="btn btn-light">Contactar Ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>SoftPremium</h3>
+                <p>Desarrollo de software profesional y accesible para emprendedores y PyMEs.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fa-regular fa-envelope"></i> consultas@tusoftware.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i> +54 9 11 1234 5678</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SoftPremium. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-img" src="" alt="Producto">
+                </div>
+                <div class="modal-info">
+                    <span id="modal-category" class="badge">Categoría</span>
+                    <h2 id="modal-title">Título del Producto</h2>
+                    <p id="modal-desc">Descripción completa...</p>
+                    <ul id="modal-features" class="feature-list">
+                        <!-- Features list populated by JS -->
+                    </ul>
+                    <div class="modal-price-action">
+                        <div class="price-tag" id="modal-price">$0</div>
+                        <a href="#" id="modal-buy-btn" target="_blank" class="btn btn-primary"><i
+                                class="fa-brands fa-whatsapp"></i> Comprar ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="products.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
