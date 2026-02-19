@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModal = document.querySelector('.close-modal');
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const navList = document.querySelector('.nav-list');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    function closeMobileMenu() {
+        if (window.innerWidth <= 768 && navList.style.display === 'flex') {
+            navList.style.display = 'none';
+        }
+    }
 
     // Mobile Menu Toggle
     mobileMenuBtn.addEventListener('click', () => {
@@ -23,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
             navList.style.padding = '1rem';
             navList.style.boxShadow = '0 5px 10px rgba(0,0,0,0.1)';
         }
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            closeMobileMenu();
+        });
     });
 
     // Render Products
@@ -185,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // WhatsApp Link
-        const message = `Hola, me interesa el software *${product.title}*. ¿Me podrías dar más información?`;
+        const message = `Hola Esteban, vi en SoftPremium el software *${product.title}* y quisiera más información. También me gustaría consultarte por crear un producto/software a medida.`;
         const waLink = `https://wa.me/5492664024390?text=${encodeURIComponent(message)}`;
         document.getElementById('modal-buy-btn').href = waLink;
 
