@@ -1,0 +1,26 @@
+VerduExpress POS – Ventas e inventario para verdulería (local)
+
+Descripción App simple que corre en el navegador. Cargás productos, vendés rápido, cobrás en efectivo con vuelto automático, imprimís ticket y ves reportes básicos. Datos guardados en tu PC. Ofrecemos la versión para PC, versión web para PC, celular y tablet.
+
+Qué hace
+
+Inventario: nombre, categoría, precio, cantidad.
+Ventas: carrito, total, efectivo y vuelto.
+Ofertas rápidas: botones con nombre, detalle y precio. Modo “solo ofertas”.
+Venta libre: ítems fuera del inventario.
+Ticket imprimible.
+Reportes y exportar/importar (JSON).
+
+Modo de uso
+
+Inventario: cargá productos.
+Ventas: agregá al carrito, ingresá efectivo y finalizá venta (imprime ticket).
+Reportes: consultá totales y exportá/importá.
+Requisitos
+
+Navegador moderno. Internet solo para estilos al cargar. Operación local.
+Alcances
+
+Personalización
+
+Una vez que realicen la compra del programa, nos tienen que proporcionar el nombre de la verdulería para incluirlo en la interfaz de la app y el ticket.

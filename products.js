@@ -216,12 +216,32 @@ IDEAL PARA: Gimnasios, Crossfits, Escuelas de Danza, Dojos y centros deportivos.
     },
     {
         id: 21,
-        title: "Gestión Verdulería",
+        title: "VerduExpress POS",
         category: "ventas",
         price: "Consultar",
-        image: "img/verdura.jpg",
-        description: "Venta rápida por peso y unidad. Control de mermas y ofertas diarias.",
-        features: ["Balanza", "Control Mermas", "Ofertas del Día", "Cierre Caja"]
+        image: "verduleria/1.png",
+        images: ["verduleria/1.png", "verduleria/2.png", "verduleria/3.png", "verduleria/4.png", "verduleria/5.png", "verduleria/6.png"],
+        description: `VerduExpress POS – Ventas e inventario para verdulería (local)
+
+Descripción:
+App simple que corre en el navegador. Cargás productos, vendés rápido, cobrás en efectivo con vuelto automático, imprimís ticket y ves reportes básicos. Datos guardados en tu PC. Ofrecemos la versión para PC, versión web para PC, celular y tablet.
+
+Funcionalidades Principales:
+- Inventario: nombre, categoría, precio, cantidad.
+- Ventas: carrito, total, efectivo y vuelto.
+- Ofertas rápidas: botones con nombre, detalle y precio. Modo “solo ofertas”.
+- Venta libre: ítems fuera del inventario.
+- Ticket imprimible.
+- Reportes y exportar/importar (JSON).
+
+Modo de uso:
+- Inventario: cargá productos.
+- Ventas: agregá al carrito, ingresá efectivo y finalizá venta (imprime ticket).
+- Reportes: consultá totales y exportá/importá.
+
+Requisitos:
+- Navegador moderno. Internet solo para estilos al cargar. Operación local.`,
+        features: ["Inventario Simple", "Ventas Rápidas", "Ofertas", "Ticket Imprimible", "Reportes Básicos", "Exportar JSON"]
     },
     {
         id: 22,
