@@ -1,0 +1,2 @@
+Web responsive para lavaderos que permite chatear al instante por WhatsApp: botón flotante, formulario que arma el mensaje (motivo, detalle, nombre), chips de respuestas rápidas, marcador de URGENCIA y opción de adjuntar ubicación. Guarda localmente número y nombre para uso repetido. Incluye módulo “Emergencia familiar” (agenda y envío secuencial), import/export de contactos y opción de envío por API (si tenés API Key). Pago único.
+Comparte el link de tu Web de Contacto en tus perfiles y biografías de redes sociales para que la gente acceda con un clic.

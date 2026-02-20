@@ -1,0 +1,37 @@
+TITULO SUGERIDO: Software De Gestión Para Repositores - Control De Vencimientos Y Faltantes
+
+DESCRIPCIÓN:
+
+Optimice su trabajo en góndola con RepoMaster
+
+Presentamos la herramienta definitiva diseñada específicamente para el personal de reposición en supermercados y autoservicios. Esta aplicación web estática es una solución ágil, liviana y eficiente para resolver los problemas cotidianos de la gestión de stock y el control de productos.
+
+FUNCIONES PRINCIPALES:
+
+1. CONTROL DE VENCIMIENTOS (SISTEMA FEFO)
+Permite registrar productos y sus fechas de caducidad. El sistema utiliza un código de colores inteligente para priorizar la rotación:
+- Alerta Roja: Productos que vencen en menos de 3 días.
+- Alerta Amarilla: Productos que vencen en menos de 7 días.
+- Indicador Verde: Productos con margen de tiempo suficiente.
+
+2. GESTIÓN DE QUIEBRES Y FALTANTES
+Anota rápidamente los productos agotados en góndola. Una vez finalizado el recorrido, la herramienta permite enviar la lista completa directamente a un número de WhatsApp preconfigurado (encargado de depósito, jefe de compras o proveedor), evitando errores de transcripción y ahorrando tiempo valioso.
+
+3. CALCULADORA DE FRENTES
+Módulo especializado para calcular cuántas unidades de un producto caben en un estante según las medidas del mismo. Optimice el espacio de exposición de forma precisa y profesional.
+
+CARACTERÍSTICAS TÉCNICAS:
+
+- Compatibilidad Total: Funciona a la perfección en teléfonos celulares, tablets y computadoras de escritorio.
+- Diseño de Alta Visibilidad: Interfaz en modo oscuro diseñada para reducir la fatiga visual y ahorrar batería en dispositivos móviles.
+- Configurable: El vendedor puede entregar la herramienta personalizada con el nombre y logo del comercio solicitado.
+- Multiplataforma: Acceda desde cualquier navegador sin necesidad de descargas complejas.
+
+VENTAJAS PARA EL COMPRADOR:
+
+- Reducción de mermas por productos vencidos.
+- Comunicación instantánea y profesional de faltantes.
+- Mayor velocidad en la reposición diaria.
+- No requiere pagos mensuales ni suscripciones; el software es suyo para siempre.
+
+Ideal para repositores externos, personal de planta y supervisores de sector. Potencie la eficiencia de sus góndolas con una herramienta profesional.

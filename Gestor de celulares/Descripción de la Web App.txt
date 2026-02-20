@@ -1,0 +1,41 @@
+📱 Gestor de Celulares - Sistema de Administración para Vendedores
+🌟 Características Principales:
+Panel intuitivo para gestionar tu inventario de celulares
+Interfaz moderna y responsive
+Gestión completa de productos en tiempo real
+📋 Descripción:
+¡Optimiza la gestión de tu negocio de celulares con nuestra aplicación web profesional! Diseñada específicamente para vendedores de Mercado Libre, esta herramienta te permite:
+
+✨ Gestionar tu Catálogo:
+
+Agregar nuevos modelos de celulares con imágenes
+Actualizar precios y características
+Eliminar productos descontinuados
+Búsqueda rápida de productos
+📊 Detalles Técnicos:
+
+Registro de especificaciones completas (RAM, almacenamiento, color)
+Gestión de precios y stock
+Carga de imágenes por URL
+Características adicionales personalizables
+💼 Beneficios para tu Negocio:
+
+Ahorra tiempo en la gestión de inventario
+Mantén tu catálogo siempre actualizado
+Mejora la presentación de tus productos
+Interfaz profesional y fácil de usar
+🔧 Especificaciones Técnicas:
+Desarrollada con tecnologías modernas (Bootstrap 5, JavaScript)
+Diseño responsive para todos los dispositivos
+Almacenamiento local seguro
+Interfaz moderna con animaciones y notificaciones
+💡 Ideal para:
+Vendedores de celulares en Mercado Libre
+Tiendas de tecnología
+Comerciantes independientes
+Emprendedores del sector móvil
+¡Moderniza tu negocio y mejora tu eficiencia con nuestra aplicación de gestión de celulares!
+
+Precio: GRATIS 🎉 Soporte técnico incluido 📞
+
+#Tecnología #Celulares #GestiónDeNegocios #Emprendedores #MercadoLibre

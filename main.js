@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="product-content">
                     <span class="product-cat">${product.category}</span>
                     <h3 class="product-title">${product.title}</h3>
-                    <p class="product-desc">${product.description}</p>
+                    <p class="product-desc">${product.shortDescription || product.description.substring(0, 120) + '...'}</p>
                     <div class="product-footer">
                         <span class="product-price">${product.price === 'Consultar' ? 'Consultar Precio' : '$' + product.price}</span>
                         <a href="#" class="view-btn" onclick="openModal(${product.id}); return false;">Ver Detalle <i class="fa-solid fa-arrow-right"></i></a>

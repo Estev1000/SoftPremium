@@ -1,0 +1,72 @@
+Web App de Remises “San Luis Rides”
+Optimiza tu servicio de remises con una Web App moderna y lista para usar. “San Luis Rides” permite a tus clientes reservar viajes, conocer tus servicios y pagar fácilmente mediante Mercado Pago desde el celular o la computadora.
+
+¿Qué es?
+Web App responsive para remiseros/agencias, 24/7.
+Construida con React y Tailwind CSS para una experiencia rápida, moderna y adaptable a móviles.
+Marca actual: San Luis Rides (puede personalizarse con tu logo/nombre).
+Beneficios clave
+Reservas más simples: CTA “Reservar Ahora” destacado en la portada.
+Pagos rápidos: flujo guiado para copiar el alias del remisero y abrir Mercado Pago en app o web.
+Experiencia premium: diseño elegante, secciones claras y navegación con scroll suave.
+Multi-conductor: lista de remiseros con nombre, alias y reputación visible.
+Siempre disponible: interfaz optimizada para carga rápida y uso en móviles.
+Funcionalidades principales
+Home/Hero: Mensaje claro y botones de acción para reservar o conocer servicios.
+Servicios:
+Viajes Urbanos.
+Traslados Especiales (aeropuerto, eventos, corporativos).
+Servicio VIP (alta gama y atención personalizada).
+Pagos:
+Selección de remisero desde lista.
+Ingreso de monto a pagar.
+Copia automática del alias y opciones para:
+Abrir la app de Mercado Pago (Android/iOS).
+Ir a la web de Mercado Pago en una pestaña nueva.
+Contacto:
+Formulario de nombre, teléfono y mensaje.
+Footer:
+Datos de contacto, ubicación y horarios.
+Derechos reservados con año dinámico.
+Cómo funciona el pago
+El cliente elige un remisero y el monto.
+La app copia el alias del remisero al portapapeles.
+El cliente elige abrir Mercado Pago en la app (móvil) o en la web para completar el pago.
+Nota: El alias de cada remisero es configurable en el código y se muestra junto al nombre y rating.
+
+Qué incluye la compra
+Código fuente de la Web App (
+index.html
+) con:
+UI moderna en Tailwind CSS.
+Lógica de interfaz en React (via CDN).
+Listado de remiseros editable.
+Flujo de pago con apertura de Mercado Pago (app/web).
+Secciones: Inicio, Servicios, Pagar y Contacto.
+Arquitectura lista para personalizar marca, colores y textos.
+Personalizaciones opcionales
+Cambio de nombre/logo/colores.
+Alta/baja y edición de remiseros (nombre, alias, rating).
+Integración de WhatsApp y enlaces sociales.
+Formulario de contacto conectado a email/WhatsApp.
+Dominio y hosting.
+Requisitos técnicos
+Se entrega como archivo HTML auto-contenido (usa CDNs).
+Opcional: hosting estático (Netlify, GitHub Pages, cPanel, etc.).
+No requiere backend para las funciones actuales.
+Soporte y entrega
+Entrega digital del archivo HTML.
+Guía breve para editar remiseros, textos y contactos.
+Soporte para instalación básica y publicación (opcional con costo).
+Preguntas frecuentes
+¿Funciona en celular?
+Sí, es responsive y detecta móvil para abrir la app de Mercado Pago cuando está disponible.
+¿Puedo cambiar el nombre y logo?
+Sí, totalmente personalizable.
+¿Puedo agregar más remiseros?
+Sí, se editan en la lista REMISEROS_LIST del archivo.
+¿Necesito una cuenta de Mercado Pago?
+Sí, cada remisero debe tener su alias propio para cobrar.
+Políticas
+Producto digital. No se aceptan devoluciones una vez entregado el código.
+Se ofrece corrección de errores menores dentro de un periodo acordado post-entrega.

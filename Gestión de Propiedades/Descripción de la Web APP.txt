@@ -1,0 +1,98 @@
+TasApp Pro - Sistema Profesional de Tasaciones Inmobiliarias
+
+Solución integral desarrollada con React y Tailwind CSS para profesionales tasadores inmobiliarios, inmobiliarias y brokers. Gestiona tasaciones, propiedades y genera informes profesionales en PDF de forma rápida y eficiente.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+✓ Registro de Datos del Tasador
+  - Nombre y apellido
+  - Matrícula profesional
+  - Datos que se guardan automáticamente para uso repetido
+
+✓ Gestión de Cliente y Fecha
+  - Información del cliente
+  - Fecha de la tasación
+  - Datos persistentes en cada informe
+
+✓ Registro Completo de Propiedades
+  - Dirección y ubicación
+  - Tipo de propiedad (Casa, Departamento, Terreno, Comercial)
+  - Superficie en m²
+  - Valor estimado en euros
+  - Antigüedad de la construcción
+  - Estado de la propiedad (Excelente, Muy bueno, Bueno, Regular, Malo)
+  - Destino (Vivienda, Comercial, Industrial)
+  - Descripción detallada
+  - Observaciones especiales
+  - Foto de la propiedad (almacenada en base64)
+
+✓ Informes PDF Profesionales
+  - Encabezado con título "INFORME DE TASACIÓN INMOBILIARIA"
+  - Datos del tasador y matrícula profesional
+  - Información del cliente y fecha
+  - Detalles completos de la propiedad
+  - Foto adjunta en el PDF
+  - Espacio para firma del tasador
+  - Nota legal de disclaimer
+  - Formato limpio y listo para imprimir
+
+✓ Gestión de Datos
+  - Agregar propiedades nuevas
+  - Editar propiedades existentes
+  - Eliminar propiedades individuales
+  - Eliminar todas las propiedades a la vez
+
+✓ Exportación e Importación
+  - Exportar a JSON (respaldo completo de todos los datos)
+  - Exportar a Excel/CSV (para análisis en hojas de cálculo)
+  - Importar JSON (recuperar datos previamente guardados)
+
+✓ Almacenamiento Seguro
+  - Todos los datos se guardan localmente en el navegador (localStorage)
+  - No requiere conexión a internet después de cargar la app
+  - Datos privados y confidenciales en tu dispositivo
+
+✓ Interfaz Moderna y Responsiva
+  - Diseño con gradientes azules profesionales
+  - 100% funcional en PC, tablets y celulares
+  - Iconos Phosphor para mejor visualización
+  - Animaciones y transiciones suaves
+
+IDEAL PARA:
+
+- Tasadores inmobiliarios independientes
+- Inmobiliarias y brokers
+- Empresas de valuación de propiedades
+- Profesionales del sector inmobiliario
+- Instituciones financieras que requieren tasaciones
+
+BENEFICIOS:
+
+- Genera informes profesionales en segundos
+- Ahorra tiempo en documentación manual
+- Mantén registro organizado de todas las tasaciones
+- Exporta datos para análisis comparativo
+- Sin suscripciones mensuales - pago único
+- Datos privados y seguros en tu dispositivo
+- Fácil de usar incluso sin experiencia técnica
+- PDF listo para enviar a clientes
+
+¿CÓMO FUNCIONA?
+
+1. Completa los datos del tasador (nombre, matrícula)
+2. Ingresa los datos del cliente y fecha de tasación
+3. Agrega las propiedades a tasar con todos sus detalles
+4. Sube fotos de las propiedades
+5. Genera el PDF profesional con un clic
+6. Exporta tus datos si necesitas respaldarlos
+7. Recupera tus datos cuando lo necesites
+
+ESPECIFICACIONES TÉCNICAS:
+
+- Desarrollada con React 18
+- Estilos con Tailwind CSS
+- Iconos Phosphor Icons
+- Exportación de PDF con jsPDF
+- Almacenamiento en localStorage (sin servidor)
+- Interfaz completamente responsiva
+- Compatible con navegadores modernos

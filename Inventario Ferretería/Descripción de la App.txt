@@ -1,0 +1,31 @@
+¡Optimiza tu ferretería con la mejor app de inventario!
+
+    Gestiona fácilmente todos tus productos, herramientas, materiales de construcción, pinturas, artículos de jardinería y más. Nuestra solución está disponible en diferentes plataformas:
+    - App Android: gestión completa de inventario y Ventas en el teléfono. Actualmente SIN exportación/importación de Excel.
+    - Versión Web (navegador) y PC Windows ejecutable: incluye exportación e importación de Excel/CSV.
+
+Funcionalidades principales:
+    - Agregar, editar y eliminar productos de forma rápida.
+    - Visualizar el stock disponible y recibir alertas de bajo inventario.
+    - Cargar un catálogo demo con cientos de productos reales de ferretería.
+    - Interfaz moderna, intuitiva y en español.
+    - Ideal para ferreterías, corralones, pinturerías y comercios de materiales.
+    ¡Lleva el control total de tu negocio y ahorra tiempo en la gestión diaria!
+
+    ¿Cómo descuenta el stock?
+    - Usa el botón "Vender" en la tabla de productos. La app te pedirá la cantidad a vender y descontará automáticamente del stock.
+    - Si intentas vender más de lo disponible, puedes optar por dejar el stock en 0.
+    - Los productos con stock bajo (≤ 3 unidades) se resaltan y aparece una alerta visual.
+    ¿Se puede exportar/importar el stock con Excel?
+    - Web y PC Windows: Sí. Puedes exportar todo el inventario a un archivo Excel (.xlsx) con las columnas: Nombre, Categoria y Stock.
+      También puedes importar desde Excel o CSV. Edita el archivo (por ejemplo, ajustando stock o categorías) y vuelve a subirlo.
+      La importación reconoce encabezados comunes (Nombre/Name, Categoria/Category, Stock/Quantity/Cantidad) y:
+        • Si el nombre ya existe, actualiza ese producto.
+        • Si el nombre no existe, agrega un producto nuevo.
+    - App Android: por ahora NO incluye exportación/importación de Excel.
+
+    Accesos rápidos (Web/PC):
+    - "Exportar a Excel": descarga el inventario actual.
+    - "Importar desde Excel": selecciona tu archivo para actualizar/agregar productos.
+
+    Incluye manual de uso y soporte personalizado. ¡Haz crecer tu ferretería con tecnología!

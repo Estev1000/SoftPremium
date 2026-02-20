@@ -1,0 +1,262 @@
+================================================================================ DESCRIPCIÓN COMPLETA:
+SISTEMA PROFESIONAL DE PUNTO DE VENTA PARA CARNICERÍAS
+
+¿Cansado de usar calculadora manual para tus ventas? ¡Aquí está la solución!
+
+Esta es una aplicación web moderna, rápida y fácil de usar diseñada específicamente para carnicerías, verdulerías y negocios de venta por peso.
+
+================================================================================ CARACTERÍSTICAS PRINCIPALES:
+CALCULADORA DE PRECIOS INTELIGENTE
+
+Selecciona productos de tu catálogo
+Ingresa peso o cantidad automáticamente
+Calcula el precio total al instante
+Modo manual para productos especiales
+Soporte para unidades: Kg, Docenas, Unidades
+PUNTO DE VENTA COMPLETO
+
+Interfaz intuitiva y rápida
+Botones de acceso rápido a productos
+Carrito de compras en tiempo real
+Cálculo automático de totales
+Función "Cobrar" para finalizar ventas
+HISTORIAL Y ESTADÍSTICAS
+
+Registro automático de todas las ventas
+Visualización de historial completo con fecha y hora
+Estadísticas en tiempo real:
+Total de ventas realizadas
+Cantidad total vendida
+Monto total acumulado
+Promedio por venta
+Eliminar ventas individuales o limpiar historial completo
+ADMINISTRACIÓN DE PRODUCTOS
+
+Agregar productos ilimitados
+Editar precios fácilmente
+Eliminar productos no deseados
+Exportar lista de productos en JSON
+Importar productos desde archivo
+Restablecer productos por defecto
+ALMACENAMIENTO LOCAL
+
+Todos los datos se guardan en tu navegador
+No requiere conexión a internet después de cargar
+Datos persistentes (no se pierden al cerrar)
+Privacidad total - sin servidores externos
+INTERFAZ PROFESIONAL
+
+Diseño moderno y limpio
+Paneles redimensionables con mouse
+Adaptable a cualquier tamaño de pantalla
+Colores profesionales (rojo y verde)
+Fácil de usar sin capacitación
+================================================================================ CARACTERÍSTICAS TÉCNICAS:
+PANELES REDIMENSIONABLES
+
+3 paneles independientes
+Ajusta el tamaño con el mouse
+Personaliza tu espacio de trabajo
+Mantiene la configuración
+RESPONSIVE DESIGN
+
+Funciona en PC, Laptop, Tablet
+Interfaz adaptable a cualquier resolución
+Optimizado para monitores de 19" en adelante
+Versión móvil funcional
+TECNOLOGÍA
+
+HTML5 + CSS3 + JavaScript puro
+Sin dependencias externas
+Carga rápida
+Bajo consumo de recursos
+Compatible con todos los navegadores modernos
+SEGURIDAD Y PRIVACIDAD
+
+Datos almacenados localmente
+Sin conexión a internet requerida
+Sin recopilación de datos personales
+Código transparente y auditable
+================================================================================ PRODUCTOS INCLUIDOS POR DEFECTO:
+Bife Chorizo - $2.500/Kg
+Carne Picada - $1.800/Kg
+Milanesas - $2.100/Kg
+Pollo Entero - $1.200/Kg
+Asado - $2.300/Kg
+Chorizos - $1.500/Docena
+(Todos personalizables - puedes cambiar nombres y precios)
+
+================================================================================ CASOS DE USO:
+Carnicerías y Pollerías
+Verdulerías y Fruterías
+Pescaderías
+Negocios de venta por peso
+Restaurantes y Bares
+Catering y Eventos
+Comercios mayoristas
+Pequeños emprendimientos
+================================================================================ VENTAJAS COMPETITIVAS:
+GRATUITO - No hay suscripciones mensuales
+RÁPIDO - Carga instantánea, sin lag
+FÁCIL - Interfaz intuitiva, sin capacitación
+SEGURO - Datos locales, sin riesgos de privacidad
+FLEXIBLE - Personalizable según tus necesidades
+PROFESIONAL - Diseño moderno y limpio
+COMPLETO - Todo lo que necesitas en una app
+ACTUALIZABLE - Recibe mejoras y nuevas funciones
+================================================================================ FUNCIONALIDADES DETALLADAS:
+SECCIÓN 1: CALCULADORA DE PRECIOS
+Selecciona producto del catálogo
+Ingresa peso/cantidad
+Visualiza precio automáticamente
+Opción de ingreso manual para productos especiales
+Botón "Guardar venta" para registrar en historial
+Soporte para docenas (con checkbox especial)
+SECCIÓN 2: PUNTO DE VENTA
+Botones de acceso rápido a todos los productos
+Ingreso manual de productos no catalogados
+Carrito de compras visible
+Total actualizado en tiempo real
+Botón "Cobrar" para finalizar
+Botón "Vaciar" para limpiar carrito
+SECCIÓN 3: ADMINISTRACIÓN
+Agregar nuevos productos
+Seleccionar unidad (Kg, Docena, Unidad)
+Establecer precio
+Ver lista completa de productos
+Eliminar productos individuales
+Exportar productos a JSON
+Importar productos desde JSON
+Restablecer valores por defecto
+SECCIÓN 4: HISTORIAL DE VENTAS
+Lista completa de todas las ventas
+Fecha y hora de cada transacción
+Producto vendido y cantidad
+Monto de cada venta
+Eliminar ventas individuales
+Limpiar historial completo
+Estadísticas en tiempo real
+Exportar historial a JSON
+================================================================================ CÓMO USAR:
+DESCARGA Y ABRE
+
+Abre en cualquier navegador (Chrome, Firefox, Edge, Safari)
+¡Listo! No requiere instalación
+CONFIGURA TUS PRODUCTOS
+
+Ve a "Administrar Productos"
+Agrega tus productos con nombres y precios
+Los datos se guardan automáticamente
+REALIZA VENTAS
+
+Selecciona producto o usa ingreso manual
+Ingresa cantidad/peso
+Haz clic en "Calcular" o "Guardar venta"
+¡Venta registrada!
+CONSULTA HISTORIAL
+
+Ve el panel derecho "Historial de Ventas"
+Visualiza todas tus transacciones
+Consulta estadísticas en tiempo real
+EXPORTA DATOS
+
+Exporta productos en JSON
+Exporta ventas en JSON
+Usa los datos en Excel o análisis
+================================================================================ PRECIO Y VALOR:
+Esta aplicación te ahorra:
+
+Tiempo en cálculos manuales
+Errores en precios
+Pérdida de datos de ventas
+Necesidad de software costoso
+Dependencia de internet
+================================================================================ COMPATIBILIDAD:
+Windows (7, 8, 10, 11)
+macOS (10.12+)
+Linux (todas las distribuciones)
+Android (navegador Chrome)
+iOS (navegador Safari)
+Tablets
+Monitores de cualquier tamaño
+Navegadores soportados:
+
+Google Chrome (recomendado)
+Mozilla Firefox
+Microsoft Edge
+Safari
+Opera
+================================================================================ SEGURIDAD Y PRIVACIDAD:
+Datos almacenados LOCALMENTE en tu dispositivo
+NO se envía información a servidores externos
+NO hay recopilación de datos personales
+NO hay publicidades
+NO hay rastreo
+Código abierto y auditable
+Cumple con GDPR y leyes de privacidad
+================================================================================ SOPORTE Y ACTUALIZACIONES:
+Incluye:
+
+Acceso a versiones futuras
+Correcciones de bugs
+Nuevas funcionalidades
+Soporte por email
+Documentación completa
+================================================================================ PREGUNTAS FRECUENTES:
+P: ¿Dónde se guardan mis datos? R: En tu navegador, en tu dispositivo. Totalmente privado.
+
+P: ¿Puedo usar en múltiples dispositivos? R: Sí, descarga en cada dispositivo. Los datos son independientes.
+
+P: ¿Qué pasa si cierro el navegador? R: Los datos se mantienen. Se guardan automáticamente.
+
+P: ¿Puedo exportar mis datos? R: Sí, exporta productos y ventas en formato JSON.
+
+P: ¿Es seguro? R: Totalmente. Los datos nunca salen de tu dispositivo.
+
+P: ¿Necesito capacitación? R: No. La interfaz es muy intuitiva.
+
+P: ¿Funciona en móvil? R: Sí, funciona en cualquier dispositivo con navegador.
+
+================================================================================ QUÉ INCLUYE LA COMPRA:
+Productos por defecto configurados
+Acceso a futuras actualizaciones
+Soporte técnico por email
+Garantía de funcionamiento
+================================================================================ BONOS INCLUIDOS:
+Plantilla de productos para carnicería
+Guía de configuración inicial
+Tips para maximizar ventas
+Ejemplos de uso
+Acceso a comunidad de usuarios
+================================================================================ TESTIMONIOS ESPERADOS:
+"Excelente herramienta, muy fácil de usar y rápida" "Ahorré mucho tiempo en cálculos" "Perfecto para mi pequeño negocio" "Muy profesional y confiable" "Recomendado 100%"
+
+================================================================================ POR QUÉ ELEGIR ESTA APP:
+PROFESIONAL - Diseño moderno y limpio
+COMPLETA - Todo lo que necesitas
+FÁCIL - Sin curva de aprendizaje
+RÁPIDA - Carga instantánea
+SEGURA - Datos privados
+ECONÓMICA - Precio accesible
+CONFIABLE - Código estable
+ACTUALIZABLE - Mejoras continuas
+================================================================================ ESTADÍSTICAS DE MERCADO:
+Mercado objetivo: 50.000+ carnicerías en Argentina Demanda: Alta (muchos negocios buscan soluciones digitales) Competencia: Baja (pocas opciones accesibles) Rentabilidad: Alta (bajo costo, alto valor)
+
+================================================================================ LLAMADA A LA ACCIÓN:
+¡NO ESPERES MÁS!
+
+Moderniza tu carnicería hoy mismo con esta herramienta profesional. Ahorra tiempo, reduce errores y aumenta tu productividad.
+
+COMPRA AHORA y recibe:
+
+Acceso inmediato
+Soporte técnico
+Actualizaciones gratis
+Garantía de satisfacción
+================================================================================ NOTA FINAL:
+Esta aplicación es el resultado de desarrollo profesional y está lista para usar en producción. Perfecta para carnicerías, verdulerías, pescaderías y cualquier negocio de venta por peso.
+
+¡Invierte en tu negocio hoy!
+
+===============================================================================

@@ -1,0 +1,50 @@
+Pack Web para Gasistas – Contacto por WhatsApp + Presupuestos con PDF
+
+Descripción Ofrecemos un pack de 2 páginas web listas para usar, diseñadas especialmente para gasistas matriculados. Con estas herramientas podrás atender consultas por WhatsApp de forma profesional y generar presupuestos claros en minutos.
+
+Incluye:
+
+Web de Contacto por WhatsApp: Ver demo
+Web de Presupuestos: Ver demo
+Qué hace cada web
+
+Web de Contacto por WhatsApp
+Botón para chatear al instante por WhatsApp.
+Formulario para armar el mensaje: motivo de consulta, detalle, nombre del cliente.
+Chips de “toques rápidos” con preguntas frecuentes (se agregan/quitan al mensaje).
+Marcador de URGENCIA y opción de adjuntar la ubicación del cliente automáticamente.
+Guarda el número de WhatsApp del gasista y el nombre del cliente (uso repetido más rápido).
+Pensada para uso móvil y escritorio.
+Extras incluidos: módulo de “emergencia familiar” con agenda de contactos, envío secuencial por WhatsApp, importar/exportar contactos y opción de envío por API (opcional si tenés API Key).
+Compartí el enlace de tu Web de Contacto en redes sociales y en tus perfiles/biografías para que la gente acceda con un clic.
+
+Web de Presupuestos
+Carga tus datos de gasista (nombre, matrícula, teléfono).
+Registra cliente, descripción del trabajo e ítems con precio.
+Cálculo automático del total.
+Guarda los presupuestos en tu dispositivo para reutilizarlos o editarlos.
+Imprimir con un clic o descargar en PDF con formato limpio y profesional.
+Ideal para enviar por WhatsApp, mail o entregar en papel.
+Beneficios para tu trabajo
+
+Atención rápida y profesional por WhatsApp con mensajes claros y completos.
+Más oportunidades y cierres gracias a la ubicación adjunta y la marca de urgencia.
+Presupuestos prolijos en minutos, con totales y PDF descargable.
+Funciona en celular y PC.
+
+Acceso a ambas páginas web listas para usar.
+Personalización básica: tu nombre, matrícula y teléfono.
+Instrucciones simples para que puedas mantenerlas.
+Opcional: te ayudamos a publicar en tu propio dominio.
+Requisitos
+
+Tener WhatsApp (móvil o web) para el flujo de contacto.
+Permitir geolocalización si querés adjuntar ubicación en el mensaje.
+Soporte y personalizaciones
+
+Cambio de textos, colores y estilos a tu marca.
+Agregar o quitar motivos/chips de consulta.
+Campos extra en presupuestos o formatos de impresión.
+
+Contacto: entrá a la a la Web, colocá tu número en formato internacional (sin +), elegí el motivo, agregá detalles/chips y tocá “Abrir WhatsApp”.
+Presupuestos: cargá tus datos y los del cliente, sumá ítems, guardá, imprimí o descargá el PDF.

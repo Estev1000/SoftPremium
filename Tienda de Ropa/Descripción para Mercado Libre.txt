@@ -1,0 +1,17 @@
+# Sistema de Gestión - Tienda de Ropa (Web)
+
+MVP de gestión en HTML + CSS + JS con almacenamiento local (localStorage):
+- Productos: CRUD y stock.
+- Clientes: CRUD.
+- Ventas: carrito, selección de cliente, descuento, impuestos, decremento de stock.
+- Reportes: ventas, ingresos e items por rango de fechas.
+- Configuración: nombre de tienda, moneda, impuesto.
+
+## Cómo usar
+1. Abrí `webapp en tu navegador (doble clic).
+2. Cargá productos y clientes.
+3. En "Ventas", agregá productos al carrito, seleccioná cliente y finalizá venta.
+4. Revisá "Reportes" por rango de fechas.
+5. En "Configuración" podés ajustar nombre, moneda y % de impuesto.
+
+Tus datos se guardan en el navegador (localStorage). Si querés resetear, borrá el almacenamiento del sitio desde las herramientas del navegador.

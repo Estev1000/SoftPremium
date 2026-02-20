@@ -1,0 +1,16 @@
+Escritorio del Abogado – Versión Pro | Gestión Integral para Estudios Jurídicos
+
+Optimiza la administración de tu estudio jurídico con esta herramienta digital avanzada. El Escritorio del Abogado – Versión Pro te permite gestionar casos, tareas, documentos y calendarios de manera sencilla y eficiente, todo desde una interfaz moderna y fácil de usar.
+
+Características principales:
+
+Panel de control con indicadores clave (casos, tareas, documentos).
+Gestión de casos: registra, visualiza y organiza todos tus expedientes.
+Tareas y recordatorios: crea tareas, asigna fechas y prioridades.
+Documentos: almacena y accede rápidamente a tus archivos legales.
+Calendario integrado: visualiza plazos y eventos importantes.
+Exporta e importa tus datos en formato JSON para respaldo o migración.
+Interfaz responsiva y diseño profesional con Tailwind CSS y FullCalendar.
+Ideal para abogados independientes, estudios jurídicos y equipos legales que buscan digitalizar y simplificar su trabajo diario.
+
+¡Lleva la gestión de tu estudio al siguiente nivel!

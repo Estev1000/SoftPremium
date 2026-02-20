@@ -313,19 +313,60 @@ IMPORTANTE: Al comprar el programa, debes enviar por mensaje el nombre del gym y
         title: "HotelPOS",
         category: "turismo",
         price: "Consultar",
-        image: "img/hotel.jpg",
-        description: "Gestión de reservas, check-in/check-out y consumo de huéspedes para pequeños hoteles y cabañas.",
-        features: ["Grilla de Reservas", "Housekeeping", "Consumos Frigobar", "Facturación"]
+        image: "HotelPOS/publicidad_hotelpos.png",
+        images: ["HotelPOS/publicidad_hotelpos.png", "HotelPOS/1.png", "HotelPOS/2.png", "HotelPOS/3.png", "HotelPOS/4.png", "HotelPOS/5.png", "HotelPOS/6.png", "HotelPOS/7.png", "HotelPOS/8.png", "HotelPOS/9.png", "HotelPOS/10.png"],
+        description: `Hotel_POS - SISTEMA DE GESTIÓN HOTELERA PREMIUM
+
+Transforma la administración de tu hotel, posada o departamento temporal con una herramienta moderna, veloz y elegante. Diseñada para ofrecer una experiencia de usuario única con estética "Glassmorphism" (Efecto Cristal) y modo oscuro de alto rendimiento.
+
+¡IDEAL PARA HOTELES BOUTIQUE, HOSTALES Y PERSONAS QUE BUSCAN SIMPLICIDAD SIN PERDER EL PODER!
+
+---
+
+CARACTERÍSTICAS PRINCIPALES:
+
+DASHBOARD INTELIGENTE
+Visualiza el estado de tu negocio al instante. Control de ingresos mensuales, habitaciones ocupadas y reservas activas desde una sola pantalla con gráficas limpias.
+
+GESTIÓN DE HABITACIONES
+Organiza tu inventario por tipos, capacidades y precios. Mantén un control estricto de la disponibilidad en tiempo real.
+
+CONTROL DE RESERVAS DINÁMICO
+Registra clientes, asigna habitaciones y gestiona el ciclo del huésped (Check-in, Confirmada, Cancelada). ¡Nunca más pierdas una reserva!
+
+FACTURACIÓN Y TICKETS TÉRMICOS
+Genera facturas detalladas y realiza impresiones profesionales. Optimizado específicamente para impresoras térmicas (80mm), perfecto para entregar comprobantes rápidamente.
+
+---
+
+¿POR QUÉ ELEGIR Hotel POS?
+
+- VERSION PC Y WEB: Se entrega versión ejecutable para escritorio (Windows) y versión web.
+- TRABAJO SIN INTERNET: La versión de PC funciona de forma totalmente offline, sin depender de una conexión.
+- PERSONALIZACION INCLUIDA: Nos compartes el logo y nombre de tu hotel y nosotros personalizamos el sistema por ti.
+- SIN PAGOS MENSUALES: El sistema es tuyo para siempre con un único pago. Olvídate de suscripciones costosas.
+- PRIVACIDAD TOTAL: Los datos se guardan localmente. Tú tienes el control absoluto de tu información.
+- DISEÑO PREMIUM: Una interfaz que "enamora" a la vista. Moderniza la imagen de tu recepción.
+- PESO PLUMA: Corre velozmente y sin instalaciones complicadas.
+
+---
+
+ESPECIFICACIONES TÉCNICAS:
+- Tecnología: HTML5, CSS3 (Modern UI), JavaScript.
+- Almacenamiento: LocalStorage persistente.
+- Compatibilidad: Windows (PC), Chrome, Edge, Safari, Firefox.
+- Impresión: Soporte para tickets de 80mm.
+
+¿QUÉ INCLUYE TU COMPRA?
+- Archivos de la versión Web.
+- Instalador / Ejecutable para PC (Windows).
+- Personalización con tu Logo y Nombre de Hotel.
+- Soporte para configuración inicial.
+
+¡Lleva tu gestión al siguiente nivel con Hotel POS! Respondemos todas tus dudas en la sección de preguntas.`,
+        features: ["Reservas", "Habitaciones", "Facturación", "Tickets 80mm", "PC y Web", "Sin Mensualidades"]
     },
-    {
-        id: 8,
-        title: "Inventario Ferretería",
-        category: "ventas",
-        price: "Consultar",
-        image: "img/ferreteria.jpg",
-        description: "Maneja miles de artículos, listas de precios y stock crítico con facilidad. Soporte para venta a granel.",
-        features: ["Listas de Precios Múltiples", "Acopio", "Presupuestos Rápidos", "Códigos de Barras"]
-    },
+    
     {
         id: 9,
         title: "LibreriaFlow - Gestión para Librería y Papelería",
@@ -390,83 +431,340 @@ FORMATO DE ENTREGA:
     {
         id: 10,
         title: "Agenda de Turnos",
-        category: "servicios",
+        category: "agenda",
         price: "Consultar",
-        image: "img/turnos.jpg",
-        description: "Organiza tu tiempo. Ideal para peluquerías, consultorios, spa y centros de estética.",
-        features: ["Recordatorios por WhatsApp", "Historia Clínica/Ficha", "Control de Profesionales", "Señas"]
+        image: "Agenda de Turnos/Screenshot_20250703-065310.png",
+        images: ["Agenda de Turnos/Screenshot_20250703-065310.png", "Agenda de Turnos/Screenshot_20250703-065319.png", "Agenda de Turnos/Screenshot_20250703-065333.png", "Agenda de Turnos/Screenshot_20250703-065420.png", "Agenda de Turnos/Screenshot_20250703-071407.png"],
+        description: `Agenda de Turnos para Comercios y Profesionales – Tu App Personalizada para Android
+
+¿Cansado de perder turnos o anotar en papel? Con esta app web exclusiva para Android podrás gestionar todos tus turnos de manera simple, rápida y desde tu celular.
+
+CARACTERÍSTICAS PRINCIPALES:
+- Agrega Turnos: Con nombre, fecha, hora y teléfono del cliente.
+- Visualiza y Busca: Encuentra turnos fácilmente por nombre o fecha.
+- Elimina Turnos: Con confirmación para evitar errores.
+- Exporta a Excel/CSV: Mantén respaldo de tus turnos en tu computadora.
+- Importa Turnos: Desde archivos CSV para no perder datos.
+- Almacenamiento Local: Todos los datos quedan guardados en tu teléfono.
+- Interfaz Clara y Rápida: Diseñada especialmente para pantallas de celular.
+- Historial de Turnos: Acceso a todos tus registros anteriores.
+
+IDEAL PARA:
+- Peluquerías, barberías, centros de estética.
+- Consultorios médicos, odontológicos, psicólogos.
+- Talleres, servicios técnicos, profesionales independientes.
+- Cualquier comercio que necesite organizar turnos.
+
+¿CÓMO FUNCIONA?
+1. Recibe tu app personalizada con el nombre de tu comercio.
+2. Ábrela en tu celular Android (puedes agregarla a la pantalla de inicio como una app).
+3. Empieza a cargar y gestionar tus turnos.
+4. Olvídate del papel y lleva tu agenda siempre con vos.`,
+        features: ["Agrega Turnos", "Busca por Nombre/Fecha", "Exporta a Excel/CSV", "Importa Turnos", "Almacenamiento Local", "Interfaz Mobile-Friendly"]
     },
     {
         id: 11,
         title: "Tienda de Ropa System",
         category: "ventas",
         price: "Consultar",
-        image: "img/ropa.jpg",
-        description: "Control de talles y colores. Gestión de cambios, devoluciones y stock de indumentaria.",
-        features: ["Matriz Talle/Color", "Impresión de Etiquetas", "Cambios y Devoluciones", "Fidelización"]
+        image: "Tienda de Ropa/1.png",
+        images: ["Tienda de Ropa/1.png", "Tienda de Ropa/2.png", "Tienda de Ropa/3.png", "Tienda de Ropa/4.png", "Tienda de Ropa/5.png", "Tienda de Ropa/6.png", "Tienda de Ropa/7.png", "Tienda de Ropa/8.png"],
+        description: `Sistema de Gestión para Tienda de Ropa - Control Integral de tu Negocio de Indumentaria
+
+Administra tu tienda de ropa de manera profesional y sencilla. Control completo de talles, colores, stock y ventas en un solo lugar.
+
+CARACTERÍSTICAS PRINCIPALES:
+- Matriz Talle/Color: Gestiona todas las variantes de tus prendas en una interfaz clara e intuitiva.
+- Control de Stock en Tiempo Real: Sabe exactamente qué tienes disponible por talle y color.
+- Gestión de Cambios y Devoluciones: Registra cambios y devoluciones fácilmente con historial completo.
+- Sistema de Ventas (POS): Caja rápida y eficiente para atender a tus clientes.
+- Impresión de Etiquetas: Genera etiquetas de precio y código de barras automáticamente.
+- Historial de Ventas: Reportes detallados por fecha, producto y cliente.
+- Gestión de Clientes: Registra datos de clientes y su historial de compras.
+- Sistema de Fidelización: Seguimiento de clientes frecuentes y promociones.
+- 100% Responsivo: Funciona en PC, Tablets y Celulares.
+- Sin Dependencia de Internet: Todos tus datos guardados localmente en tu dispositivo.`,
+        features: ["Matriz Talle/Color", "Control de Stock", "Impresión de Etiquetas", "Cambios y Devoluciones", "Sistema POS", "Fidelización de Clientes", "Reportes de Ventas"]
     },
     {
         id: 12,
         title: "Gestión de Panadería",
         category: "gastronomia",
         price: "Consultar",
-        image: "img/panaderia.jpg",
-        description: "Control de producción, recetas y venta rápida en mostrador para panaderías y confiterías.",
-        features: ["Gestión MP", "Costos de Recetas", "Venta Táctil Rápida", "Balanza"]
+        image: "Gestión de Panadería/Imágen de publicidad.png",
+        images: ["Gestión de Panadería/Imágen de publicidad.png", "Gestión de Panadería/1.png", "Gestión de Panadería/2.png", "Gestión de Panadería/3.png", "Gestión de Panadería/4.png"],
+        description: `Descripción
+Aplicación de Gestión para Panaderías - ¡Tu Panadería en la Nube!¿Qué ofrecemos?
+Desarrollo de una aplicación móvil y web personalizada para la gestión completa de tu panadería. Convierte tu negocio tradicional en una panadería digital con herramientas profesionales de administración.
+
+Características Principales:
+Gestión de Inventario en tiempo real
+Control de Ventas con tickets digitales
+Registro de Productos con precios y categorías
+Reportes de Ventas diarios, semanales y mensuales
+Interfaz intuitiva y fácil de usar
+Funciona sin internet (modo offline)
+Soporte técnico incluido
+Beneficios para tu Negocio:
+Ahorra tiempo en la gestión diaria
+Reduce errores en el inventario
+Mejora la atención al cliente
+Toma decisiones basadas en datos reales
+Acceso desde cualquier dispositivo móvil
+Incluye:
+Aplicación móvil para Android
+Panel web de administración
+Capacitación inicial
+Manual de usuario
+Soporte técnico por 30 días
+¿Cómo funciona?
+Nos cuentas las necesidades de tu panadería
+Personalizamos la aplicación con tu marca
+Te entregamos la app lista para usar
+Capacitamos a tu personal
+¡Comienzas a gestionar tu negocio de forma profesional!
+¿Por qué elegirnos?
+Solución 100% personalizable
+Sin costos ocultos
+Actualizaciones periódicas
+Soporte técnico especializado
+Precio accesible para emprendedores
+Contáctanos:
+¡Haz crecer tu panadería con tecnología profesional! Escríbenos para más información y cotización personalizada.
+
+Nota: Las imágenes mostradas son ilustrativas. La aplicación se personalizará con el nombre y la identidad de tu panadería.
+
+¡Convierte tu panadería tradicional en un negocio digital exitoso!
+
+Términos del Servicio:
+
+El precio incluye instalación y configuración inicial
+Se requiere conexión a internet para la sincronización de datos
+Compatible con dispositivos Android 8.0 en adelante
+El tiempo de desarrollo aproximado es de 3-5 días hábiles
+¿Listo para modernizar tu panadería? ¡Contáctanos hoy mismo!
+
+Sin garantía`,
+        features: ["Inventario", "Ventas", "Productos", "Reportes", "Modo Offline", "Personalizable"]
     },
     {
         id: 13,
-        title: "Web App Remises",
+        title: "Web App para Remises",
         category: "transporte",
         price: "Consultar",
-        image: "img/remis.jpg",
-        description: "Despacho de viajes, control de choferes y cuentas corrientes para empresas de remises y taxis.",
-        features: ["Geolocalización", "Cta. Cte. Empresas", "Liquidación Choferes", "Reservas"]
+        image: "Web App para remises/1.png",
+        images: ["Web App para remises/1.png", "Web App para remises/2.png", "Web App para remises/3.png", "Web App para remises/4.png", "Web App para remises/5.png", "Web App para remises/6.png"],
+        description: `Web App de Remises "San Luis Rides" - Plataforma Moderna para Servicios de Transporte
+
+Optimiza tu servicio de remises con una Web App moderna y lista para usar. Permite a tus clientes reservar viajes, conocer tus servicios y pagar fácilmente mediante Mercado Pago desde el celular o la computadora.
+
+¿QUÉ ES?
+
+- Web App responsive para remiseros y agencias, disponible 24/7
+- Construida con React y Tailwind CSS para una experiencia rápida y moderna
+- Totalmente adaptable a móviles y computadoras
+- Marca personalizable con tu logo y nombre
+
+CARACTERÍSTICAS PRINCIPALES:
+
+RESERVAS Y SERVICIOS:
+- Botón destacado "Reservar Ahora" en la portada
+- Listado de servicios: Viajes Urbanos, Traslados Especiales, Servicio VIP
+- Multi-conductor: lista de remiseros con nombre, alias y reputación visible
+- Interfaz intuitiva y navegación con scroll suave
+
+SISTEMA DE PAGOS:
+- Integración con Mercado Pago
+- Selección de remisero desde lista
+- Ingreso del monto a pagar
+- Copia automática del alias del remisero
+- Apertura automática de Mercado Pago (app o web según el dispositivo)
+
+SECCIONES INCLUIDAS:
+- Home/Hero: Mensaje claro y botones de acción
+- Servicios: Descripción de tipos de viajes
+- Pagos: Formulario de selección y pago
+- Contacto: Formulario de consultas
+- Footer: Datos de contacto, ubicación y horarios
+
+BENEFICIOS:
+- Reservas más simples para tus clientes
+- Pagos rápidos y seguros con Mercado Pago
+- Experiencia premium con diseño elegante
+- Disponible 24/7 en cualquier dispositivo
+- Carga rápida optimizada para móviles
+
+QUÉ INCLUYE:
+
+- Código fuente HTML auto-contenido
+- UI moderna en Tailwind CSS
+- Lógica con React (via CDN)
+- Listado de remiseros editable
+- Flujo de pago completamente funcional
+- Todas las secciones: Inicio, Servicios, Pagar y Contacto
+- Arquitectura lista para personalizar
+
+PERSONALIZACIONES OPCIONALES:
+
+- Cambio de nombre, logo y colores
+- Alta/baja y edición de remiseros
+- Integración de WhatsApp y redes sociales
+- Formulario de contacto conectado a email/WhatsApp
+- Dominio y hosting (servicios adicionales)
+
+REQUISITOS TÉCNICOS:
+
+- Se entrega como archivo HTML auto-contenido
+- Usa CDNs para estilos y librerías
+- Opcional: hosting estático (Netlify, GitHub Pages, etc.)
+- No requiere backend
+
+SOPORTE Y ENTREGA:
+
+- Entrega digital inmediata del archivo HTML
+- Guía para editar remiseros, textos y contactos
+- Soporte para instalación y publicación básica`,
+        features: ["Reservas Online", "Sistema de Pagos Mercado Pago", "Multi-conductor", "100% Responsivo", "Personalizable", "Integración WhatsApp"]
     },
     {
         id: 14,
-        title: "Gestión de Propiedades",
+        title: "TasApp Pro - Gestión de Propiedades",
         category: "servicios",
         price: "Consultar",
-        image: "img/inmobiliaria.jpg",
-        description: "Software para inmobiliarias. Administración de alquileres, contratos y agenda de visitas.",
-        features: ["Liquidación Alquileres", "Vencimiento Contratos", "Publicación Web", "Agenda"]
-    },
-    {
-        id: 15,
-        title: "Carnicería POS",
-        category: "gastronomia",
-        price: "Consultar",
-        image: "img/carne.jpg",
-        description: "Control de desposte, rendimiento de la media res y venta rápida por peso.",
-        features: ["Rendimiento Desposte", "Conexión Balanza", "Ofertas x Kilo", "Caja"]
-    },
-    {
-        id: 16,
-        title: "Presupuestos Albañilería",
-        category: "construccion",
-        price: "Consultar",
-        image: "img/construccion.jpg",
-        description: "Generador profesional de presupuestos de obra. Cálculo de materiales y mano de obra.",
-        features: ["Base de Precios", "Cálculo de Materiales", "PDF Profesional", "Acopio"]
+        image: "Gestión de Propiedades/Screenshot_20250609-030435.png",
+        images: ["Gestión de Propiedades/Screenshot_20250609-030435.png", "Gestión de Propiedades/Screenshot_20250609-030448.png", "Gestión de Propiedades/Screenshot_20250609-030457.png"],
+        description: `TasApp Pro - Sistema Profesional de Tasaciones Inmobiliarias
+
+Solución integral desarrollada con React y Tailwind CSS para profesionales tasadores inmobiliarios, inmobiliarias y brokers. Gestiona tasaciones, propiedades y genera informes profesionales en PDF de forma rápida y eficiente.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+- Registro de Datos del Tasador: Almacena nombre, matrícula profesional y datos de contacto (guardados automáticamente).
+- Registro de Cliente: Información del cliente y fecha de la tasación.
+- Gestión Completa de Propiedades:
+  * Dirección y ubicación
+  * Tipo de propiedad (Casa, Departamento, Terreno, Comercial)
+  * Superficie en m²
+  * Valor estimado
+  * Antigüedad de la construcción
+  * Estado de la propiedad (Excelente, Muy bueno, Bueno, Regular, Malo)
+  * Destino (Vivienda, Comercial, Industrial)
+  * Descripción detallada
+  * Observaciones especiales
+  * Foto de la propiedad (almacenada en base64)
+
+- Informes PDF Profesionales: Genera documentos listos para imprimir con:
+  * Encabezado con datos del tasador y matrícula
+  * Datos del cliente y fecha
+  * Detalles completos de la propiedad
+  * Foto adjunta
+  * Espacio para firma del tasador
+  * Nota legal de disclaimer
+
+- Exportación de Datos:
+  * Exportar a JSON (respaldo completo)
+  * Exportar a Excel/CSV (para análisis en hojas de cálculo)
+  * Importar JSON (recuperar datos previamente guardados)
+
+- Almacenamiento Seguro: Todos los datos se guardan localmente en el navegador (localStorage).
+- 100% Responsivo: Funciona perfectamente en PC, tablets y celulares.
+- Interfaz Intuitiva: Diseño moderno con gradientes y sombras profesionales.
+
+IDEAL PARA:
+
+- Tasadores inmobiliarios independientes
+- Inmobiliarias y brokers
+- Empresas de valuación de propiedades
+- Profesionales del sector inmobiliario
+
+BENEFICIOS:
+
+- Genera informes profesionales en segundos
+- Ahorra tiempo en documentación
+- Mantén registro organizado de todas las tasaciones
+- Exporta datos para análisis
+- Sin suscripciones mensuales
+- Datos privados y seguros en tu dispositivo`,
+        features: ["Registro de Propiedades", "Datos de Tasador", "Informes PDF", "Exportar JSON/CSV", "Importar Datos", "Almacenamiento Local", "100% Responsivo"]
     },
     {
         id: 17,
         title: "Gestor de Celulares",
         category: "tecnologia",
         price: "Consultar",
-        image: "img/celular.jpg",
-        description: "Servicio técnico y venta de accesorios. Seguimiento de reparaciones por IMEI.",
-        features: ["Orden de Reparación", "Consulta Online Estado", "Garantías", "Stock Repuestos"]
+        image: "Gestor de celulares/Screenshot_20250611-083156.png",
+        images: ["Gestor de celulares/Screenshot_20250611-083156.png", "Gestor de celulares/Screenshot_20250611-083202.png", "Gestor de celulares/Screenshot_20250611-083209.png", "Gestor de celulares/Screenshot_20250611-083339.png", "Gestor de celulares/Screenshot_20250611-083352.png", "Gestor de celulares/Screenshot_20250611-083449.png"],
+        description: `Gestor de Celulares - Sistema de Administración para Vendedores
+
+¡Optimiza la gestión de tu negocio de celulares con nuestra aplicación web profesional! Diseñada específicamente para vendedores de Mercado Libre y tiendas de tecnología.
+
+CARACTERÍSTICAS PRINCIPALES:
+- Panel Intuitivo: Gestiona tu inventario de celulares de manera simple y visual.
+- Catálogo Dinámico: Agregar nuevos modelos con imágenes, precios y características.
+- Búsqueda Rápida: Encuentra productos al instante.
+- Actualización en Tiempo Real: Modifica precios, stock y características al momento.
+- Especificaciones Completas: Registra RAM, almacenamiento, color y más detalles.
+- Gestión de Stock: Control preciso de inventario disponible.
+- Carga de Imágenes: Sube fotos directamente desde URL.
+- Diseño Responsive: Funciona perfectamente en PC, tablets y celulares.
+- Almacenamiento Seguro: Datos guardados localmente en tu dispositivo.
+- Interfaz Moderna: Animaciones, notificaciones y experiencia de usuario profesional.
+
+IDEAL PARA:
+- Vendedores de celulares en Mercado Libre
+- Tiendas de tecnología
+- Comerciantes independientes
+- Emprendedores del sector móvil
+
+BENEFICIOS:
+- Ahorra tiempo en la gestión de inventario
+- Mantén tu catálogo siempre actualizado
+- Mejora la presentación de tus productos
+- Interfaz profesional y fácil de usar
+- 100% Responsivo en todos los dispositivos`,
+        features: ["Gestión de Inventario", "Búsqueda Rápida de Productos", "Especificaciones Técnicas", "Carga de Imágenes", "Gestión de Precios", "Control de Stock"]
     },
     {
         id: 18,
         title: "Auto Lavado App",
         category: "servicios",
         price: "Consultar",
-        image: "img/lavado.jpg",
-        description: "Gestión de turnos y servicios para lavaderos de autos. Control de adicionales y personal.",
-        features: ["Tipos de Lavado", "Comisiones Lavadores", "Caja Diaria", "Fidelización"]
+        image: "Web App de lavadero de autos/1.png",
+        images: ["Web App de lavadero de autos/1.png", "Web App de lavadero de autos/2.png", "Web App de lavadero de autos/3.png"],
+        description: `Web App de Lavadero de Autos - Contacto por WhatsApp
+
+Web responsive para lavaderos de autos que permite chatear al instante por WhatsApp de forma profesional y organizada.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+- Botón Flotante de WhatsApp: Acceso instantáneo para los clientes.
+- Formulario Inteligente: Arma automáticamente el mensaje con motivo, detalle, nombre del cliente.
+- Chips de Respuestas Rápidas: Preguntas frecuentes que se agregan/quitan del mensaje al instante.
+- Marcador de URGENCIA: Para servicios prioritarios o emergencias.
+- Geolocalización: Opción de adjuntar ubicación del cliente automáticamente.
+- Almacenamiento Local: Guarda número de WhatsApp del lavadero y nombre del cliente para uso repetido.
+- Módulo "Emergencia Familiar": Agenda de contactos y envío secuencial por WhatsApp.
+- Importar/Exportar Contactos: Respaldo y gestión de tus clientes.
+- API Opcional: Si tienes API Key, integración avanzada de envío.
+- 100% Responsivo: Funciona perfectamente en PC, tablets y celulares.
+- Pago Único: Sin suscripciones mensuales.
+
+BENEFICIOS PARA TU LAVADERO:
+
+- Atención rápida y profesional por WhatsApp
+- Mensajes claros y estructurados que evitan malentendidos
+- Más clientes gracias a la facilidad de contacto
+- Funciona en celular, tablet y computadora
+- Compartible fácilmente en redes sociales y biografías
+
+¿CÓMO FUNCIONA?
+
+1. El cliente accede a tu web desde el link compartido
+2. Completa el formulario con sus datos y detalles del servicio
+3. El mensaje se arma automáticamente
+4. Toca "Abrir WhatsApp" y conversan al instante
+5. Tú respondes desde tu WhatsApp normal`,
+        features: ["Contacto por WhatsApp", "Formulario Inteligente", "Geolocalización", "Agenda de Contactos", "100% Responsivo", "Pago Único"]
     },
     {
         id: 19,
@@ -603,33 +901,7 @@ Requisitos:
 - Navegador moderno. Internet solo para estilos al cargar. Operación local.`,
         features: ["Inventario Simple", "Ventas Rápidas", "Ofertas", "Ticket Imprimible", "Reportes Básicos", "Exportar JSON"]
     },
-    {
-        id: 22,
-        title: "Planificador de Bodas",
-        category: "eventos",
-        price: "Consultar",
-        image: "img/boda.jpg",
-        description: "Organización integral de eventos. Proveedores, presupuesto, lista de invitados y mesas.",
-        features: ["Checklist", "Presupuesto", "Invitados", "Diagrama Mesas"]
-    },
-    {
-        id: 23,
-        title: "Organizador Cumpleaños",
-        category: "eventos",
-        price: "Consultar",
-        image: "img/cumple.jpg",
-        description: "Gestión de salones de eventos infantiles. Reservas, señas, adicionales y animación.",
-        features: ["Calendario Reservas", "Adicionales", "Contratos", "Recordatorios"]
-    },
-    {
-        id: 24,
-        title: "Generador de Exámenes",
-        category: "educacion",
-        price: "Consultar",
-        image: "img/examen.jpg",
-        description: "Herramienta para docentes. Crea evaluaciones aleatorias, multiple choice y corrección automática.",
-        features: ["Banco de Preguntas", "Exámenes PDF", "Corrección Automática", "Estadísticas"]
-    },
+   
     {
         id: 25,
         title: "Gestión Podología",
@@ -826,4 +1098,247 @@ Qué incluye: Versión Web y versión PC en formato ejecutable.
 ¿Qué Esperas? ¡Descarga Nuestro Programa Hoy Mismo y Transforma la Gestión de Tu Heladería!`,
         features: ["Precios por Peso/Tamaño", "Sabores", "Stock Doble", "Modo Kiosco", "Tickets", "Exportar Excel"]
     },
+    {
+        id: 31,
+        title: "Escritorio para Abogados",
+        category: "gestion",
+        price: "Consultar",
+        image: "Escritorio para abogados/1.png",
+        images: ["Escritorio para abogados/1.png", "Escritorio para abogados/2.png", "Escritorio para abogados/3.png", "Escritorio para abogados/4.png", "Escritorio para abogados/5.png", "Escritorio para abogados/6.png"],
+        description: `Escritorio del Abogado – Versión Pro | Gestión Integral para Estudios Jurídicos
+
+Optimiza la administración de tu estudio jurídico con esta herramienta digital avanzada. El Escritorio del Abogado – Versión Pro te permite gestionar casos, tareas, documentos y calendarios de manera sencilla y eficiente, todo desde una interfaz moderna y fácil de usar.
+
+Características principales:
+
+- Panel de control con indicadores clave (casos, tareas, documentos).
+- Gestión de casos: registra, visualiza y organiza todos tus expedientes.
+- Tareas y recordatorios: crea tareas, asigna fechas y prioridades.
+- Documentos: almacena y accede rápidamente a tus archivos legales.
+- Calendario integrado: visualiza plazos y eventos importantes.
+- Exporta e importa tus datos en formato JSON para respaldo o migración.
+- Interfaz responsiva y diseño profesional con Tailwind CSS y FullCalendar.
+- Ideal para abogados independientes, estudios jurídicos y equipos legales que buscan digitalizar y simplificar su trabajo diario.
+
+¡Lleva la gestión de tu estudio al siguiente nivel!`,
+        features: ["Gestión de Casos", "Tareas y Recordatorios", "Gestión de Documentos", "Calendario", "Exportar JSON", "Interfaz Responsiva"]
+    },
+    {
+        id: 32,
+        title: "RepoMaster - Gestión para Repositores",
+        category: "gestion",
+        price: "Consultar",
+        image: "RepoMaster/publicidad_repomaster.png",
+        images: ["RepoMaster/publicidad_repomaster.png", "RepoMaster/1.png", "RepoMaster/2.png", "RepoMaster/3.png", "RepoMaster/4.png", "RepoMaster/5.png"],
+        description: `Software De Gestión Para Repositores - Control De Vencimientos Y Faltantes
+
+Optimice su trabajo en góndola con RepoMaster
+
+Presentamos la herramienta definitiva diseñada específicamente para el personal de reposición en supermercados y autoservicios. Esta aplicación web estática es una solución ágil, liviana y eficiente para resolver los problemas cotidianos de la gestión de stock y el control de productos.
+
+FUNCIONES PRINCIPALES:
+
+1. CONTROL DE VENCIMIENTOS (SISTEMA FEFO)
+Permite registrar productos y sus fechas de caducidad. El sistema utiliza un código de colores inteligente para priorizar la rotación:
+- Alerta Roja: Productos que vencen en menos de 3 días.
+- Alerta Amarilla: Productos que vencen en menos de 7 días.
+- Indicador Verde: Productos con margen de tiempo suficiente.
+
+2. GESTIÓN DE QUIEBRES Y FALTANTES
+Anota rápidamente los productos agotados en góndola. Una vez finalizado el recorrido, la herramienta permite enviar la lista completa directamente a un número de WhatsApp preconfigurado (encargado de depósito, jefe de compras o proveedor), evitando errores de transcripción y ahorrando tiempo valioso.
+
+3. CALCULADORA DE FRENTES
+Módulo especializado para calcular cuántas unidades de un producto caben en un estante según las medidas del mismo. Optimice el espacio de exposición de forma precisa y profesional.
+
+CARACTERÍSTICAS TÉCNICAS:
+
+- Compatibilidad Total: Funciona a la perfección en teléfonos celulares, tablets y computadoras de escritorio.
+- Diseño de Alta Visibilidad: Interfaz en modo oscuro diseñada para reducir la fatiga visual y ahorrar batería en dispositivos móviles.
+- Configurable: El vendedor puede entregar la herramienta personalizada con el nombre y logo del comercio solicitado.
+- Multiplataforma: Acceda desde cualquier navegador sin necesidad de descargas complejas.
+
+VENTAJAS PARA EL COMPRADOR:
+
+- Reducción de mermas por productos vencidos.
+- Comunicación instantánea y profesional de faltantes.
+- Mayor velocidad en la reposición diaria.
+- No requiere pagos mensuales ni suscripciones; el software es suyo para siempre.
+
+Ideal para repositores externos, personal de planta y supervisores de sector. Potencie la eficiencia de sus góndolas con una herramienta profesional.`,
+        features: ["Control de Vencimientos FEFO", "Gestión de Faltantes", "Envío por WhatsApp", "Calculadora de Frentes", "Modo Oscuro", "Multiplataforma"]
+    },
+    {
+        id: 33,
+        title: "Carnicería POS - Sistema de Punto de Venta",
+        category: "gastronomia",
+        price: "Consultar",
+        image: "Carnicería/1.png",
+        images: ["Carnicería/1.png", "Carnicería/2.png", "Carnicería/3.png", "Carnicería/4.png"],
+        shortDescription: "Control de desposte, rendimiento de la media res y venta rápida por peso.",
+        description: `SISTEMA PROFESIONAL DE PUNTO DE VENTA PARA CARNICERÍAS
+
+¿Cansado de usar calculadora manual para tus ventas? ¡Aquí está la solución!
+
+Esta es una aplicación web moderna, rápida y fácil de usar diseñada específicamente para carnicerías, verdulerías y negocios de venta por peso.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+CALCULADORA DE PRECIOS INTELIGENTE
+- Selecciona productos de tu catálogo
+- Ingresa peso o cantidad automáticamente
+- Calcula el precio total al instante
+- Modo manual para productos especiales
+- Soporte para unidades: Kg, Docenas, Unidades
+
+PUNTO DE VENTA COMPLETO
+- Interfaz intuitiva y rápida
+- Botones de acceso rápido a productos
+- Carrito de compras en tiempo real
+- Cálculo automático de totales
+- Función "Cobrar" para finalizar ventas
+
+HISTORIAL Y ESTADÍSTICAS
+- Registro automático de todas las ventas
+- Visualización de historial completo con fecha y hora
+- Estadísticas en tiempo real (total, cantidad, promedio)
+- Eliminar ventas individuales o limpiar historial
+
+ADMINISTRACIÓN DE PRODUCTOS
+- Agregar productos ilimitados
+- Editar precios fácilmente
+- Exportar/Importar productos en JSON
+- Restablecer productos por defecto
+
+ALMACENAMIENTO LOCAL
+- Todos los datos se guardan en tu navegador
+- No requiere conexión a internet después de cargar
+- Datos persistentes (no se pierden al cerrar)
+- Privacidad total - sin servidores externos
+
+PANELES REDIMENSIONABLES
+- 3 paneles independientes
+- Ajusta el tamaño con el mouse
+- Personaliza tu espacio de trabajo
+
+COMPATIBLE CON TODOS LOS DISPOSITIVOS
+- Funciona en PC, Laptop, Tablet
+- Interfaz adaptable a cualquier resolución
+- Optimizado para cualquier tamaño de pantalla
+
+PRODUCTOS INCLUIDOS POR DEFECTO:
+- Bife Chorizo - $2.500/Kg
+- Carne Picada - $1.800/Kg
+- Milanesas - $2.100/Kg
+- Pollo Entero - $1.200/Kg
+- Asado - $2.300/Kg
+- Chorizos - $1.500/Docena
+
+¡Todos personalizables - puedes cambiar nombres y precios!
+
+IDEAL PARA:
+- Carnicerías y Pollerías
+- Verdulerías y Fruterías
+- Pescaderías
+- Negocios de venta por peso
+- Restaurantes y Bares
+
+VENTAJAS:
+- Sin suscripciones mensuales
+- Carga instantánea, sin lag
+- Interfaz intuitiva, sin capacitación
+- Datos privados y seguros
+- Código transparente y auditable`,
+        features: ["Calculadora Inteligente", "POS Completo", "Historial de Ventas", "Admin de Productos", "Almacenamiento Local", "Paneles Redimensionables"]
+    },
+    {
+        id: 34,
+        title: "Inventario Ferretería",
+        category: "gestion",
+        price: "Consultar",
+        image: "Inventario Ferretería/1.png",
+        images: ["Inventario Ferretería/1.png", "Inventario Ferretería/2.png", "Inventario Ferretería/Screenshot_20250704-021042.png", "Inventario Ferretería/Screenshot_20250704-021100.png", "Inventario Ferretería/Screenshot_20250704-021117.png", "Inventario Ferretería/Screenshot_20250704-021123.png", "Inventario Ferretería/Screenshot_20250704-021325.png", "Inventario Ferretería/Screenshot_20250704-021332.png", "Inventario Ferretería/Screenshot_20250704-021338.png", "Inventario Ferretería/Screenshot_20250704-021353.png"],
+        shortDescription: "Gestión de inventario para ferreterías con exportación/importación Excel y alertas de stock bajo.",
+        description: `¡Optimiza tu ferretería con la mejor app de inventario!
+
+Gestiona fácilmente todos tus productos, herramientas, materiales de construcción, pinturas, artículos de jardinería y más. Nuestra solución está disponible en diferentes plataformas:
+- App Android: gestión completa de inventario y Ventas en el teléfono. Actualmente SIN exportación/importación de Excel.
+- Versión Web (navegador) y PC Windows ejecutable: incluye exportación e importación de Excel/CSV.
+
+FUNCIONALIDADES PRINCIPALES:
+
+- Agregar, editar y eliminar productos de forma rápida.
+- Visualizar el stock disponible y recibir alertas de bajo inventario.
+- Cargar un catálogo demo con cientos de productos reales de ferretería.
+- Interfaz moderna, intuitiva y en español.
+- Ideal para ferreterías, corralones, pinturerías y comercios de materiales.
+
+¿CÓMO DESCUENTA EL STOCK?
+
+- Usa el botón "Vender" en la tabla de productos. La app te pedirá la cantidad a vender y descontará automáticamente del stock.
+- Si intentas vender más de lo disponible, puedes optar por dejar el stock en 0.
+- Los productos con stock bajo (≤ 3 unidades) se resaltan y aparece una alerta visual.
+
+¿SE PUEDE EXPORTAR/IMPORTAR EL STOCK CON EXCEL?
+
+- Web y PC Windows: Sí. Puedes exportar todo el inventario a un archivo Excel (.xlsx) con las columnas: Nombre, Categoría y Stock.
+- También puedes importar desde Excel o CSV. Edita el archivo (por ejemplo, ajustando stock o categorías) y vuelve a subirlo.
+- La importación reconoce encabezados comunes (Nombre/Name, Categoria/Category, Stock/Quantity/Cantidad) y:
+  • Si el nombre ya existe, actualiza ese producto.
+  • Si el nombre no existe, agrega un producto nuevo.
+- App Android: por ahora NO incluye exportación/importación de Excel.
+
+ACCESOS RÁPIDOS (WEB/PC):
+
+- "Exportar a Excel": descarga el inventario actual.
+- "Importar desde Excel": selecciona tu archivo para actualizar/agregar productos.
+
+Incluye manual de uso y soporte personalizado. ¡Haz crecer tu ferretería con tecnología!`,
+        features: ["Gestión de Inventario", "Alertas de Stock Bajo", "Exportar/Importar Excel", "App Android", "Versión Web y PC", "Catálogo Demo"]
+    },
+    {
+        id: 27,
+        title: "Pack Web para Gasistas",
+        category: "herramientas",
+        price: "Consultar",
+        image: "Pack Web para Gasistas/Screenshot_20250926-223152.png",
+        images: ["Pack Web para Gasistas/Screenshot_20250926-223152.png", "Pack Web para Gasistas/Screenshot_20250926-223202.png", "Pack Web para Gasistas/Screenshot_20250926-223344.png", "Pack Web para Gasistas/Screenshot_20250926-223457.png", "Pack Web para Gasistas/Screenshot_20250926-223503.png"],
+        description: `Pack Web para Gasistas – Contacto por WhatsApp + Presupuestos con PDF
+
+Ofrecemos un pack de 2 páginas web listas para usar, diseñadas especialmente para gasistas matriculados. Con estas herramientas podrás atender consultas por WhatsApp de forma profesional y generar presupuestos claros en minutos.
+
+INCLUYE:
+
+1. Web de Contacto por WhatsApp:
+- Botón para chatear al instante por WhatsApp
+- Formulario para armar el mensaje: motivo de consulta, detalle, nombre del cliente
+- Chips de "toques rápidos" con preguntas frecuentes (se agregan/quitan al mensaje)
+- Marcador de URGENCIA y opción de adjuntar ubicación del cliente automáticamente
+- Guarda el número de WhatsApp del gasista y nombre del cliente (uso repetido más rápido)
+- Módulo de "emergencia familiar" con agenda de contactos
+- Envío secuencial por WhatsApp
+- Importar/exportar contactos
+- Optimizado para móvil y escritorio
+
+2. Web de Presupuestos:
+- Carga tus datos de gasista (nombre, matrícula, teléfono)
+- Registra cliente, descripción del trabajo e ítems con precio
+- Cálculo automático del total
+- Guarda los presupuestos en tu dispositivo para reutilizarlos o editarlos
+- Imprime con un clic o descarga en PDF con formato limpio y profesional
+- Ideal para enviar por WhatsApp, mail o entregar en papel
+
+BENEFICIOS:
+- Atención rápida y profesional por WhatsApp con mensajes claros
+- Más oportunidades y cierres gracias a la ubicación adjunta y marca de urgencia
+- Presupuestos prolijos en minutos, con totales y PDF descargable
+- Funciona en celular y PC
+- 100% Personalizable con tu nombre, matrícula y teléfono
+- Compartible en redes sociales y biografías
+
+EXTRAS:
+- Personalización básica incluida
+- Instrucciones simples para mantenerlas
+- Opción: publicar en tu propio dominio (servicio adicional)`,
+        features: ["Web de Contacto WhatsApp", "Web de Presupuestos", "PDF Descargable", "Geolocalización", "Agenda de Contactos", "100% Responsivo"]
+    }
 ];

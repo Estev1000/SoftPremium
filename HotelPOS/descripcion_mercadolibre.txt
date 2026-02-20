@@ -1,0 +1,49 @@
+Hotel_POS - SISTEMA DE GESTIÓN HOTELERA PREMIUM
+
+Transforma la administración de tu hotel, posada o departamento temporal con una herramienta moderna, veloz y elegante. Diseñada para ofrecer una experiencia de usuario única con estética "Glassmorphism" (Efecto Cristal) y modo oscuro de alto rendimiento.
+
+¡IDEAL PARA HOTELES BOUTIQUE, HOSTALES Y PERSONAS QUE BUSCAN SIMPLICIDAD SIN PERDER EL PODER!
+
+---
+
+CARACTERÍSTICAS PRINCIPALES:
+
+DASHBOARD INTELIGENTE
+Visualiza el estado de tu negocio al instante. Control de ingresos mensuales, habitaciones ocupadas y reservas activas desde una sola pantalla con gráficas limpias.
+
+GESTIÓN DE HABITACIONES
+Organiza tu inventario por tipos, capacidades y precios. Mantén un control estricto de la disponibilidad en tiempo real.
+
+CONTROL DE RESERVAS DINÁMICO
+Registra clientes, asigna habitaciones y gestiona el ciclo del huésped (Check-in, Confirmada, Cancelada). ¡Nunca más pierdas una reserva!
+
+FACTURACIÓN Y TICKETS TÉRMICOS
+Genera facturas detalladas y realiza impresiones profesionales. Optimizado específicamente para impresoras térmicas (80mm), perfecto para entregar comprobantes rápidamente.
+
+---
+
+¿POR QUÉ ELEGIR Hotel POS?
+
+- VERSION PC Y WEB: Se entrega versión ejecutable para escritorio (Windows) y versión web.
+- TRABAJO SIN INTERNET: La versión de PC funciona de forma totalmente offline, sin depender de una conexión.
+- PERSONALIZACION INCLUIDA: Nos compartes el logo y nombre de tu hotel y nosotros personalizamos el sistema por ti.
+- SIN PAGOS MENSUALES: El sistema es tuyo para siempre con un único pago. Olvídate de suscripciones costosas.
+- PRIVACIDAD TOTAL: Los datos se guardan localmente. Tú tienes el control absoluto de tu información.
+- DISEÑO PREMIUM: Una interfaz que "enamora" a la vista. Moderniza la imagen de tu recepción.
+- PESO PLUMA: Corre velozmente y sin instalaciones complicadas.
+
+---
+
+ESPECIFICACIONES TÉCNICAS:
+- Tecnología: HTML5, CSS3 (Modern UI), JavaScript.
+- Almacenamiento: LocalStorage persistente.
+- Compatibilidad: Windows (PC), Chrome, Edge, Safari, Firefox.
+- Impresión: Soporte para tickets de 80mm.
+
+¿QUÉ INCLUYE TU COMPRA?
+- Archivos de la versión Web.
+- Instalador / Ejecutable para PC (Windows).
+- Personalización con tu Logo y Nombre de Hotel.
+- Soporte para configuración inicial.
+
+¡Lleva tu gestión al siguiente nivel con Hotel POS! Respondemos todas tus dudas en la sección de preguntas.
