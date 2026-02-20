@@ -1032,7 +1032,7 @@ Versión: 4.0 - Edición Profesional y Multi-Sucursal`,
         features: ["Control Stock FIFO/FEFO", "Vencimientos y Lotes", "Scanner Códigos Barra", "Trazabilidad Total", "Multicaja y Sucursales", "Sin Mensualidades"]
     },
     {
-        id: 29,
+        id: 30,
         title: "RepuestosPOS - Sistema para Casas de Repuestos",
         category: "ventas",
         price: "Consultar",
@@ -1071,7 +1071,7 @@ La compra incluye el acceso completo al sistema listo para ser configurado con e
         features: ["Inventario con SKU", "POS Ágil", "Ventas A Cuenta", "Panel de Talleres", "Exportar Excel/JSON", "Sin Mensualidades"]
     },
     {
-        id: 30,
+        id: 31,
         title: "Gestión para Heladería",
         category: "ventas",
         price: "Consultar",
@@ -1099,7 +1099,7 @@ Qué incluye: Versión Web y versión PC en formato ejecutable.
         features: ["Precios por Peso/Tamaño", "Sabores", "Stock Doble", "Modo Kiosco", "Tickets", "Exportar Excel"]
     },
     {
-        id: 31,
+        id: 32,
         title: "Escritorio para Abogados",
         category: "gestion",
         price: "Consultar",
@@ -1124,7 +1124,7 @@ Características principales:
         features: ["Gestión de Casos", "Tareas y Recordatorios", "Gestión de Documentos", "Calendario", "Exportar JSON", "Interfaz Responsiva"]
     },
     {
-        id: 32,
+        id: 33,
         title: "RepoMaster - Gestión para Repositores",
         category: "gestion",
         price: "Consultar",
@@ -1168,7 +1168,7 @@ Ideal para repositores externos, personal de planta y supervisores de sector. Po
         features: ["Control de Vencimientos FEFO", "Gestión de Faltantes", "Envío por WhatsApp", "Calculadora de Frentes", "Modo Oscuro", "Multiplataforma"]
     },
     {
-        id: 33,
+        id: 35,
         title: "Carnicería POS - Sistema de Punto de Venta",
         category: "gastronomia",
         price: "Consultar",
@@ -1251,7 +1251,7 @@ VENTAJAS:
         features: ["Calculadora Inteligente", "POS Completo", "Historial de Ventas", "Admin de Productos", "Almacenamiento Local", "Paneles Redimensionables"]
     },
     {
-        id: 34,
+        id: 36,
         title: "Inventario Ferretería",
         category: "gestion",
         price: "Consultar",
@@ -1296,12 +1296,13 @@ Incluye manual de uso y soporte personalizado. ¡Haz crecer tu ferretería con t
         features: ["Gestión de Inventario", "Alertas de Stock Bajo", "Exportar/Importar Excel", "App Android", "Versión Web y PC", "Catálogo Demo"]
     },
     {
-        id: 27,
+        id: 29,
         title: "Pack Web para Gasistas",
         category: "herramientas",
         price: "Consultar",
         image: "Pack Web para Gasistas/Screenshot_20250926-223152.png",
         images: ["Pack Web para Gasistas/Screenshot_20250926-223152.png", "Pack Web para Gasistas/Screenshot_20250926-223202.png", "Pack Web para Gasistas/Screenshot_20250926-223344.png", "Pack Web para Gasistas/Screenshot_20250926-223457.png", "Pack Web para Gasistas/Screenshot_20250926-223503.png"],
+        video: "Pack Web para Gasistas/Video de Pack Web para Gasistas.mp4",
         description: `Pack Web para Gasistas – Contacto por WhatsApp + Presupuestos con PDF
 
 Ofrecemos un pack de 2 páginas web listas para usar, diseñadas especialmente para gasistas matriculados. Con estas herramientas podrás atender consultas por WhatsApp de forma profesional y generar presupuestos claros en minutos.
