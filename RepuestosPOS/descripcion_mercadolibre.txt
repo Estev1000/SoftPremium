@@ -1,0 +1,26 @@
+REPUESTOSPOS - SISTEMA INTEGRAL PARA CASAS DE REPUESTOS
+
+Potencie la gestión de su negocio con RepuestosPOS, una solución de punto de venta (POS) diseñada específicamente para las necesidades del sector automotriz. Este software permite un control absoluto sobre el stock, las ventas y la relación con clientes y talleres, todo desde una interfaz moderna, rápida y segura.
+
+MODULOS PRINCIPALES DEL SISTEMA:
+
+1. GESTION DE INVENTARIO INTELIGENTE Administración detallada de repuestos incluyendo código SKU, marca, categoría y precios. El sistema cuenta con alertas visuales de stock bajo y crítico, permitiendo anticipar la reposición de mercadería y evitar faltantes.
+
+2. PUNTO DE VENTA (POS) AGIL Interfaz de venta optimizada para operaciones rápidas. Permite la selección de productos con un clic, búsqueda por código o nombre, y gestión de carrito de compras con actualización de stock en tiempo real al finalizar la transacción.
+
+3. SISTEMA DE PAGOS Y VENTAS "A CUENTA" Ideal para el trabajo con mecánicos y talleres. El sistema permite registrar ventas con pago diferido (A Cuenta), facilitando el seguimiento de saldos pendientes. Soporta además efectivo, tarjeta y transferencia.
+
+4. PANEL DE CLIENTES Y TALLERES Base de datos completa de clientes con CUIT/DNI y datos de contacto. Incluye una función exclusiva para asociar ventas a un "Cliente Final" dentro de la cuenta del taller, permitiendo un ordenamiento superior en el despacho de piezas.
+
+5. REPORTES Y EXPORTACION DE DATOS Visualización de estadísticas de ventas diarias, promedio por ticket e historial completo de transacciones. El sistema permite realizar backups completos en formato Excel y JSON, permitiendo además importar datos desde archivos externos para una migración sin problemas.
+
+CARACTERISTICAS TECNICAS:
+
+Interfaz Responsiva: Totalmente compatible con computadoras de escritorio, tablets y teléfonos celulares.
+Diseño Glassmorphism: Estética moderna de alto impacto visual para una experiencia de usuario premium.
+Sin Instalaciones Complejas: El sistema funciona directamente desde el navegador, facilitando su uso inmediato.
+Persistencia Local: Los datos se guardan de forma segura en el almacenamiento del navegador, permitiendo operar sin depender constantemente de una conexión a internet externa.
+Privacidad Total: La información del negocio permanece en el equipo del usuario.
+ADQUISICION DEL PRODUCTO:
+
+La compra incluye el acceso completo al sistema listo para ser configurado con el nombre y marca de su comercio desde el panel de ajustes. No requiere abonos mensuales.

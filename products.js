@@ -26,31 +26,219 @@ CARACTERISTICAS PRINCIPALES:
     },
     {
         id: 2,
-        title: "RestoBar Digital",
+        title: "RestoBar POS - Gestión de Mesas y Stock",
         category: "gastronomia",
         price: "Consultar",
-        image: "img/restobar.jpg",
-        description: "Moderniza tu bar o restaurante con comandas digitales, control de mesas y gestión de cocina en tiempo real.",
-        features: ["Mapa de Mesas", "Comandas a Cocina", "Control de Mozos", "Stock de Insumos"]
+        image: "RestoBar POS/promo_mozo_mobile.png",
+        images: ["RestoBar POS/promo_mozo_mobile.png", "RestoBar POS/1.png", "RestoBar POS/2.png", "RestoBar POS/3.png", "RestoBar POS/4.png", "RestoBar POS/5.png", "RestoBar POS/6.png", "RestoBar POS/7.png", "RestoBar POS/8.png", "RestoBar POS/9.png"],
+        description: `>>> ¡DEJA DE PAGAR ALQUILERES MENSUALES POR TU SISTEMA! <<<
+
+¿Tienes un Bar, Restaurante, Cafetería o Food Truck?
+RestoBar POS es la solución definitiva para gestionar tu negocio sin ataduras, sin internet obligatorio y SIN LETRA CHICA.
+
+* LICENCIA DE POR VIDA: Lo compras una vez y es tuyo para siempre.
+* NO TIENE ABONOS MENSUALES.
+* NO REQUIERE INTERNET (Funciona 100% local en tu PC).
+
+¿QUÉ PUEDES HACER CON ESTE SISTEMA?
+
+1. GESTIÓN DE MESAS VISUAL:
+Olvídate de los papelitos. Mira tu salón en tiempo real:
+- Mesas Libres (Verdes) vs Mesas Ocupadas (Rojas).
+- Control de tiempo: Mira hace cuántos minutos está ocupada una mesa.
+- Total acumulado en cada mesa al instante.
+
+2. AGILIDAD TOTAL: TOMA DE PEDIDOS DESDE LA MESA (MOZOS)
+¡Tus mozos ya no necesitan libreta y papel!
+- Pueden cargar el pedido desde su CELULAR o TABLET parados al lado de la mesa.
+- Se terminó el "ir y venir" hasta la computadora central para cargar una gaseosa.
+- Carga inmediata: El pedido impacta al instante en el sistema general.
+- Ahorra tiempo y evita errores de lectura o comandas perdidas.
+
+3. CONTROL DE STOCK INTELIGENTE:
+- Carga tus productos (Hamburguesas, Cervezas, Gaseosas).
+- Cada vez que vendes, el sistema DESCUENTA SOLO del inventario.
+- Alerta visual de "BAJO STOCK" cuando te quedan pocas unidades.
+- Si cancelas un pedido, el stock vuelve automáticamente.
+
+4. REPORTES DE CAJA Y DINERO:
+- Cierre de caja diario automático.
+- Mira cuánto vendiste hoy y cuántas mesas cerraste.
+- Historial completo de tickets con fecha y hora.
+
+5. IMPRESIÓN DE TICKETS COMANDAS:
+- Compatible con impresoras térmicas (58mm/80mm) y convencionales.
+- Diseño de ticket profesional para entregar al cliente.
+
+6. SEGURIDAD DE TUS DATOS:
+- Función exclusiva de COPIA DE SEGURIDAD.
+- Guarda tu base de datos en tu computadora con un click.
+- Restaura tu negocio en cualquier otra PC en segundos.
+
+MULTIPLATAFORMA Y LIVIANO:
+- Funciona en PC, Notebook, Netbook, Tablets o Celulares.
+- No instalas nada pesado: Se ejecuta directamente en el navegador (Chrome, Edge, etc.).
+- Súper rápido: No se tilda ni en computadoras viejas.
+
+ENTREGA INMEDIATA:
+Al realizar la compra, te enviamos los archivos del sistema y una guía rápida de uso. Como es un archivo digital, lo recibes en el momento por chat de Mercado Libre o Email.`,
+        features: ["Gestión de Mesas Visual", "Mozos desde Celular", "Control de Stock", "Cierre de Caja", "Tickets e Impresión", "Sin Mensualidades"]
     },
     {
         id: 3,
-        title: "Taller Pro",
+        title: "Taller Pro - Gestión de Órdenes y Service",
         category: "gestion",
         price: "Consultar",
-        image: "img/taller.jpg",
-        description: "Software especializado para talleres mecánicos. Historial de vehículos, órdenes de reparación y presupuestos.",
-        features: ["Historial por Patente", "Órdenes de Trabajo", "Presupuestos en PDF", "Alertas de Service"]
+        image: "Taller Pro/taller-pro-promo.png",
+        images: ["Taller Pro/taller-pro-promo.png", "Taller Pro/1.png", "Taller Pro/2.png", "Taller Pro/3.png", "Taller Pro/4.png", "Taller Pro/5.png", "Taller Pro/6.png", "Taller Pro/7.png", "Taller Pro/8.png"],
+        description: `SISTEMA DE GESTIÓN PARA TALLERES Y SERVICE POST-VENTA
+
+Optimice su taller y profesionalice la atención a sus clientes con nuestra herramienta de gestión digital. Diseñada específicamente para servicios técnicos de electrónica, computación, talleres mecánicos, laboratorios de celulares y todo negocio que requiera seguimiento de reparaciones.
+
+¿QUÉ ES TALLER PRO?
+Es una aplicación web que funciona directamente en su navegador. No requiere instalaciones complejas, no paga suscripciones mensuales y funciona tanto en PC como en tablets.
+
+FUNCIONALIDADES PRINCIPALES:
+
+1. PANEL DE ADMINISTRACIÓN:
+Registro rápido de nuevos ingresos, datos del cliente, equipo y falla reportada.
+
+2. CONTROL DE ESTADOS:
+Actualice el progreso con un solo clic (En Espera → En Taller → Esperando Repuestos → Listo para Retirar → Entregado).
+
+3. GENERADOR DE TICKETS DIGITALES:
+El sistema genera un enlace único para cada cliente. Usted lo comparte por WhatsApp y el cliente puede ver el avance desde su propio celular.
+
+4. TARJETA DE ESTADO EN IMAGEN:
+Descargue automáticamente una imagen profesional con el resumen del estado para enviar directamente por WhatsApp. Mejora la imagen de su marca y genera confianza.
+
+5. BÚSQUEDA RÁPIDA:
+Encuentre cualquier orden por nombre del cliente o modelo del equipo de forma instantánea.
+
+VENTAJAS EXCLUSIVAS:
+- SIN COSTOS MENSUALES: Realiza un único pago y la herramienta es suya de por vida.
+- PRIVACIDAD TOTAL: Los datos se guardan de forma local en su navegador.
+- COMPATIBILIDAD TOTAL: Funciona en Windows, Mac, Android e iOS en cualquier navegador moderno.
+
+IDEAL PARA:
+- Servicios técnicos de celulares y tablets.
+- Reparación de computadoras y notebooks.
+- Talleres mecánicos y de motos.
+- Service de electrodomésticos.
+- Cualquier negocio que trabaje con orden de ingreso.
+
+PERSONALIZACIÓN: Al comprar, proporciónenos el nombre de su negocio para personalizar la interfaz con su marca.`,
+        features: ["Órdenes de Reparación", "Control de Estados", "Ticket Digital por WhatsApp", "Imagen de Estado", "Búsqueda Rápida", "Sin Mensualidades"]
     },
 
     {
         id: 5,
-        title: "Pizzería Pro POS",
+        title: "Pizzería Pro POS - Gestión de Pedidos y Stock",
         category: "gastronomia",
         price: "Consultar",
-        image: "img/pizza.jpg",
-        description: "Agiliza los pedidos de delivery y mostrador. Control de gustos, tamaños y demoras en cocina.",
-        features: ["Caller ID para Delivery", "Gestión de Repartidores", "Combos y Promociones", "Cierre de Caja"]
+        image: "Pizzería Pro Pos/portada_mercadolibre.png",
+        images: ["Pizzería Pro Pos/portada_mercadolibre.png", "Pizzería Pro Pos/1.png", "Pizzería Pro Pos/2.png", "Pizzería Pro Pos/3.png", "Pizzería Pro Pos/4.png", "Pizzería Pro Pos/5.png", "Pizzería Pro Pos/6.png", "Pizzería Pro Pos/7.png"],
+        description: `SISTEMA PIZZERIA PRO POS - GESTIÓN DE PEDIDOS Y STOCK
+>>> ¡IDEAL PARA PIZZERÍAS, ROTISERÍAS Y DELIVERY! <<<
+
+¿Tienes una Pizzería, Casa de Comidas o Food Truck?
+Olvídate de pagar abonos mensuales. Pizzeria Pro es la solución definitiva para gestionar tus pedidos de mostrador y delivery de forma rápida, fácil y desde cualquier dispositivo.
+
+MULTIPLATAFORMA TOTAL:
+Úsalo donde quieras. El diseño se adapta automáticamente:
+- PC / Notebook (Escritorio o Mostrador)
+- CELULAR (Ideal para tomar pedidos en la vereda o delivery)
+- TABLET
+
+PRINCIPALES FUNCIONES:
+
+1. GESTIÓN DE PEDIDOS "PARA LLEVAR" Y DELIVERY:
+- Carga el NOMBRE DEL CLIENTE en cada pedido.
+- Identifica rápidamente de quién es cada comanda en la pantalla principal.
+- Ticket personalizado con el nombre del cliente para facilitar la entrega.
+
+2. CONTROL DE STOCK Y PRECIOS FÁCIL:
+- Carga tus Pizzas, Empanadas, Bebidas y Promociones.
+- Edita PRECIOS y STOCK directamente desde la lista en segundos (¡Super rápido para actualizar precios por inflación!).
+- Control visual: El sistema te avisa cuando queda poco stock.
+
+3. TOMA DE PEDIDOS ÁGIL:
+- Interfaz limpia y moderna (Modo Oscuro).
+- Calcula el total automáticamente.
+- Sistema de "Carrito" para agregar múltiples items (Pizzas, Fainá, Bebidas).
+
+4. CAJA Y REPORTES:
+- Mira cuánto vendiste en el día (Total en $$$).
+- Cuenta la cantidad de pedidos despachados.
+- Historial de transacciones con hora y detalle.
+
+5. IMPRESIÓN DE TICKETS:
+- Genera tickets profesionales para comandas o para el cliente.
+- Compatible con impresoras térmicas y de hogar.
+
+VENTAJAS CLAVE:
+- UN SOLO PAGO: Licencia de por vida. No pagas mantenimientos ni alquileres mensuales.
+- COPIA DE SEGURIDAD: Puedes guardar y restaurar tu base de datos fácilmente en cualquier momento.
+
+IMPORTANTE: Una vez realizada la compra, nos tienen que proporcionar el nombre de su negocio y el logo para personalizar la web para su negocio.`,
+        features: ["Pedidos Delivery", "Nombre del Cliente", "Control de Stock", "Edición Rápida de Precios", "Tickets Imprimibles", "Sin Mensualidades"]
+    },
+    {
+        id: 28,
+        title: "RestoBar Digital App - Menú QR con WhatsApp",
+        category: "gastronomia",
+        price: "Consultar",
+        image: "RestoBar Digital App/Imagen publicitaria.png",
+        images: ["RestoBar Digital App/Imagen publicitaria.png", "RestoBar Digital App/1.png", "RestoBar Digital App/2.png", "RestoBar Digital App/3.png", "RestoBar Digital App/4.png", "RestoBar Digital App/5.png", "RestoBar Digital App/6.png", "RestoBar Digital App/7.png", "RestoBar Digital App/8.png", "RestoBar Digital App/9.png"],
+        description: `Sistema de Pedidos Gastronómico con Integración WhatsApp y Menú Digital
+
+Modernice la gestión de pedidos de su restaurante, bar o cafetería con este sistema integral que combina una aplicación web de autogestión para clientes y un panel de control simple para la cocina.
+
+FUNCIONAMIENTO DEL SISTEMA:
+
+EL CLIENTE:
+- Escanea un código QR en la mesa o accede mediante un enlace web.
+- Visualiza el menú completo con fotos, descripciones y precios actualizados.
+- Selecciona sus productos, agrega aclaraciones (ej: "sin cebolla") y confirma el pedido.
+- El sistema genera automáticamente un mensaje de WhatsApp detallado y lo envía al número del comercio.
+
+LA COCINA / MOZO:
+- Recibe el pedido en WhatsApp de forma instantánea y legible.
+- Puede confirmar la recepción con un solo clic.
+- Si un producto no está disponible, la cocina puede responder directamente por WhatsApp informando al cliente y ofreciendo una alternativa.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+1. Menú Digital Interactivo:
+- Diseño profesional adaptable a cualquier celular (Android/iPhone).
+- Categorías claras (Entradas, Platos, Bebidas, Postres).
+- No requiere que el cliente instale ninguna aplicación.
+
+2. Comunicación Directa y Flexible:
+- Al utilizar WhatsApp como canal de pedido, se habilita un canal bidireccional.
+- Permite informar faltantes de stock en tiempo real directamente al cliente.
+- Facilita la confirmación de demoras o consultas sobre el punto de cocción.
+
+3. Autogestión y Eficiencia:
+- Reduce errores de comanda al estar escrito por el propio cliente.
+- Libera a los mozos de la toma de pedidos, permitiéndoles enfocarse en el servicio y la entrega.
+
+4. Cero Costo de Mantenimiento:
+- Sistema basado en web estática.
+- No requiere pagar servidores mensuales ni bases de datos complejas.
+- Funciona 24/7 sin costos ocultos.
+
+IDEAL PARA:
+- Bares con alta rotación en mesas.
+- Restaurantes que buscan digitalizar su carta.
+- Servicios de comida rápida o Food Trucks.
+- Hoteles (Room Service).
+
+INCLUYE:
+- Configuración inicial con su menú y precios.
+- Guía de uso y puesta en marcha.
+- App Android (Opcional).`,
+        features: ["Menú Digital QR", "Pedidos por WhatsApp", "Sin App para el Cliente", "Carta con Fotos", "Sin Mensualidades", "App Android Opcional"]
     },
     {
         id: 6,
@@ -285,17 +473,105 @@ FORMATO DE ENTREGA:
         title: "Gestión de Preventistas",
         category: "ventas",
         price: "Consultar",
-        image: "img/preventista.jpg",
-        description: "App móvil para tomar pedidos en la calle. Sincronización con central y rutas de visita.",
-        features: ["Modo Offline", "Catálogo Digital", "Rutas GPS", "Cuenta Corriente"]
+        image: "Gestión de Preventistas/publicidad.png",
+        images: ["Gestión de Preventistas/publicidad.png", "Gestión de Preventistas/1.png", "Gestión de Preventistas/2.png", "Gestión de Preventistas/3.png", "Gestión de Preventistas/4.png", "Gestión de Preventistas/5.png"],
+        video: "Gestión de Preventistas/Video de Gestión de Preventistas.mp4",
+        description: `¡Optimiza la Gestión de Preventistas con Nuestra Web App Personalizada!
+
+¿Qué ofrecemos?
+Transforma la gestión de tus preventistas con una aplicación web y móvil diseñada para facilitar el control de clientes, productos y pedidos. Lleva tu negocio al siguiente nivel con herramientas digitales profesionales.
+
+Características Principales:
+
+Gestión de clientes, productos y pedidos en tiempo real.
+Registro de clientes con datos clave (nombre, dirección, etc.).
+Control de productos con precios y categorías.
+Registro y seguimiento de pedidos con opciones de exportación (JSON, Excel).
+Reportes detallados para análisis de ventas.
+Interfaz intuitiva y fácil de usar.
+Funciona sin conexión a internet (modo offline).
+Soporte técnico incluido.
+Beneficios para tu negocio:
+
+Ahorra tiempo en la gestión diaria.
+Reduce errores en el registro de pedidos.
+Mejora la atención al cliente con información organizada.
+Toma decisiones basadas en datos reales.
+Acceso desde cualquier dispositivo móvil o computadora.
+Incluye:
+
+Aplicación Web.
+Versión ejecutable para PC (Windows).
+Panel web de administración.
+Capacitación inicial para tu equipo.
+Manual de usuario detallado.
+Soporte técnico por 30 días.
+¿Cómo funciona?
+
+Nos cuentas las necesidades específicas de tus preventistas.
+Personalizamos la aplicación con tu marca y requerimientos.
+Te entregamos la app lista para usar.
+Capacitamos a tu personal para que aprovechen al máximo la herramienta.
+¿Por qué elegirnos?
+
+Solución 100% personalizable.
+Sin costos ocultos.
+Actualizaciones periódicas incluidas.
+Soporte técnico especializado.
+Precio accesible para emprendedores.
+Términos del Servicio:
+
+El precio incluye instalación y configuración inicial.
+Compatible con dispositivos Android 8.0 o superior.
+Se requiere conexión a internet para sincronización de datos.
+Tiempo de desarrollo: 3-5 días hábiles.
+¡Haz crecer tu negocio con tecnología profesional!
+Contáctanos para más información y una cotización personalizada.
+
+Esta versión está optimizada para destacar las ventajas y características clave de la aplicación, enfocándose en las necesidades de los preventistas.`,
+        features: ["Clientes y Pedidos", "Modo Offline", "Exportar JSON/Excel", "Reportes", "Web y PC", "Personalizable"]
     },
     {
         id: 20,
         title: "Gestión Clínica",
         category: "salud",
         price: "Consultar",
-        image: "img/clinica.jpg",
-        description: "Historia clínica digital, turnos y facturación para consultorios médicos y policonsultorios.",
+        image: "Gestión de Clinica/Imágen de gestión de clínica.jpg",
+        images: ["Gestión de Clinica/Imágen de gestión de clínica.jpg", "Gestión de Clinica/1.png", "Gestión de Clinica/2.png", "Gestión de Clinica/3.png", "Gestión de Clinica/4.png", "Gestión de Clinica/5.png", "Gestión de Clinica/6.png", "Gestión de Clinica/7.png", "Gestión de Clinica/8.png", "Gestión de Clinica/9.png", "Gestión de Clinica/10.png"],
+        description: `¡Gestiona tu clínica con facilidad desde cualquier dispositivo!
+
+APLICACIÓN WEB RESPONSIVE - Accede desde PC, Celular y Tablet
+Sistema de gestión de clínica es una aplicación web moderna, intuitiva y completa para la gestión de tu clínica. Funciona en cualquier navegador web (Chrome, Firefox, Safari, Edge) y se adapta perfectamente a cualquier dispositivo: computadora de escritorio, laptop, celular o tablet.
+
+Olvídate de las hojas de cálculo y los archivos desordenados, con Sistema de gestión de clínica tendrás todo lo que necesitas para optimizar tu trabajo y brindar una atención médica de calidad, estés donde estés.
+
+Sistema de gestión de clínica te ofrece:
+
+Gestión de pacientes: Registra información personal, historial clínico, diagnósticos, tratamientos y observaciones de forma rápida y eficiente.
+Control de citas: Agenda turnos, gestiona la disponibilidad de los médicos y envía recordatorios a tus pacientes.
+Historial clínico: Accede a la información médica de tus pacientes de forma segura y organizada.
+Facturación: Genera facturas y recibos de forma automatizada.
+Reportes: Obtén estadísticas e informes sobre la actividad de tu clínica.
+Sistema de gestión de clínica es la solución ideal para:
+
+Clínicas médicas
+Consultorios
+Hospitales
+Centros de salud
+Beneficios:
+
+Mayor eficiencia: Simplifica la gestión de tu clínica y libera tiempo para dedicarte a tus pacientes.
+Mejor organización: Organiza la información médica de tus pacientes de forma segura y accesible.
+Atención personalizada: Brinda una atención médica más personalizada y eficiente.
+Toma de decisiones informada: Accede a estadísticas e informes para tomar decisiones estratégicas.
+
+PERSONALIZACIÓN INCLUIDA:
+
+Después de tu compra, necesitaremos que nos proporciones:
+Nombre de tu clínica o nombre profesional
+Logo de tu clínica (formato PNG, JPG o similar)
+
+Con esta información personalizaremos completamente la aplicación web para que luzca con la identidad de tu negocio. ¡Tu clínica tendrá su propia aplicación profesional y personalizada!`,
         features: ["Historia Clínica", "Turnos Online", "Liquidación Médicos", "Obras Sociales"]
     },
     {
@@ -444,5 +720,44 @@ Ofrecemos 7 días de garantía total. Si el sistema no cumple con lo prometido, 
 
 Versión: 4.0 - Edición Profesional y Multi-Sucursal`,
         features: ["Control Stock FIFO/FEFO", "Vencimientos y Lotes", "Scanner Códigos Barra", "Trazabilidad Total", "Multicaja y Sucursales", "Sin Mensualidades"]
+    },
+    {
+        id: 29,
+        title: "RepuestosPOS - Sistema para Casas de Repuestos",
+        category: "ventas",
+        price: "Consultar",
+        image: "RepuestosPOS/repuestos_pos_promo.png",
+        images: ["RepuestosPOS/repuestos_pos_promo.png", "RepuestosPOS/1.png", "RepuestosPOS/2.png", "RepuestosPOS/3.png", "RepuestosPOS/4.png", "RepuestosPOS/5.png", "RepuestosPOS/6.png", "RepuestosPOS/7.png", "RepuestosPOS/8.png", "RepuestosPOS/9.png"],
+        description: `REPUESTOSPOS - SISTEMA INTEGRAL PARA CASAS DE REPUESTOS
+
+Potencie la gestión de su negocio con RepuestosPOS, una solución de punto de venta (POS) diseñada específicamente para las necesidades del sector automotriz. Este software permite un control absoluto sobre el stock, las ventas y la relación con clientes y talleres, todo desde una interfaz moderna, rápida y segura.
+
+MÓDULOS PRINCIPALES DEL SISTEMA:
+
+1. GESTIÓN DE INVENTARIO INTELIGENTE:
+Administración detallada de repuestos incluyendo código SKU, marca, categoría y precios. El sistema cuenta con alertas visuales de stock bajo y crítico, permitiendo anticipar la reposición de mercadería y evitar faltantes.
+
+2. PUNTO DE VENTA (POS) ÁGIL:
+Interfaz de venta optimizada para operaciones rápidas. Permite la selección de productos con un clic, búsqueda por código o nombre, y gestión de carrito de compras con actualización de stock en tiempo real al finalizar la transacción.
+
+3. SISTEMA DE PAGOS Y VENTAS "A CUENTA":
+Ideal para el trabajo con mecánicos y talleres. El sistema permite registrar ventas con pago diferido (A Cuenta), facilitando el seguimiento de saldos pendientes. Soporta además efectivo, tarjeta y transferencia.
+
+4. PANEL DE CLIENTES Y TALLERES:
+Base de datos completa de clientes con CUIT/DNI y datos de contacto. Incluye una función exclusiva para asociar ventas a un "Cliente Final" dentro de la cuenta del taller, permitiendo un ordenamiento superior en el despacho de piezas.
+
+5. REPORTES Y EXPORTACIÓN DE DATOS:
+Visualización de estadísticas de ventas diarias, promedio por ticket e historial completo de transacciones. El sistema permite realizar backups completos en formato Excel y JSON, permitiendo además importar datos desde archivos externos para una migración sin problemas.
+
+CARACTERÍSTICAS TÉCNICAS:
+- Interfaz Responsiva: Totalmente compatible con computadoras, tablets y celulares.
+- Diseño Glassmorphism: Estética moderna de alto impacto visual para una experiencia de usuario premium.
+- Sin Instalaciones Complejas: El sistema funciona directamente desde el navegador.
+- Persistencia Local: Los datos se guardan de forma segura en el almacenamiento del navegador.
+- Privacidad Total: La información del negocio permanece en el equipo del usuario.
+
+ADQUISICIÓN DEL PRODUCTO:
+La compra incluye el acceso completo al sistema listo para ser configurado con el nombre y marca de su comercio desde el panel de ajustes. No requiere abonos mensuales.`,
+        features: ["Inventario con SKU", "POS Ágil", "Ventas A Cuenta", "Panel de Talleres", "Exportar Excel/JSON", "Sin Mensualidades"]
     },
 ];

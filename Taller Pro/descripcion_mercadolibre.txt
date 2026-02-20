@@ -1,0 +1,35 @@
+SISTEMA DE GESTION PARA TALLERES Y SERVICE POST-VENTA
+
+Optimice su taller y profesionalice la atención a sus clientes con nuestra herramienta de gestión digital. Diseñada específicamente para servicios técnicos de electrónica, computación, talleres mecánicos, laboratorios de celulares y todo negocio que requiera seguimiento de reparaciones.
+
+¿QUE ES TALLER PRO?
+Es una aplicación web que funciona directamente en su navegador. No requiere instalaciones complejas, no paga suscripciones mensuales y funciona tanto en PC como en tablets.
+
+FUNCIONALIDADES PRINCIPALES:
+
+1. PANEL DE ADMINISTRACION: Registro rápido de nuevos ingresos, datos del cliente, equipo y falla reportada.
+2. CONTROL DE ESTADOS: Actualice el progreso con un solo clic (En Espera, En Taller, Esperando Repuestos, Listo para Retirar, Entregado).
+3. GENERADOR DE TICKETS DIGITALES: El sistema genera un enlace único para cada cliente. Usted lo comparte por WhatsApp y el cliente puede ver el avance desde su propio celular.
+4. TARJETA DE ESTADO EN IMAGEN: Descargue automáticamente una imagen profesional con el resumen del estado para enviar directamente por WhatsApp. Mejora la imagen de su marca y genera confianza.
+5. BUSQUEDA RAPIDA: Encuentre cualquier orden por nombre del cliente o modelo del equipo de forma instantánea.
+
+VENTAJAS EXCLUSIVAS:
+
+- SIN COSTOS MENSUALES: Realiza un único pago y la herramienta es suya de por vida.
+- PRIVACIDAD TOTAL: Los datos se guardan de forma local en su navegador. Usted es el único dueño de la información de sus clientes.
+- COMPATIBILIDAD TOTAL: Funciona en Windows, Mac, Android e iOS utilizando cualquier navegador moderno (Chrome, Safari, Edge).
+
+ESTE SOFTWARE ES IDEAL PARA:
+
+- Servicios técnicos de celulares y tablets.
+- Reparación de computadoras y notebooks.
+- Talleres mecánicos y de motos.
+- Service de electrodomésticos.
+- Reacondicionamiento de calzado o ropa.
+- Cualquier negocio que trabaje con orden de ingreso.
+
+
+IMPORTANTE - PERSONALIZACIÓN:
+Al realizar la compra, por favor proporciónenos el NOMBRE DE SU NEGOCIO a través de la mensajería interna de Mercado Libre. Esto nos permitirá personalizar la interfaz de su aplicación para que sus clientes vean el nombre de su taller en los enlaces de estado y reportes.
+
+Mejore la comunicación con sus clientes y deje de perder tiempo respondiendo mensajes sobre el estado de los equipos. Deje que el sistema trabaje por usted.

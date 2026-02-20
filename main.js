@@ -118,31 +118,60 @@ document.addEventListener('DOMContentLoaded', () => {
 
         modalImgContainer.innerHTML = ''; // Clear previous
 
-        if (product.images && product.images.length > 0) {
+        if ((product.images && product.images.length > 0) || product.video) {
             // Create Carousel
             const carousel = document.createElement('div');
             carousel.className = 'carousel';
 
             let currentSlide = 0;
 
-            product.images.forEach((imgSrc, index) => {
+            function getSlides() {
+                return carousel.querySelectorAll('.carousel-slide');
+            }
+
+            function pauseAllVideos() {
+                carousel.querySelectorAll('video.carousel-slide').forEach(v => v.pause());
+            }
+
+            function setActiveSlide(nextIndex) {
+                const slides = getSlides();
+                if (!slides.length) return;
+
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (nextIndex + slides.length) % slides.length;
+                slides[currentSlide].classList.add('active');
+                pauseAllVideos();
+            }
+
+            if (product.video) {
+                const videoEl = document.createElement('video');
+                videoEl.src = product.video;
+                videoEl.className = 'carousel-slide';
+                videoEl.controls = true;
+                videoEl.preload = 'metadata';
+                carousel.appendChild(videoEl);
+            }
+
+            const imgs = product.images || [];
+            imgs.forEach((imgSrc) => {
                 const img = document.createElement('img');
                 img.src = imgSrc;
                 img.className = 'carousel-slide';
-                if (index === 0) img.classList.add('active');
                 carousel.appendChild(img);
             });
 
-            if (product.images.length > 1) {
+            const slidesInit = getSlides();
+            if (slidesInit.length > 0) {
+                slidesInit[0].classList.add('active');
+            }
+
+            if (getSlides().length > 1) {
                 const prevBtn = document.createElement('button');
                 prevBtn.className = 'carousel-btn prev';
                 prevBtn.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
                 prevBtn.onclick = (e) => {
                     e.stopPropagation();
-                    const slides = carousel.querySelectorAll('.carousel-slide');
-                    slides[currentSlide].classList.remove('active');
-                    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-                    slides[currentSlide].classList.add('active');
+                    setActiveSlide(currentSlide - 1);
                 };
 
                 const nextBtn = document.createElement('button');
@@ -150,10 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 nextBtn.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
                 nextBtn.onclick = (e) => {
                     e.stopPropagation();
-                    const slides = carousel.querySelectorAll('.carousel-slide');
-                    slides[currentSlide].classList.remove('active');
-                    currentSlide = (currentSlide + 1) % slides.length;
-                    slides[currentSlide].classList.add('active');
+                    setActiveSlide(currentSlide + 1);
                 };
 
                 carousel.appendChild(prevBtn);

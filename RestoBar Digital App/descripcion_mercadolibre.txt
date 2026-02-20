@@ -1,0 +1,64 @@
+Sistema de Pedidos Gastronómico con Integración WhatsApp y Menú Digital
+
+Modernice la gestión de pedidos de su restaurante, bar o cafetería con este sistema integral que combina una aplicación web de autogestión para clientes y un panel de control simple para la cocina.
+
+--- FUNCIONAMIENTO DEL SISTEMA ---
+
+EL CLIENTE:
+Escanea un código QR en la mesa o accede mediante un enlace web.
+Visualiza el menú completo con fotos, descripciones y precios actualizados.
+Selecciona sus productos, agrega aclaraciones (ej: "sin cebolla") y confirma el pedido.
+El sistema genera automáticamente un mensaje de WhatsApp detallado y lo envía al número del comercio.
+
+LA COCINA / MOZO:
+Recibe el pedido en WhatsApp de forma instantánea y legible.
+Puede confirmar la recepción con un solo clic.
+Si un producto no está disponible (ej: se acabó la entraña), la cocina puede responder directamente sobre el mismo chat de WhatsApp informando al cliente y ofreciendo una alternativa, manteniendo una comunicación fluida y personal.
+
+--- CARACTERÍSTICAS PRINCIPALES ---
+
+1. Menú Digital Interactivo
+- Diseño profesional adaptable a cualquier celular (Android/iPhone).
+- Categorías claras (Entradas, Platos, Bebidas, Postres).
+- No requiere que el cliente instale ninguna aplicación.
+
+2. Comunicación Directa y Flexible
+- Al utilizar WhatsApp como canal de pedido, se habilita un canal bidireccional.
+- Permite informar faltantes de stock en tiempo real directamente al cliente.
+- Facilita la confirmación de demoras o consultas sobre el punto de cocción.
+
+3. Autogestión y Eficiencia
+- Reduce errores de comanda al estar escrito por el propio cliente.
+- Libera a los mozos de la toma de pedidos, permitiéndoles enfocarse en el servicio y la entrega.
+
+4. Cero Costo de Mantenimiento
+- Sistema basado en web estática.
+- No requiere pagar servidores mensuales ni bases de datos complejas.
+- Funciona 24/7 sin costos ocultos.
+
+--- IDEAL PARA ---
+- Bares con alta rotación en mesas.
+- Restaurantes que buscan digitalizar su carta.
+- Servicios de comida rápida o Food Trucks.
+- Hoteles (Room Service).
+
+--- SERVICIO APP ANDROID (Opcional) ---
+
+Requisitos para el armado:
+- Lista de productos.
+- Logo y Nombre del negocio.
+
+Sistema de Actualización de Precios:
+Sabemos que los precios pueden cambiar semanalmente. Para facilitar esto, le proveeremos una Web Estática de Gestión donde podrá:
+1. Cargar y modificar su listado de precios y productos.
+2. Descargar el archivo actualizado (index).
+3. Enviarnos ese archivo para que nosotros carguemos las novedades en su App.
+
+*Nota: Este servicio de actualización manual por nuestra parte tiene un costo de mantenimiento adicional.*
+
+--- INCLUYE ---
+- Configuración inicial con su menú y precios.
+- Guía de uso y puesta en marcha.
+
+
+No pierda más ventas por demoras en la atención. Ofrezca una experiencia moderna y ágil a sus clientes hoy mismo.
