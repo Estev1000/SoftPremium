@@ -1,0 +1,63 @@
+TITULO: SOFTWARE DE GESTIÓN PARA LIBRERÍA Y PAPELERÍA - LIBRERIAFLOW
+
+DESCRIPCIÓN DEL PRODUCTO
+
+LibreriaFlow es un sistema integral diseñado específicamente para la administración eficiente de librerías escolares, papelerías y comercios afines. Esta solución tecnológica le permite modernizar su negocio, optimizar el control de stock y agilizar el proceso de ventas mediante una interfaz intuitiva y profesional.
+
+PRINCIPALES FUNCIONALIDADES
+
+1. PANEL DE CONTROL (DASHBOARD)
+- Visualización inmediata del estado del negocio.
+- Indicadores clave: Total de productos, ventas del día actual, acumulado de ventas del mes y alertas de stock bajo.
+- Gráficos de rendimiento comparativos (vs. mes anterior).
+- Listado de productos más vendidos (filtrable por día, semana o mes).
+- Acceso directo a productos que requieren reposición.
+
+2. GESTIÓN DE INVENTARIO
+- Registro completo de productos con: Nombre, Código de Barras, Categoría, Precio, Stock y Descripción.
+- Categorización predefinida: Cuadernos y Carpetas, Escritura, Mochilas, Arte y Dibujo, Oficina, entre otros.
+- Buscador avanzado y filtros por estado de stock (Disponible, Bajo, Sin Stock).
+- Funcionalidad para exportar el inventario completo a Excel con un solo clic.
+
+3. PUNTO DE VENTA (POS)
+- Sistema ágil para realizar ventas.
+- Búsqueda de productos por nombre o lectura de código de barras.
+- Carrito de compras interactivo con cálculo automático de totales.
+- Aplicación de descuentos porcentuales.
+- Soporte para múltiples métodos de pago: Efectivo, Tarjeta de Crédito/Débito y Transferencia.
+- Generación de tickets de venta.
+
+4. HISTORIAL DE VENTAS
+- Registro detallado de todas las operaciones realizadas.
+- Filtros de búsqueda por rango de fechas y método de pago.
+- Visualización de fecha, hora, número de venta, detalle de productos y montos.
+- Exportación del historial de ventas a formato Excel para contabilidad.
+
+5. REPORTES Y ESTADÍSTICAS
+- Análisis de ventas por categoría para identificar los rubros más rentables.
+- Gráficos de evolución de ventas diarias.
+- Resumen financiero: Total de ventas mensuales, ticket promedio, producto estrella y categoría líder.
+- Exportación de reportes gerenciales.
+
+6. CONFIGURACIÓN Y SEGURIDAD DE DATOS
+- Personalización de datos del comercio (Nombre, Teléfono, Dirección) para los comprobantes.
+- Configuración de alertas de stock mínimo personalizable.
+- Gestión de datos segura: Herramientas para realizar copias de seguridad (Backup).
+- Importación y exportación total de la base de datos en formato JSON para resguardo de información.
+
+VENTAJAS DEL SISTEMA
+- Interfaz moderna, limpia y fácil de usar.
+- No requiere internet para funcionar (sistema local).
+- Compatible con cualquier PC con navegador web.
+- Ideal para controlar el flujo de caja y evitar pérdidas de mercadería.
+
+FORMATO DE ENTREGA
+- Envío digital inmediato.
+- Software listo para usar.
+
+IMPORTANTE - PERSONALIZACIÓN DEL SOFTWARE
+Para poder entregarle el software listo para usar y adaptado a su identidad, al realizar la compra LE SOLICITAREMOS QUE NOS ENVÍE:
+1. El NOMBRE de su Librería o Negocio.
+2. El LOGO de su comercio (en formato imagen) para incorporarlo en el sistema.
+
+De esta manera, usted recibirá el sistema "LibreriaFlow" totalmente personalizado con su marca desde el primer momento.

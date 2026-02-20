@@ -1,0 +1,74 @@
+Gestión de Farmacia - Versión Web y Ejecutable para PC
+
+Resumen breve
+Sistema completo para la gestión de farmacias en versión web y ejecutable para Windows. Permite controlar inventario con FIFO/FEFO, gestión de lotes y vencimientos, CODIGO DE BARRAS con pistola scanner, SISTEMA DE DISPENSA (registro de pacientes), registrar ventas, imprimir tickets, y realizar importación/exportación de catalogo en formato Excel. Incluye funciones avanzadas de edición de productos y sincronización para trabajar con múltiples cajas y sucursales. Ideal para farmacias que buscan una solución profesional, escalable y sin pagos mensuales.
+
+Descripción detallada
+Este software está diseñado para facilitar el control integral de stock y ventas en farmacias con características de nivel empresarial. Ofrece una interfaz clara basada en pestañas para manejar el inventario, realizar ventas ultra rápidas mediante scanner de código de barras, registrar dispensas de medicamentos a pacientes con trazabilidad completa, y generar tickets profesionales. La solución incluye sincronización inteligente entre múltiples terminales, permitiendo consolidar ventas de diversas cajas y mantener el inventario unificado en todas sus sucursales.
+
+Funciones principal
+- Gestión avanzada de productos: Crear y editar cada detalle del producto (nombre, droga, dosis, presentación, marca, laboratorio, temperatura de conservación, código de barras, precio y stock).
+- Edición de productos: Permite modificar cualquier dato de productos ya existentes, incluyendo la corrección de lotes y fechas de vencimiento sin perder el historial.
+- Control de salida de stock (FIFO/FEFO): Optimización automática de la salida de inventario priorizando el vencimiento más cercano (FEFO) o el primer ingreso (FIFO).
+- Gestión por lotes y vencimientos: Registro detallado de lote y fecha de vencimiento en cada entrada. Alertas visuales de vencimiento y reportes de proximidad.
+- Trazabilidad total: Histórico de movimientos por lote (entradas, salidas y ajustes) para auditoria y cumplimiento sanitario.
+
+NUEVAS FUNCIONALIDADES - VERSION 4.0:
+
+- SISTEMA MULTICAJA Y SUCURSALES (Sincronización Profesional):
+  * Exportar Cierre: Genera un archivo unificado con todas las ventas e inventario del día.
+  * Consolidar Ventas: Permite a una caja Central recibir las ventas de otras cajas, descontando el stock de forma automática y centralizada.
+  * Actualizar Inventario: Sincroniza las cajas de sucursales con el inventario maestro de la central en segundos.
+  * Distribución de Stock: Divide automáticamente el inventario en partes iguales entre varias cajas para evitar ventas duplicadas.
+  * Trabajo Offline: Cada terminal puede trabajar sin internet y sincronizarse al final del día o mediante archivos compartidos.
+
+- EDICION INTEGRAL DE PRODUCTOS:
+  * Formulario de edición completa: Modifique nombre, principios activos, dosis, marcas y laboratorios de forma individual.
+  * Gestión de almacenamiento: Clasifique productos por temperatura (Ambiente, Controlada, Cadena de Frio).
+  * Corrección rápida: Botón de edición directa en la tabla de inventario para ajustes inmediatos.
+
+- CODIGO DE BARRAS CON PISTOLA SCANNER:
+  * Compatible con scanners USB y Bluetooth de cualquier marca (Honeywell, Zebra, etc.).
+  * Búsqueda instantánea y venta ultra rápida (atención en menos de 2 segundos).
+  * Plug and Play: No requiere instalación de drivers adicionales.
+
+- SISTEMA DE DISPENSA PROFESIONAL:
+  * Registro obligatorio u opcional de pacientes (nombre y documento/RUT) en cada transacción.
+  * Historial completo de dispensas para auditoria de medicamentos controlados.
+  * Cumplimiento riguroso de normativas sanitarias locales.
+
+- Reportes Avanzados:
+  * Valorización de stock: Conozca el valor real de su inventario en dinero.
+  * Detalle de Dispensas: Reporte filtrable de que se entrego a cada paciente.
+  * Alertas de Vencimiento: Listado de productos próximos a caducar para evitar pérdidas.
+
+Beneficios para su negocio
+- Sin mensualidades: Pago único por una herramienta de por vida.
+- Escalabilidad: Empiece con una caja y crezca a múltiples sucursales con el sistema de sincronización incluido.
+- Profesionalismo: Mejore la imagen de su farmacia con tickets detallados y registro de pacientes.
+- Control total: Reduzca errores de stock y pérdidas por medicamentos vencidos mediante FEFO.
+- Velocidad: Agilice la cola de clientes mediante el uso de códigos de barras.
+- Seguridad de datos: Sus datos se quedan en su computadora, sin depender de servidores externos o la nube.
+
+Requisitos técnicos
+- Computadora con Windows 10 u 11 (recomendado).
+- Navegador moderno (Chrome, Edge o Firefox).
+- 2 GB de RAM (mínimo), 4 GB (recomendado).
+- Compatible con cualquier impresora térmica (58mm/80mm) y scanners de códigos de barras estándar.
+
+Que incluye la compra
+- Software de Gestión de Farmacia V4 Completo.
+- Manual de usuario profesional paso a paso.
+- Manual especifico de Sincronización Multicaja.
+- Plantilla Excel para carga masiva de productos.
+- Soporte técnico post-venta por mensajería.
+- Actualizaciones gratuitas.
+
+Instalación
+La instalación es inmediata y sencilla. Se entrega una carpeta lista para usar. No requiere configuraciones complejas de bases de datos. Simplemente abra el sistema y comience a cargar su inventario.
+
+Garantía y Soporte
+Ofrecemos 7 días de garantía total. Si el sistema no cumple con lo prometido, le devolvemos su dinero. El soporte técnico está disponible para ayudarlo en la puesta en marcha de sus sucursales.
+
+Versión: 4.0 - Edición Profesional y Multi-Sucursal
+

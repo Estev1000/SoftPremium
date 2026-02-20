@@ -1,0 +1,40 @@
+TITULO: GymRoutine Pro | Generador de Rutinas Profesional
+
+DESCRIPCION GENERAL:
+GymRoutine Pro es una herramienta avanzada diseñada exclusivamente para entrenadores personales, instructores de gimnasio y profesionales del fitness que buscan elevar la calidad de su servicio. Este software permite crear, gestionar y entregar rutinas de entrenamiento con una estética premium y profesional en cuestion de segundos.
+
+CARACTERISTICAS PRINCIPALES:
+
+1. INTERFAZ PROFESIONAL Y MODERNA:
+Diseño minimalista con tecnologia visual de vanguardia para una experiencia de usuario fluida y profesional.
+
+2. BASE DE DATOS DE EJERCICIOS INTEGRADA:
+Incluye mas de 40 ejercicios predefinidos organizados por grupos musculares (Pecho, Espalda, Piernas, Hombros, Brazos, Core). Ademas, permite añadir ejercicios personalizados de forma manual.
+
+3. EXPORTACION EN ALTA DEFINICION:
+Genera imagenes profesionales (.png) de las rutinas completas, listas para imprimir o enviar. El sistema ajusta automaticamente el diseño para asegurar que incluso las rutinas mas largas se vean perfectas.
+
+4. INTEGRACION CON WHATSAPP:
+Envio directo de rutinas via WhatsApp con un formato de texto estructurado y facil de leer para el alumno.
+
+5. BASE DE DATOS DE ALUMNOS:
+Permite registrar alumnos y guardar multiples rutinas para cada uno. Nunca mas perderas el progreso de un cliente; busca por nombre y apellido para recuperar o modificar rutinas anteriores.
+
+6. SEGURIDAD Y RESPALDOS:
+Funciones de Exportacion e Importacion de datos en formato JSON. Mantén toda tu base de datos de clientes a salvo en tu computadora o en la nube.
+
+7. AUTOGUARDADO LOCAL:
+El sistema guarda los cambios automaticamente en el navegador, evitando la perdida de informacion por cierres accidentales.
+
+MODO DE USO:
+El programa es ligero y rapido. Puede ejecutarse como una aplicacion de escritorio en Windows o abrirse directamente en cualquier navegador moderno. No requiere instalacion compleja de bases de datos externas.
+
+IDEAL PARA:
+- Personal Trainers que quieren diferenciarse de la competencia.
+- Dueños de Gimnasios que buscan estandarizar las rutinas de sus socios.
+- Preparadores fisicos que necesitan eficiencia y rapidez en la entrega de planes.
+
+IMPORTANTE (COMPRA Y PERSONALIZACION):
+Al comprar el programa, debes enviar por mensaje el nombre del gym y el logo para poder personalizarlo.
+
+GymRoutine Pro: La evolucion en la gestion de entrenamientos.
