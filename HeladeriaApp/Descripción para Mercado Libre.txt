@@ -1,0 +1,19 @@
+Heladería Avanzada: El Software de Gestión Integral para Tu Negocio de Helados
+¿Estás buscando una herramienta eficiente y fácil de usar para gestionar tu heladería? ¡Nuestro programa es la solución perfecta para ti!
+Características Principales:
+Gestión de Precios: Configura y actualiza fácilmente los precios de tus helados por gusto, por peso o por tamaño de pote.
+Administración de Sabores: Agrega, elimina y gestiona tus sabores favoritos de manera sencilla.
+CONTROL DE STOCK E INVENTARIO 📦: Sistema doble de inventario. Controla el stock de "Productos Envasados/Kiosco" (helados de marca, postres) y también el stock de "Insumos de Mostrador" (cucuruchos, potes vacíos), con descuento automático por venta.
+MODO KIOSCO / PRODUCTOS ENVASADOS: Nueva sección para vender productos de reventa (palitos, bombones, postres helados) con precios y stock independientes.
+IMPRESIÓN INTELIGENTE DE TICKETS 🖨️: Genera tickets profesionales. Incluye función de "Reimpresión de Última Venta" por si olvidaste imprimirlo, y botón de impresión directa al finalizar la compra.
+Resumen de Compras: Genera un resumen detallado de cada compra, incluyendo productos, precios y totales.
+Ventas Totales: Accede fácilmente al registro de tus ventas totales acumuladas.
+Importar/Exportar Ventas: Exporta e importa el historial de ventas y registros (items, fecha y totales) en formato Excel (.xlsx) o archivo para contabilidad y respaldo.
+Interfaz Intuitiva: Nuestra interfaz es fácil de navegar y utilizar, incluso para aquellos sin experiencia en tecnología.
+Beneficios para Tu Negocio:
+Ahorro de Tiempo: Automatiza tareas administrativas y reduce el tiempo dedicado a la gestión.
+CONTROL TOTAL DE AGOTADOS: Evita quedarte sin cucuruchos o productos clave gracias al monitoreo de stock en tiempo real.
+Mayor Precisión: Reduce los errores humanos en la gestión de precios, sabores y ventas.
+Mejora la Experiencia del Cliente: Ofrece una experiencia de compra más eficiente y agradable para tus clientes.
+Qué incluye: Versión Web y versión PC en formato ejecutable.
+¿Qué Esperas? ¡Descarga Nuestro Programa Hoy Mismo y Transforma la Gestión de Tu Heladería!

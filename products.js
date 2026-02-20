@@ -635,9 +635,47 @@ Requisitos:
         title: "Gestión Podología",
         category: "salud",
         price: "Consultar",
-        image: "img/podologia.jpg",
-        description: "Ficha de paciente con podograma interactivo. Turnos y control de tratamientos.",
-        features: ["Podograma Digital", "Historia Clínica", "Turnos", "Tratamientos"]
+        image: "Gestión de podología/Publicidad_Podologia_Premium.png",
+        images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png"],
+        description: `GESTION DE PODOLOGIA PREMIUM - SOFTWARE PROFESIONAL
+
+Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la podología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
+
+CARACTERISTICAS PRINCIPALES
+
+GESTION DE PACIENTES
+- Registro completo de datos personales y de contacto.
+- Campos especializados: Tipo de pie, talla de calzado e indicadores visuales de pacientes con diabetes.
+- Buscador integrado para localización rápida de registros.
+
+CONTROL DE TURNOS
+- Agenda organizada por fecha y hora.
+- Visualización de turnos diarios en el tablero principal (Dashboard).
+- Gestión sencilla de estados de atención.
+
+HISTORIAL CLINICO CON SEGUIMIENTO FOTOGRAFICO
+- Registro detallado de diagnósticos, tratamientos y observaciones.
+- Sistema de fotografía de precisión: Cargue hasta 3 fotos del estado inicial (Antes) y 3 fotos del estado final (Después) por cada consulta.
+- Visor comparativo profesional: Visualice las fotografías de forma vertical y secuencial, permitiendo una comparación directa de la evolución del tratamiento.
+
+SEGURIDAD Y PRIVACIDAD DE DATOS
+- Privacidad total: Los datos se almacenan localmente en su dispositivo, garantizando que la información sensible no salga de su consultorio.
+- No requiere suscripciones: Pago único de por vida, sin cuotas mensuales ni cargos ocultos.
+- Copias de seguridad: Función de exportación e importación para respaldar toda su información o migrarla a otro equipo fácilmente.
+
+VENTAJAS TECNICAS
+- No requiere instalación: Funciona directamente desde su navegador web (Chrome, Edge, Firefox, etc.).
+- Compatible con múltiples dispositivos: Puede utilizarse en PC, Notebooks, Tablets y celulares.
+- Interfaz moderna y profesional: Diseño optimizado para una experiencia de usuario fluida y estética.
+
+PERSONALIZACION Y ENTREGA
+Al ser una versión Premium, el software se entrega personalizado. Una vez realizada la compra, deberá proporcionarnos por la mensajería privada:
+1. Nombre de la clínica o del profesional.
+2. Logotipo para el encabezado del sistema.
+
+Se envía un archivo listo para ejecutar, sin complicaciones técnicas.
+https://www.mercadolibre.com.ar/gestion-de-podologia-premium/up/MLAU3730526775?pdp_filters=item_id:MLA1647064035`,
+        features: ["Pacientes", "Turnos", "Historial con Fotos", "Backups", "Privacidad Local", "Sin Mensualidades"]
     },
     {
         id: 26,
@@ -759,5 +797,33 @@ CARACTERÍSTICAS TÉCNICAS:
 ADQUISICIÓN DEL PRODUCTO:
 La compra incluye el acceso completo al sistema listo para ser configurado con el nombre y marca de su comercio desde el panel de ajustes. No requiere abonos mensuales.`,
         features: ["Inventario con SKU", "POS Ágil", "Ventas A Cuenta", "Panel de Talleres", "Exportar Excel/JSON", "Sin Mensualidades"]
+    },
+    {
+        id: 30,
+        title: "Gestión para Heladería",
+        category: "ventas",
+        price: "Consultar",
+        image: "HeladeriaApp/publicidad_heladeria.png",
+        images: ["HeladeriaApp/publicidad_heladeria.png", "HeladeriaApp/1.png", "HeladeriaApp/2.png", "HeladeriaApp/3.png", "HeladeriaApp/4.png", "HeladeriaApp/5.png", "HeladeriaApp/6.png", "HeladeriaApp/7.png", "HeladeriaApp/8.png", "HeladeriaApp/9.png"],
+        description: `Heladería Avanzada: El Software de Gestión Integral para Tu Negocio de Helados
+¿Estás buscando una herramienta eficiente y fácil de usar para gestionar tu heladería? ¡Nuestro programa es la solución perfecta para ti!
+Características Principales:
+Gestión de Precios: Configura y actualiza fácilmente los precios de tus helados por gusto, por peso o por tamaño de pote.
+Administración de Sabores: Agrega, elimina y gestiona tus sabores favoritos de manera sencilla.
+CONTROL DE STOCK E INVENTARIO 📦: Sistema doble de inventario. Controla el stock de "Productos Envasados/Kiosco" (helados de marca, postres) y también el stock de "Insumos de Mostrador" (cucuruchos, potes vacíos), con descuento automático por venta.
+MODO KIOSCO / PRODUCTOS ENVASADOS: Nueva sección para vender productos de reventa (palitos, bombones, postres helados) con precios y stock independientes.
+IMPRESIÓN INTELIGENTE DE TICKETS 🖨️: Genera tickets profesionales. Incluye función de "Reimpresión de Última Venta" por si olvidaste imprimirlo, y botón de impresión directa al finalizar la compra.
+Resumen de Compras: Genera un resumen detallado de cada compra, incluyendo productos, precios y totales.
+Ventas Totales: Accede fácilmente al registro de tus ventas totales acumuladas.
+Importar/Exportar Ventas: Exporta e importa el historial de ventas y registros (items, fecha y totales) en formato Excel (.xlsx) o archivo para contabilidad y respaldo.
+Interfaz Intuitiva: Nuestra interfaz es fácil de navegar y utilizar, incluso para aquellos sin experiencia en tecnología.
+Beneficios para Tu Negocio:
+Ahorro de Tiempo: Automatiza tareas administrativas y reduce el tiempo dedicado a la gestión.
+CONTROL TOTAL DE AGOTADOS: Evita quedarte sin cucuruchos o productos clave gracias al monitoreo de stock en tiempo real.
+Mayor Precisión: Reduce los errores humanos en la gestión de precios, sabores y ventas.
+Mejora la Experiencia del Cliente: Ofrece una experiencia de compra más eficiente y agradable para tus clientes.
+Qué incluye: Versión Web y versión PC en formato ejecutable.
+¿Qué Esperas? ¡Descarga Nuestro Programa Hoy Mismo y Transforma la Gestión de Tu Heladería!`,
+        features: ["Precios por Peso/Tamaño", "Sabores", "Stock Doble", "Modo Kiosco", "Tickets", "Exportar Excel"]
     },
 ];
