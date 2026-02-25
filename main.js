@@ -9,6 +9,96 @@ document.addEventListener('DOMContentLoaded', () => {
     const navList = document.querySelector('.nav-list');
     const navLinks = document.querySelectorAll('.nav-link');
 
+    // Lightbox Elements
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxPrev = document.getElementById('lightbox-prev');
+    const lightboxNext = document.getElementById('lightbox-next');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxCounter = document.getElementById('lightbox-counter');
+
+    // Lightbox State
+    let currentLightboxImages = [];
+    let currentLightboxIndex = 0;
+
+    // Lightbox Functions
+    function openLightbox(images, index = 0) {
+        currentLightboxImages = images;
+        currentLightboxIndex = index;
+        
+        if (images.length === 0) return;
+        
+        lightboxImage.src = images[currentLightboxIndex];
+        updateLightboxCounter();
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        // Show/hide navigation based on image count
+        lightboxPrev.style.display = images.length > 1 ? 'block' : 'none';
+        lightboxNext.style.display = images.length > 1 ? 'block' : 'none';
+        lightboxCounter.style.display = images.length > 1 ? 'block' : 'none';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+
+    function navigateLightbox(direction) {
+        if (currentLightboxImages.length <= 1) return;
+        
+        if (direction === 'next') {
+            currentLightboxIndex = (currentLightboxIndex + 1) % currentLightboxImages.length;
+        } else {
+            currentLightboxIndex = (currentLightboxIndex - 1 + currentLightboxImages.length) % currentLightboxImages.length;
+        }
+        
+        lightboxImage.src = currentLightboxImages[currentLightboxIndex];
+        updateLightboxCounter();
+    }
+
+    function updateLightboxCounter() {
+        if (currentLightboxImages.length > 1) {
+            lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${currentLightboxImages.length}`;
+        }
+    }
+
+    // Lightbox Event Listeners
+    lightboxClose.addEventListener('click', closeLightbox);
+    
+    lightboxPrev.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navigateLightbox('prev');
+    });
+    
+    lightboxNext.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navigateLightbox('next');
+    });
+    
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        
+        switch(e.key) {
+            case 'Escape':
+                closeLightbox();
+                break;
+            case 'ArrowLeft':
+                navigateLightbox('prev');
+                break;
+            case 'ArrowRight':
+                navigateLightbox('next');
+                break;
+        }
+    });
+
     function closeMobileMenu() {
         if (window.innerWidth <= 768 && navList.style.display === 'flex') {
             navList.style.display = 'none';
@@ -153,10 +243,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const imgs = product.images || [];
-            imgs.forEach((imgSrc) => {
+            imgs.forEach((imgSrc, index) => {
                 const img = document.createElement('img');
                 img.src = imgSrc;
                 img.className = 'carousel-slide';
+                img.style.cursor = 'pointer';
+                img.onclick = (e) => {
+                    e.stopPropagation();
+                    openLightbox(imgs, index);
+                };
                 carousel.appendChild(img);
             });
 
@@ -195,6 +290,11 @@ document.addEventListener('DOMContentLoaded', () => {
             imgEl.style.width = '100%';
             imgEl.style.height = '100%';
             imgEl.style.objectFit = 'contain';
+            imgEl.style.cursor = 'pointer';
+            imgEl.onclick = (e) => {
+                e.stopPropagation();
+                openLightbox([product.image], 0);
+            };
             modalImgContainer.appendChild(imgEl);
         } else {
             let iconClass = 'fa-box-open';
@@ -228,6 +328,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const waLink = `https://wa.me/5492664024390?text=${encodeURIComponent(message)}`;
         document.getElementById('modal-buy-btn').href = waLink;
 
+        // Add click instruction text inside modal-image
+        const modalImage = document.querySelector('.modal-image');
+        const clickInstruction = document.createElement('div');
+        clickInstruction.className = 'image-click-instruction';
+        clickInstruction.innerHTML = `
+            <i class="fa-solid fa-expand"></i>
+            <span>Haz clic en la imagen para ver en pantalla completa</span>
+        `;
+        modalImage.appendChild(clickInstruction);
+
         modal.classList.add('show');
         document.body.style.overflow = 'hidden'; // Prevent scrolling
     };
@@ -235,12 +345,24 @@ document.addEventListener('DOMContentLoaded', () => {
     closeModal.addEventListener('click', () => {
         modal.classList.remove('show');
         document.body.style.overflow = 'auto';
+        
+        // Remove instruction text if exists
+        const instruction = document.querySelector('.image-click-instruction');
+        if (instruction) {
+            instruction.remove();
+        }
     });
 
     window.addEventListener('click', (e) => {
         if (e.target === modal) {
             modal.classList.remove('show');
             document.body.style.overflow = 'auto';
+            
+            // Remove instruction text if exists
+            const instruction = document.querySelector('.image-click-instruction');
+            if (instruction) {
+                instruction.remove();
+            }
         }
     });
 });
