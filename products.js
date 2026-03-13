@@ -1331,5 +1331,62 @@ EXTRAS:
 - Instrucciones simples para mantenerlas
 - Opción: publicar en tu propio dominio (servicio adicional)`,
         features: ["Web de Contacto WhatsApp", "Web de Presupuestos", "PDF Descargable", "Geolocalización", "Agenda de Contactos", "100% Responsivo"]
+    },
+    {
+        id: 37,
+        title: "WaterPoint POS - Gestión de Agua y Hielo",
+        category: "gestion",
+        price: "Consultar",
+        image: "Gestión de Agua y Hielo/banner_waterpoint.png",
+        images: ["Gestión de Agua y Hielo/banner_waterpoint.png", "Gestión de Agua y Hielo/1.png", "Gestión de Agua y Hielo/2.png", "Gestión de Agua y Hielo/3.png", "Gestión de Agua y Hielo/4.png", "Gestión de Agua y Hielo/5.png", "Gestión de Agua y Hielo/6.png", "Gestión de Agua y Hielo/7.png", "Gestión de Agua y Hielo/8.png", "Gestión de Agua y Hielo/9.png", "Gestión de Agua y Hielo/10.png", "Gestión de Agua y Hielo/11.png", "Gestión de Agua y Hielo/12.png"],
+        description: `WATERPOINT POS - SISTEMA INTEGRAL PARA PLANTAS DE AGUA Y HIELO
+
+Optimice la gestión de su planta de agua y distribución de hielo con WaterPoint POS, la solución definitiva diseñada para las necesidades específicas de su negocio. Controle entregas, stock, comodatos y clientes desde una interfaz moderna, rápida y profesional.
+
+¡DIGA ADIÓS A LAS PLANILLAS DE PAPEL Y TOME EL CONTROL TOTAL!
+
+---
+
+MODULOS PRINCIPALES DEL SISTEMA:
+
+1. GESTION DE PEDIDOS Y ENTREGAS (LOGÍSTICA)
+Registro detallado de pedidos de agua (bidones) y hielo. Controle el estado de cada entrega: Pendiente, En Ruta o Entregado. Genere links de seguimiento para sus clientes vía WhatsApp.
+
+2. CONTROL DE COMODATOS Y EQUIPOS
+Módulo exclusivo para el seguimiento de dispensers, heladeras y freezers entregados en comodato. Sepa exactamente dónde está cada equipo y su fecha de vencimiento o mantenimiento.
+
+3. INVENTARIO INTELIGENTE
+Administración de bidones (20L, 12L), bolsas de hielo (5kg, 10kg) y accesorios. Alertas automáticas de stock bajo para que nunca se quede sin producto.
+
+4. PUNTO DE VENTA (POS) ÁGIL
+Interfaz táctil optimizada para ventas rápidas en mostrador o programadas. Compatible con múltiples métodos de pago (Efectivo, Transferencia, Tarjeta).
+
+5. CUENTA CORRIENTE Y CLIENTES
+Base de datos de clientes con historial de compras, direcciones de entrega y saldos pendientes. Ideal para ventas "a cuenta" con comercios y revendedores.
+
+6. REPORTES Y ESTADÍSTICAS
+Visualice sus ganancias diarias, productos más vendidos y rendimiento de repartidores. Exporte todos sus datos a Excel o JSON con un clic.
+
+---
+
+CARACTERISTICAS TECNICAS:
+
+- INTERFAZ RESPONSIVA: Úselo en PC, Tablet o Teléfono Celular sin problemas.
+- DISEÑO PREMIUM (Glassmorphism): Una experiencia visual moderna que profesionaliza su negocio.
+- 100% SIN INSTALACIÓN: Funciona directamente desde el navegador (Chrome, Edge, Safari).
+- PRIVACIDAD TOTAL: Los datos se guardan en su equipo. No requiere bases de datos externas complejas ni servidores costosos.
+- SIN ABONOS MENSUALES: Un solo pago por el acceso al sistema.
+
+---
+
+¿QUÉ INCLUYE LA COMPRA?
+
+- Acceso completo al sistema configurable.
+- Manual de usuario detallado.
+- Soporte para configuración inicial.
+- Capacidad de personalizar con su propio logo y nombre de comercio.
+
+¡Transforme su negocio hoy mismo con WaterPoint POS!`,
+        features: ["Gestión de Pedidos", "Control de Comodatos", "Inventario", "POS", "Cuenta Corrientes", "Reportes"]
     }
 ];
