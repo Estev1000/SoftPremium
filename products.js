@@ -86,49 +86,39 @@ Al realizar la compra, te enviamos los archivos del sistema y una guía rápida 
     },
     {
         id: 3,
-        title: "Taller Pro - Gestión de Órdenes y Service",
-        category: "gestion",
+        title: "Taller Pro - Repuestos y Gestión Automotriz",
+        category: "ventas",
         price: "Consultar",
         image: "Taller Pro/taller-pro-promo.png",
-        images: ["Taller Pro/taller-pro-promo.png", "Taller Pro/1.png", "Taller Pro/2.png", "Taller Pro/3.png", "Taller Pro/4.png", "Taller Pro/5.png", "Taller Pro/6.png", "Taller Pro/7.png", "Taller Pro/8.png"],
-        description: `SISTEMA DE GESTIÓN PARA TALLERES Y SERVICE POST-VENTA
+        images: ["Taller Pro/taller-pro-promo.png", "Taller Pro/1.png", "Taller Pro/2.png", "Taller Pro/3.png", "Taller Pro/4.png", "Taller Pro/5.png", "Taller Pro/6.png", "Taller Pro/7.png", "Taller Pro/8.png", "Taller Pro/9.png", "Taller Pro/10.png", "Taller Pro/11.png", "Taller Pro/12.png", "Taller Pro/13.png", "Taller Pro/14.png", "Taller Pro/15.png"],
+        shortDescription: "Sistema integral de punto de venta y gestión de stock para casas de repuestos y talleres automotrices.",
+        description: `TALLER PRO - SISTEMA INTEGRAL PARA CASAS DE REPUESTOS Y TALLERES
 
-Optimice su taller y profesionalice la atención a sus clientes con nuestra herramienta de gestión digital. Diseñada específicamente para servicios técnicos de electrónica, computación, talleres mecánicos, laboratorios de celulares y todo negocio que requiera seguimiento de reparaciones.
+Potencie la gestión de su negocio con Taller Pro, una solución de punto de venta (POS) diseñada específicamente para las necesidades del sector automotriz. Este software permite un control absoluto sobre el stock, las ventas y la relación con clientes y talleres, todo desde una interfaz moderna, rápida y segura.
 
-¿QUÉ ES TALLER PRO?
-Es una aplicación web que funciona directamente en su navegador. No requiere instalaciones complejas, no paga suscripciones mensuales y funciona tanto en PC como en tablets.
+MODULOS PRINCIPALES DEL SISTEMA:
 
-FUNCIONALIDADES PRINCIPALES:
+1. GESTION DE INVENTARIO INTELIGENTE Administración detallada de repuestos incluyendo código SKU, marca, categoría y precios. El sistema cuenta con alertas visuales de stock bajo y crítico, permitiendo anticipar la reposición de mercadería y evitar faltantes.
 
-1. PANEL DE ADMINISTRACIÓN:
-Registro rápido de nuevos ingresos, datos del cliente, equipo y falla reportada.
+2. PUNTO DE VENTA (POS) AGIL Interfaz de venta optimizada para operaciones rápidas. Permite la selección de productos con un clic, búsqueda por código o nombre, y gestión de carrito de compras con actualización de stock en tiempo real al finalizar la transacción.
 
-2. CONTROL DE ESTADOS:
-Actualice el progreso con un solo clic (En Espera → En Taller → Esperando Repuestos → Listo para Retirar → Entregado).
+3. SISTEMA DE PAGOS Y VENTAS "A CUENTA" Ideal para el trabajo con mecánicos y talleres. El sistema permite registrar ventas con pago diferido (A Cuenta), facilitando el seguimiento de saldos pendientes. Soporta además efectivo, tarjeta y transferencia.
 
-3. GENERADOR DE TICKETS DIGITALES:
-El sistema genera un enlace único para cada cliente. Usted lo comparte por WhatsApp y el cliente puede ver el avance desde su propio celular.
+4. PANEL DE CLIENTES Y TALLERES Base de datos completa de clientes con CUIT/DNI y datos de contacto. Incluye una función exclusiva para asociar ventas a un "Cliente Final" dentro de la cuenta del taller, permitiendo un ordenamiento superior en el despacho de piezas.
 
-4. TARJETA DE ESTADO EN IMAGEN:
-Descargue automáticamente una imagen profesional con el resumen del estado para enviar directamente por WhatsApp. Mejora la imagen de su marca y genera confianza.
+5. REPORTES Y EXPORTACION DE DATOS Visualización de estadísticas de ventas diarias, promedio por ticket e historial completo de transacciones. El sistema permite realizar backups completos en formato Excel y JSON, permitiendo además importar datos desde archivos externos para una migración sin problemas.
 
-5. BÚSQUEDA RÁPIDA:
-Encuentre cualquier orden por nombre del cliente o modelo del equipo de forma instantánea.
+CARACTERISTICAS TECNICAS:
 
-VENTAJAS EXCLUSIVAS:
-- SIN COSTOS MENSUALES: Realiza un único pago y la herramienta es suya de por vida.
-- PRIVACIDAD TOTAL: Los datos se guardan de forma local en su navegador.
-- COMPATIBILIDAD TOTAL: Funciona en Windows, Mac, Android e iOS en cualquier navegador moderno.
+Interfaz Responsiva: Totalmente compatible con computadoras de escritorio, tablets y teléfonos celulares.
+Diseño Glassmorphism: Estética moderna de alto impacto visual para una experiencia de usuario premium.
+Sin Instalaciones Complejas: El sistema funciona directamente desde el navegador, facilitando su uso inmediato.
+Persistencia Local: Los datos se guardan de forma segura en el almacenamiento del navegador, permitiendo operar sin depender constantemente de una conexión a internet externa.
+Privacidad Total: La información del negocio permanece en el equipo del usuario.
+ADQUISICION DEL PRODUCTO:
 
-IDEAL PARA:
-- Servicios técnicos de celulares y tablets.
-- Reparación de computadoras y notebooks.
-- Talleres mecánicos y de motos.
-- Service de electrodomésticos.
-- Cualquier negocio que trabaje con orden de ingreso.
-
-PERSONALIZACIÓN: Al comprar, proporciónenos el nombre de su negocio para personalizar la interfaz con su marca.`,
-        features: ["Órdenes de Reparación", "Control de Estados", "Ticket Digital por WhatsApp", "Imagen de Estado", "Búsqueda Rápida", "Sin Mensualidades"]
+La compra incluye el acceso completo al sistema listo para ser configurado con el nombre y marca de su comercio desde el panel de ajustes. No requiere abonos mensuales.`,
+        features: ["Gestión de Inventario", "Punto de Venta POS", "Ventas A Cuenta", "Panel de Clientes", "Reportes Detallados", "Sin Mensualidades"]
     },
 
     {
@@ -366,7 +356,7 @@ ESPECIFICACIONES TÉCNICAS:
 ¡Lleva tu gestión al siguiente nivel con Hotel POS! Respondemos todas tus dudas en la sección de preguntas.`,
         features: ["Reservas", "Habitaciones", "Facturación", "Tickets 80mm", "PC y Web", "Sin Mensualidades"]
     },
-    
+
     {
         id: 9,
         title: "LibreriaFlow - Gestión para Librería y Papelería",
@@ -901,7 +891,7 @@ Requisitos:
 - Navegador moderno. Internet solo para estilos al cargar. Operación local.`,
         features: ["Inventario Simple", "Ventas Rápidas", "Ofertas", "Ticket Imprimible", "Reportes Básicos", "Exportar JSON"]
     },
-   
+
     {
         id: 25,
         title: "Gestión Podología",
