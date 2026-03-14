@@ -1388,5 +1388,72 @@ CARACTERISTICAS TECNICAS:
 
 ¡Transforme su negocio hoy mismo con WaterPoint POS!`,
         features: ["Gestión de Pedidos", "Control de Comodatos", "Inventario", "POS", "Cuenta Corrientes", "Reportes"]
+    },
+    {
+        id: 38,
+        title: "ZapaSmart POS - Gestión para Zapaterías",
+        category: "ventas",
+        price: "Consultar",
+        image: "Gestión de Zapatería/publicidad_mercado_libre.png",
+        images: ["Gestión de Zapatería/publicidad_mercado_libre.png", "Gestión de Zapatería/1.png", "Gestión de Zapatería/2.png", "Gestión de Zapatería/3.png", "Gestión de Zapatería/4.png", "Gestión de Zapatería/5.png", "Gestión de Zapatería/6.png", "Gestión de Zapatería/7.png", "Gestión de Zapatería/8.png", "Gestión de Zapatería/9.png", "Gestión de Zapatería/10.png"],
+        description: `ZAPASMART POS - SISTEMA DE GESTIÓN PARA ZAPATERÍAS
+
+¡Descubre ZapaSmart POS, el Software de Gestión más completo y fácil de usar, diseñado exclusivamente para el control de tu Zapatería!
+
+¿Cansado de perder ventas por no encontrar la talla correcta? ¿Tus empleados pierden tiempo buscando cajas en el depósito? ZapaSmart POS es la solución integral y moderna que tu negocio necesita. Toma el control total de tu calzado y accesorios desde cualquier dispositivo, con una interfaz visual increíblemente rápida y estética.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+1. PUNTO DE VENTA RÁPIDO (POS):
+- Facturación en segundos, multi-vendedor y control de caja.
+- Interfaz táctil optimizada para ventas rápidas.
+- Compatible con múltiples métodos de pago (Efectivo, Transferencia, Tarjeta).
+
+2. INVENTARIO INTELIGENTE DE CALZADO:
+- Control exacto por Talla, Color, Marca y Modelo.
+- Nunca más te quedes sin stock de las tallas más vendidas.
+- Alertas automáticas de stock bajo.
+
+3. CONTROL DE EMPLEADOS Y COMISIONES:
+- Fija metas y comisiones por ventas para cada uno de tus vendedores al instante.
+- Reportes de rendimiento por empleado.
+
+4. BASE DE DATOS DE CLIENTES:
+- Fidelización, registro de compras y gustos para futuras promociones.
+- Historial completo de compras por cliente.
+
+5. REPORTES Y ESTADÍSTICAS:
+- Conoce tus modelos más rentables.
+- Identifica el stock inmovilizado.
+- Visualiza las utilidades reales de tu comercio.
+- Exporta datos a Excel con un clic.
+
+6. ADAPTABLE A MÓVILES Y TABLETS:
+- Tu jefe de local o tú mismo pueden revisar las estadísticas y el inventario en tiempo real desde celular.
+- 100% Responsivo: Funciona en PC, Notebooks, Tablets y Celulares.
+
+DISEÑO VANGUARDISTA:
+- Interfaz intuitiva y sin curvas de aprendizaje complejas.
+- Capacita a tu personal en minutos.
+- Diseño moderno tipo "Glassmorphism" que profesionaliza tu negocio.
+
+IDEAL PARA:
+- Tiendas físicas únicas.
+- Multi-sucursales.
+- Negocios de calzado y accesorios.
+
+INCLUYE:
+- Instalación y configuración remota.
+- 1 Mes de Soporte Premium GRATIS.
+- Actualizaciones de por vida en tu versión adquirida.
+- Manual de usuario detallado.
+
+PRIVACIDAD TOTAL:
+- Los datos se guardan en tu dispositivo.
+- No requiere bases de datos externas ni servidores costosos.
+- Sin abonos mensuales: Un solo pago.
+
+¡Renueva la gestión de tu zapatería y da un paso seguro hacia el éxito con ZapaSmart POS!`,
+        features: ["Punto de Venta POS", "Inventario por Talla/Color", "Control de Empleados", "Base de Clientes", "Reportes y Estadísticas", "100% Responsivo"]
     }
 ];
