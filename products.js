@@ -893,6 +893,52 @@ Requisitos:
     },
 
     {
+        id: 24,
+        title: "Gestión Odontología",
+        category: "salud",
+        price: "Consultar",
+        image: "Gestión de odontología/imagen_promocional_mercadolibre.png",
+        images: ["Gestión de odontología/imagen_promocional_mercadolibre.png", "Gestión de odontología/1.png", "Gestión de odontología/2.png", "Gestión de odontología/3.png", "Gestión de odontología/4.png", "Gestión de odontología/5.png", "Gestión de odontología/6.png", "Gestión de odontología/7.png", "Gestión de odontología/8.png", "Gestión de odontología/9.png", "Gestión de odontología/10.png"],
+        description: `GESTION DE ODONTOLOGIA PREMIUM - SOFTWARE PROFESIONAL
+
+Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la odontología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
+
+CARACTERISTICAS PRINCIPALES
+
+GESTION DE PACIENTES
+- Registro completo de datos personales y de contacto.
+- Campos especializados (estética/ortodoncia): Alergias, estado de ortodoncia (brackets, alineadores, contención) y tono/color de referencia (ej: A2).
+- Buscador integrado para localización rápida de registros.
+
+CONTROL DE TURNOS
+- Agenda organizada por fecha y hora.
+- Visualización de turnos diarios en el tablero principal (Dashboard).
+- Gestión sencilla de estados de atención.
+
+HISTORIAL CLINICO CON SEGUIMIENTO FOTOGRAFICO
+- Registro detallado de diagnósticos, tratamientos y observaciones.
+- Sistema de fotografía de precisión: Cargue hasta 3 fotos del estado inicial (Antes) y 3 fotos del estado final (Después) por cada consulta.
+- Visor comparativo profesional: Visualice las fotografías de forma vertical y secuencial, permitiendo una comparación directa de la evolución del tratamiento.
+
+SEGURIDAD Y PRIVACIDAD DE DATOS
+- Privacidad total: Los datos se almacenan localmente en su dispositivo, garantizando que la información sensible no salga de su consultorio.
+- No requiere suscripciones: Pago único de por vida, sin cuotas mensuales ni cargos ocultos.
+- Copias de seguridad: Función de exportación e importación para respaldar toda su información o migrarla a otro equipo fácilmente.
+
+VENTAJAS TECNICAS
+- No requiere instalación: Funciona directamente desde su navegador web (Chrome, Edge, Firefox, etc.).
+- Compatible con múltiples dispositivos: Puede utilizarse en PC, Notebooks, Tablets y celulares.
+- Interfaz moderna y profesional: Diseño optimizado para una experiencia de usuario fluida y estética.
+
+PERSONALIZACION Y ENTREGA
+Al ser una versión Premium, el software se entrega personalizado. Una vez realizada la compra, deberá proporcionarnos por la mensajería privada:
+1. Nombre de la clínica o del profesional.
+2. Logotipo para el encabezado del sistema.
+
+Se envía un link listo para ejecutar, sin complicaciones técnicas.`,
+        features: ["Gestión de Pacientes", "Control de Turnos", "Historial con Fotos", "Privacidad Local", "Sin Mensualidades"]
+    },
+    {
         id: 25,
         title: "Gestión Podología",
         category: "salud",
@@ -1394,8 +1440,8 @@ CARACTERISTICAS TECNICAS:
         title: "ZapaSmart POS - Gestión para Zapaterías",
         category: "ventas",
         price: "Consultar",
-        image: "Gestión de Zapatería/publicidad_mercado_libre.png",
-        images: ["Gestión de Zapatería/publicidad_mercado_libre.png", "Gestión de Zapatería/1.png", "Gestión de Zapatería/2.png", "Gestión de Zapatería/3.png", "Gestión de Zapatería/4.png", "Gestión de Zapatería/5.png", "Gestión de Zapatería/6.png", "Gestión de Zapatería/7.png", "Gestión de Zapatería/8.png", "Gestión de Zapatería/9.png", "Gestión de Zapatería/10.png"],
+        image: "Gestión de Zapatería/presentacion_zapasmart.png",
+        images: ["Gestión de Zapatería/presentacion_zapasmart.png", "Gestión de Zapatería/1.png", "Gestión de Zapatería/2.png", "Gestión de Zapatería/3.png", "Gestión de Zapatería/4.png", "Gestión de Zapatería/5.png", "Gestión de Zapatería/6.png", "Gestión de Zapatería/7.png", "Gestión de Zapatería/8.png", "Gestión de Zapatería/9.png", "Gestión de Zapatería/10.png"],
         description: `ZAPASMART POS - SISTEMA DE GESTIÓN PARA ZAPATERÍAS
 
 ¡Descubre ZapaSmart POS, el Software de Gestión más completo y fácil de usar, diseñado exclusivamente para el control de tu Zapatería!
