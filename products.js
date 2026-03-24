@@ -944,7 +944,7 @@ Se envía un link listo para ejecutar, sin complicaciones técnicas.`,
         category: "salud",
         price: "Consultar",
         image: "Gestión de podología/Publicidad_Podologia_Premium.png",
-        images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png"],
+        images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png", "Gestión de podología/12.png", "Gestión de podología/13.png"],
         description: `GESTION DE PODOLOGIA PREMIUM - SOFTWARE PROFESIONAL
 
 Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la podología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
@@ -956,10 +956,12 @@ GESTION DE PACIENTES
 - Campos especializados: Tipo de pie, talla de calzado e indicadores visuales de pacientes con diabetes.
 - Buscador integrado para localización rápida de registros.
 
-CONTROL DE TURNOS
-- Agenda organizada por fecha y hora.
+CONTROL DE TURNOS Y ALERTAS AUTOMATICAS
+- Agenda profesional organizada por fecha y hora.
 - Visualización de turnos diarios en el tablero principal (Dashboard).
-- Gestión sencilla de estados de atención.
+- Gestión de estados: Pendiente, Asistió y Cancelado.
+- Sistema de Alertas Inteligentes: El software le notifica automáticamente 15 minutos antes de cada turno con un aviso visual y sonoro en su dispositivo.
+- Recordatorios por WhatsApp: Envíe un mensaje de confirmación o recordatorio al paciente con un solo clic, con texto personalizado listo para enviar.
 
 HISTORIAL CLINICO CON SEGUIMIENTO FOTOGRAFICO
 - Registro detallado de diagnósticos, tratamientos y observaciones.
@@ -981,9 +983,8 @@ Al ser una versión Premium, el software se entrega personalizado. Una vez reali
 1. Nombre de la clínica o del profesional.
 2. Logotipo para el encabezado del sistema.
 
-Se envía un archivo listo para ejecutar, sin complicaciones técnicas.
-https://www.mercadolibre.com.ar/gestion-de-podologia-premium/up/MLAU3730526775?pdp_filters=item_id:MLA1647064035`,
-        features: ["Pacientes", "Turnos", "Historial con Fotos", "Backups", "Privacidad Local", "Sin Mensualidades"]
+Se envía un Link listo para ejecutar, sin complicaciones técnicas.`,
+        features: ["Pacientes", "Turnos y Alertas", "Recordatorios WhatsApp", "Historial con Fotos", "Backups", "Sin Mensualidades"]
     },
     {
         id: 26,
