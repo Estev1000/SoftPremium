@@ -898,7 +898,7 @@ Requisitos:
         category: "salud",
         price: "Consultar",
         image: "Gestión de odontología/imagen_promocional_mercadolibre.png",
-        images: ["Gestión de odontología/imagen_promocional_mercadolibre.png", "Gestión de odontología/1.png", "Gestión de odontología/2.png", "Gestión de odontología/3.png", "Gestión de odontología/4.png", "Gestión de odontología/5.png", "Gestión de odontología/6.png", "Gestión de odontología/7.png", "Gestión de odontología/8.png", "Gestión de odontología/9.png", "Gestión de odontología/10.png"],
+        images: ["Gestión de odontología/imagen_promocional_mercadolibre.png", "Gestión de odontología/1.png", "Gestión de odontología/2.png", "Gestión de odontología/3.png", "Gestión de odontología/4.png", "Gestión de odontología/5.png", "Gestión de odontología/6.png", "Gestión de odontología/7.png", "Gestión de odontología/8.png", "Gestión de odontología/9.png", "Gestión de odontología/10.png", "Gestión de odontología/11.png", "Gestión de odontología/12.png"],
         description: `GESTION DE ODONTOLOGIA PREMIUM - SOFTWARE PROFESIONAL
 
 Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la odontología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
@@ -944,7 +944,7 @@ Se envía un link listo para ejecutar, sin complicaciones técnicas.`,
         category: "salud",
         price: "Consultar",
         image: "Gestión de podología/Publicidad_Podologia_Premium.png",
-        images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png", "Gestión de podología/12.png", "Gestión de podología/13.png"],
+        images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png", "Gestión de podología/12.png"],
         description: `GESTION DE PODOLOGIA PREMIUM - SOFTWARE PROFESIONAL
 
 Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la podología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
