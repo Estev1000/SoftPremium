@@ -910,10 +910,12 @@ GESTION DE PACIENTES
 - Campos especializados (estética/ortodoncia): Alergias, estado de ortodoncia (brackets, alineadores, contención) y tono/color de referencia (ej: A2).
 - Buscador integrado para localización rápida de registros.
 
-CONTROL DE TURNOS
-- Agenda organizada por fecha y hora.
+CONTROL DE TURNOS Y ALERTAS AUTOMATICAS
+- Agenda profesional organizada por fecha y hora.
 - Visualización de turnos diarios en el tablero principal (Dashboard).
-- Gestión sencilla de estados de atención.
+- Gestión de estados: Pendiente, Asistió y Cancelado.
+- Sistema de Alertas Inteligentes: El software le notifica automáticamente 15 minutos antes de cada turno con un aviso visual y sonoro en su dispositivo.
+- Recordatorios por WhatsApp: Envíe un mensaje de confirmación o recordatorio al paciente con un solo clic, con texto personalizado listo para enviar.
 
 HISTORIAL CLINICO CON SEGUIMIENTO FOTOGRAFICO
 - Registro detallado de diagnósticos, tratamientos y observaciones.
