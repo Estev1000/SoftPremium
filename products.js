@@ -824,8 +824,8 @@ Esta versión está optimizada para destacar las ventajas y características cla
         title: "Gestión Clínica",
         category: "salud",
         price: "Consultar",
-        image: "Gestión de Clinica/Imágen de gestión de clínica.jpg",
-        images: ["Gestión de Clinica/Imágen de gestión de clínica.jpg", "Gestión de Clinica/1.png", "Gestión de Clinica/2.png", "Gestión de Clinica/3.png", "Gestión de Clinica/4.png", "Gestión de Clinica/5.png", "Gestión de Clinica/6.png", "Gestión de Clinica/7.png", "Gestión de Clinica/8.png", "Gestión de Clinica/9.png", "Gestión de Clinica/10.png"],
+        image: "Gestión de Clinica/Imágen de gestión de clínica.png",
+        images: ["Gestión de Clinica/Imágen de gestión de clínica.png", "Gestión de Clinica/1.png", "Gestión de Clinica/2.png", "Gestión de Clinica/3.png", "Gestión de Clinica/4.png", "Gestión de Clinica/5.png", "Gestión de Clinica/6.png", "Gestión de Clinica/7.png", "Gestión de Clinica/8.png", "Gestión de Clinica/9.png", "Gestión de Clinica/10.png", "Gestión de Clinica/11.png"],
         description: `¡Gestiona tu clínica con facilidad desde cualquier dispositivo!
 
 APLICACIÓN WEB RESPONSIVE - Accede desde PC, Celular y Tablet
@@ -835,11 +835,25 @@ Olvídate de las hojas de cálculo y los archivos desordenados, con Sistema de g
 
 Sistema de gestión de clínica te ofrece:
 
-Gestión de pacientes: Registra información personal, historial clínico, diagnósticos, tratamientos y observaciones de forma rápida y eficiente.
-Control de citas: Agenda turnos, gestiona la disponibilidad de los médicos y envía recordatorios a tus pacientes.
-Historial clínico: Accede a la información médica de tus pacientes de forma segura y organizada.
-Facturación: Genera facturas y recibos de forma automatizada.
-Reportes: Obtén estadísticas e informes sobre la actividad de tu clínica.
+Gestión de pacientes: Registra información personal (incluyendo alertas como diabetes), historial clínico y datos de contacto de forma rápida y eficiente, con buscador integrado.
+Gestión de profesionales: Administra a tu staff registrando médicos y especialistas junto con sus respectivas especialidades.
+
+CONTROL DE TURNOS Y CALENDARIO INTERACTIVO
+Calendario avanzado con múltiples vistas: Navega fácilmente por mes, semana o lista, y usa el panel lateral para ver todos los turnos de un día específico.
+Agenda profesional organizada por profesional, paciente, fecha y hora.
+Visualización de estadísticas y turnos rápidos en el tablero principal (Dashboard).
+Gestión de estados: Pendiente, Asistió y Cancelado.
+Sistema de Alertas Inteligentes: Notificación automática 15 minutos antes de cada turno con aviso visual y sonoro en su dispositivo.
+Recordatorios por WhatsApp: Envíe un mensaje de confirmación al paciente con un solo clic, con texto personalizado listo para enviar.
+
+HISTORIAL CLINICO CON SEGUIMIENTO FOTOGRAFICO
+Registro detallado de diagnósticos, tratamientos y observaciones.
+Sistema de fotografía de precisión: Cargue hasta 3 fotos del estado inicial (Antes) y 3 fotos del estado final (Después) por cada consulta.
+Visor comparativo profesional: Visualice las fotografías de forma secuencial, permitiendo una comparación directa de la evolución del tratamiento.
+
+SEGURIDAD Y RESPALDO DE DATOS
+Módulo de Copias de Seguridad (Backup): Exporta todos tus datos a un archivo local seguro e impórtalos fácilmente en cualquier momento, garantizando que tu información esté siempre protegida.
+
 Sistema de gestión de clínica es la solución ideal para:
 
 Clínicas médicas
@@ -859,7 +873,9 @@ Después de tu compra, necesitaremos que nos proporciones:
 Nombre de tu clínica o nombre profesional
 Logo de tu clínica (formato PNG, JPG o similar)
 
-Con esta información personalizaremos completamente la aplicación web para que luzca con la identidad de tu negocio. ¡Tu clínica tendrá su propia aplicación profesional y personalizada!`,
+Con esta información personalizaremos completamente la aplicación web para que luzca con la identidad de tu negocio. ¡Tu clínica tendrá su propia aplicación profesional y personalizada!
+
+Se envía un Link listo para ejecutar, sin complicaciones técnicas.`,
         features: ["Historia Clínica", "Turnos Online", "Liquidación Médicos", "Obras Sociales"]
     },
     {
