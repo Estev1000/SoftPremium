@@ -1520,5 +1520,210 @@ PRIVACIDAD TOTAL:
 
 ¡Renueva la gestión de tu zapatería y da un paso seguro hacia el éxito con ZapaSmart POS!`,
         features: ["Punto de Venta POS", "Inventario por Talla/Color", "Control de Empleados", "Base de Clientes", "Reportes y Estadísticas", "100% Responsivo"]
+    },
+    {
+        id: 39,
+        title: "Presupuestos de Albañilería",
+        category: "servicios",
+        price: "Consultar",
+        image: "Presupuestos de albañileria/Imagen publicitaria de albanileria.png",
+        images: ["Presupuestos de albañileria/Imagen publicitaria de albanileria.png", "Presupuestos de albañileria/1.png", "Presupuestos de albañileria/2.png", "Presupuestos de albañileria/3.png", "Presupuestos de albañileria/4.png", "Presupuestos de albañileria/5.png", "Presupuestos de albañileria/6.png", "Presupuestos de albañileria/7.png", "Presupuestos de albañileria/8.png", "Presupuestos de albañileria/9.png", "Presupuestos de albañileria/10.png", "Presupuestos de albañileria/11.png"],
+        description: `PRESUPUESTADOR PROFESIONAL PARA ALBAÑILERÍA Y OBRAS
+
+¡Optimizá tu trabajo y ahorrá tiempo con nuestra herramienta profesional para crear presupuestos de albañilería y obras de manera rápida y prolija!
+
+CARACTERÍSTICAS PRINCIPALES:
+- Genera presupuestos profesionales en minutos
+- Calcula automáticamente costos de materiales y mano de obra
+- Catálogo precargado con materiales y servicios típicos de albañilería
+- Gestión completa de clientes con nombre, teléfono, email y dirección de obra
+- Guarda y gestiona todos tus presupuestos en un solo lugar
+- Enviá por WhatsApp, correo electrónico o imprimí directamente
+- Funciona sin internet (corre desde el navegador, sin instalación)
+- Compatible con PC, notebook y tablet
+
+BENEFICIOS:
+- Ahorrá hasta el 70% del tiempo en la elaboración de presupuestos
+- Presentación profesional que inspira confianza en tus clientes
+- Cálculos precisos para evitar pérdidas económicas
+- Ideal para constructores independientes, albañiles, empresas y contratistas
+
+INCLUYE:
+- Archivo digital listo para usar (se abre con doble clic en el navegador)
+- Sin suscripciones ni pagos mensuales — pagás una sola vez
+- Soporte por mensaje ante cualquier consulta
+
+PERSONALIZACIÓN Y ENTREGA
+Al ser una versión Premium, el software se entrega personalizado. Una vez realizada la compra, deberá proporcionarnos por la mensajería privada:
+1. Nombre del negocio o profesional.
+2. Logotipo para el encabezado del sistema.
+
+Se envía un Link listo para utilizar, sin complicaciones técnicas.
+¡Hacé crecer tu negocio de construcción y albañilería con herramientas profesionales a un precio increíble!
+
+¿Tenés dudas? ¡Escribinos antes de comprar!`,
+        features: ["Genera Presupuestos Rápidos", "Cálculo de Costos", "Catálogo de Materiales", "Gestión de Clientes", "Envío por WhatsApp/Email", "Uso Offline"]
+    },
+    {
+        id: 40,
+        title: "Presupuestos de Steel Frame & Drywall",
+        category: "servicios",
+        price: "Consultar",
+        image: "PresupuestoPro - Steel Frame y Drywall/Imagen publicitaria.png",
+        images: ["PresupuestoPro - Steel Frame y Drywall/Imagen publicitaria.png", "PresupuestoPro - Steel Frame y Drywall/1.png", "PresupuestoPro - Steel Frame y Drywall/2.png", "PresupuestoPro - Steel Frame y Drywall/3.png", "PresupuestoPro - Steel Frame y Drywall/4.png", "PresupuestoPro - Steel Frame y Drywall/5.png", "PresupuestoPro - Steel Frame y Drywall/6.png", "PresupuestoPro - Steel Frame y Drywall/7.png", "PresupuestoPro - Steel Frame y Drywall/8.png", "PresupuestoPro - Steel Frame y Drywall/9.png", "PresupuestoPro - Steel Frame y Drywall/10.png", "PresupuestoPro - Steel Frame y Drywall/11.png"],
+        description: `PRESUPUESTADOR PROFESIONAL PARA STEEL FRAME & DRYWALL
+
+¡Optimizá tu trabajo y ahorrá tiempo con nuestra herramienta profesional para crear presupuestos de Steel Frame y Drywall de manera rápida y prolija!
+
+CARACTERÍSTICAS PRINCIPALES:
+- Genera presupuestos profesionales en minutos
+- Calcula automáticamente costos de materiales y mano de obra
+- Catálogo precargado con materiales y servicios típicos de Steel Frame y Drywall
+- Gestión completa de clientes con nombre, teléfono, email y dirección de obra
+- Guarda y gestiona todos tus presupuestos en un solo lugar
+- Enviá por WhatsApp, correo electrónico o imprimí directamente
+- Funciona sin internet (corre desde el navegador, sin instalación)
+- Compatible con PC, notebook y tablet
+
+BENEFICIOS:
+- Ahorrá hasta el 70% del tiempo en la elaboración de presupuestos
+- Presentación profesional que inspira confianza en tus clientes
+- Cálculos precisos para evitar pérdidas económicas
+- Ideal para constructores independientes, empresas y estudios de Steel Frame
+
+INCLUYE:
+- Archivo digital listo para usar (se abre con doble clic en el navegador)
+- Sin suscripciones ni pagos mensuales — pagás una sola vez
+- Soporte por mensaje ante cualquier consulta
+
+PERSONALIZACIÓN Y ENTREGA
+Al ser una versión Premium, el software se entrega personalizado. Una vez realizada la compra, deberá proporcionarnos por la mensajería privada:
+1. Nombre del negocio o profesional.
+2. Logotipo para el encabezado del sistema.
+
+Se envía un Link listo para utilizar, sin complicaciones técnicas.
+¡Hacé crecer tu negocio de construcción en seco con herramientas profesionales a un precio increíble!
+
+¿Tenés dudas? ¡Escribinos antes de comprar!`,
+        features: ["Genera Presupuestos Rápidos", "Cálculo de Costos", "Catálogo Steel Frame", "Gestión de Clientes", "Envío por WhatsApp/Email", "Uso Offline"]
+    },
+    {
+        id: 41,
+        title: "Panel de Vivero Central - Sistema Integral",
+        category: "gestion",
+        price: "Consultar",
+        image: "Gestión de Vivero/Imagen_Publicitaria_Vivero.png",
+        images: ["Gestión de Vivero/Imagen_Publicitaria_Vivero.png", "Gestión de Vivero/1.png", "Gestión de Vivero/2.png", "Gestión de Vivero/3.png", "Gestión de Vivero/4.png", "Gestión de Vivero/5.png", "Gestión de Vivero/6.png", "Gestión de Vivero/7.png", "Gestión de Vivero/8.png", "Gestión de Vivero/9.png", "Gestión de Vivero/10.png", "Gestión de Vivero/11.png"],
+        description: `PANEL DE VIVERO CENTRAL - SISTEMA INTEGRAL PARA VIVEROS
+
+Optimice la gestión operativa de su vivero con el Panel de Vivero Central, la solución definitiva diseñada para el mundo verde. Controle su inventario de plantas, ventas por suscripción, comodatos y cartera de clientes desde una interfaz moderna, rápida y enfocada en lo que importa.
+
+¡DIGA ADIÓS A LAS PLANILLAS DE PAPEL Y HAGA FLORECER SU NEGOCIO!
+
+---
+
+MÓDULOS PRINCIPALES DEL SISTEMA:
+
+1. GESTIÓN DE VENTAS Y SUSCRIPCIONES
+Interfaz táctil optimizada para ventas rápidas en mostrador, envíos a domicilio y comercio mayorista. Incluye un módulo innovador para Suscripciones (Semanales y Quincenales) ideal para mantenimiento de jardines o entregas automatizadas.
+
+2. INVENTARIO BOTÁNICO INTELIGENTE
+Administración completa de su stock categorizado: Plantas, Macetas, Sustratos, Fertilizantes y Herramientas. Alertas automáticas de stock rojo para que nunca le falten sus productos más vendidos.
+
+3. CONTROL DE COMODATOS O PRESTAMOS
+Módulo exclusivo para el seguimiento de plantas, macetones y herramientas entregadas en comodato (para eventos, oficinas o alquileres). Sepa exactamente dónde está cada elemento y su fecha de devolución.
+
+4. GESTIÓN DE PEDIDOS CON WHATSAPP
+Registro detallado de pedidos pendientes, recibidos y listos para entrega. Envíe actualizaciones o el ticket del pedido directamente al WhatsApp de su cliente (con foto y link) con un solo clic.
+
+5. EMPLEADOS Y COMISIONES
+Configure perfiles para su staff y establezca porcentajes de comisión automática por cada venta gestionada, simplificando completamente su liquidación de sueldos.
+
+6. REPORTES Y ESTADÍSTICAS
+Visualice sus ganancias diarias, resumen de la jornada y productos más vendidos. Todo con opción de exportar directamente a Excel en cualquier momento.
+
+---
+
+CARACTERÍSTICAS TÉCNICAS:
+
+- INTERFAZ RESPONSIVA VISUAL: Úselo en PC, Tablet o Teléfono Celular. Cuenta con un diseño "Dark Mode" premium muy moderno que profesionaliza la experiencia de su negocio.
+- SIN INSTALACIONES COMPLEJAS: Funciona directamente desde su navegador favorito (Chrome, Edge, Safari).
+- PRIVACIDAD TOTAL: Los datos se guardan directamente de forma local. No requiere mantenimientos de servidores costosos en la nube.
+- SIN ABONOS MENSUALES OCULTOS: Usted realiza un único pago por el acceso permanente al sistema.
+
+---
+
+¿QUÉ INCLUYE LA COMPRA?
+
+- Acceso completo al sistema configurable.
+- Manual de usuario detallado.
+- Soporte para configuración inicial.
+- Capacidad de personalizar con su propio logo y el nombre de su comercio.
+
+¡Transforme y organice su Vivero hoy mismo con la mejor herramienta del mercado!`,
+        features: ["Gestión de Ventas", "Inventario Botánico", "Control de Comodatos", "Pedidos WhatsApp", "Empleados y Comisiones", "Reportes Excel"]
+    },
+    {
+        id: 42,
+        title: "Estación Central - Sistema Integral",
+        category: "gestion",
+        price: "Consultar",
+        image: "Gestión de Estación de servicio/Anuncio_Estacion_Central.png",
+        images: ["Gestión de Estación de servicio/Anuncio_Estacion_Central.png", "Gestión de Estación de servicio/1.png", "Gestión de Estación de servicio/2.png", "Gestión de Estación de servicio/3.png", "Gestión de Estación de servicio/4.png", "Gestión de Estación de servicio/5.png", "Gestión de Estación de servicio/6.png", "Gestión de Estación de servicio/7.png", "Gestión de Estación de servicio/8.png", "Gestión de Estación de servicio/9.png", "Gestión de Estación de servicio/10.png", "Gestión de Estación de servicio/11.png", "Gestión de Estación de servicio/12.png"],
+        description: `ESTACIÓN CENTRAL - SISTEMA INTEGRAL PARA ESTACIONES DE SERVICIO
+
+Optimice la gestión de su estación de servicio con Estación Central, la solución definitiva diseñada para las necesidades específicas de su negocio. Controle ventas de combustibles, minimercado, servicios, cisternas y equipos en comodato desde una interfaz moderna, rápida y profesional.
+
+¡DIGA ADIÓS A LAS PLANILLAS DE PAPEL Y TOMA EL CONTROL TOTAL!
+
+---
+
+MÓDULOS PRINCIPALES DEL SISTEMA:
+
+1. VENTAS DE COMBUSTIBLES
+Registro detallado de ventas de Nafta Súper, Nafta Premium y Diésel. Venta rápida desde el panel principal. Control de litros vendidos por turno y método de pago.
+
+2. PUNTO DE VENTA (POS) INTEGRADO
+Múltiples módulos de venta: Surtidores, Minimercado, Flotas y Lavadero. Interfaz táctil optimizada para ventas rápidas. Compatible con múltiples métodos de pago (Efectivo, Transferencia, Tarjeta, Cuenta Corriente).
+
+3. MINIMERCADO Y PRODUCTOS
+Administración de lubricantes, filtros, aditivos y accesorios. Alertas automáticas de stock bajo para que nunca se quede sin producto crítico.
+
+4. EQUIPOS EN COMODATO
+Módulo para el seguimiento de extintores, hidrolavadoras, compresores y otros equipos entregados en comodato a clientes. Registro de fecha de alta, retiro y documentación.
+
+5. RECEPCIÓN DE CISTERNAS
+Control de llegada de cisternas de combustible. Registro de proveedor, litros recibidos, número de remito, precio por litro y patente del camión. Historial completo de todas las recepciones.
+
+6. GESTIÓN DE CAJA
+Control de ingresos y egresos diarios. Balance en tiempo real. Historial de movimientos con filtros por fecha.
+
+7. CUENTA CORRIENTE Y CLIENTES
+Base de datos de clientes con historial de compras, saldos pendientes y gestión de flotas/empresas. Ideal para ventas "a cuenta" con comercios y transportistas.
+
+8. REPORTES Y ESTADÍSTICAS
+Visualice sus ganancias diarias, productos más vendidos y rendimiento por categoría. Exporte todos sus datos a Excel con un clic.
+
+---
+
+CARACTERÍSTICAS TÉCNICAS:
+
+- INTERFAZ RESPONSIVA: Úselo en PC, Tablet o Teléfono Celular sin problemas.
+- DISEÑO PREMIUM (Glassmorphism): Una experiencia visual moderna que profesionaliza su negocio.
+- 100% SIN INSTALACIÓN: Funciona directamente desde el navegador (Chrome, Edge, Safari).
+- PRIVACIDAD TOTAL: Los datos se guardan en su equipo. No requiere bases de datos externas complejas ni servidores costosos.
+- SIN ABONOS MENSUALES: Un solo pago por el acceso al sistema.
+
+---
+
+¿QUÉ INCLUYE LA COMPRA?
+
+- Acceso completo al sistema configurable.
+- Manual de usuario detallado.
+- Soporte para configuración inicial.
+- Capacidad de personalizar con su propio logo y nombre de comercio.
+
+¡Transforme su negocio hoy mismo con Estación Central!`,
+        features: ["Ventas Combustible", "Minimercado", "Equipos Comodato", "Control Cisternas", "Gestión de Caja", "Cuentas Corrientes"]
     }
 ];
