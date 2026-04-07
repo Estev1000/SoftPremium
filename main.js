@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         modalImgContainer.innerHTML = ''; // Clear previous
 
-        if ((product.images && product.images.length > 0) || product.video) {
+        if ((product.images && product.images.length > 0) || product.video || product.audio) {
             // Create Carousel
             const carousel = document.createElement('div');
             carousel.className = 'carousel';
@@ -219,8 +219,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return carousel.querySelectorAll('.carousel-slide');
             }
 
-            function pauseAllVideos() {
-                carousel.querySelectorAll('video.carousel-slide').forEach(v => v.pause());
+            function pauseAllMedia() {
+                carousel.querySelectorAll('video, audio').forEach(v => v.pause());
             }
 
             function setActiveSlide(nextIndex) {
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 slides[currentSlide].classList.remove('active');
                 currentSlide = (nextIndex + slides.length) % slides.length;
                 slides[currentSlide].classList.add('active');
-                pauseAllVideos();
+                pauseAllMedia();
             }
 
             if (product.video) {
@@ -240,6 +240,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 videoEl.controls = true;
                 videoEl.preload = 'metadata';
                 carousel.appendChild(videoEl);
+            }
+
+            if (product.audio) {
+                const audioWrapper = document.createElement('div');
+                audioWrapper.className = 'carousel-slide';
+                
+                const audioEl = document.createElement('audio');
+                audioEl.src = product.audio;
+                audioEl.controls = true;
+                audioEl.preload = 'metadata';
+                audioEl.style.width = '80%';
+                audioEl.style.position = 'relative';
+                audioEl.style.top = '50%';
+                audioEl.style.left = '10%';
+                audioEl.style.transform = 'translateY(-50%)';
+                
+                audioWrapper.appendChild(audioEl);
+                carousel.appendChild(audioWrapper);
             }
 
             const imgs = product.images || [];

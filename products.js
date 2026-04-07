@@ -963,6 +963,7 @@ Se envía un link listo para ejecutar, sin complicaciones técnicas.`,
         price: "Consultar",
         image: "Gestión de podología/Publicidad_Podologia_Premium.png",
         images: ["Gestión de podología/Publicidad_Podologia_Premium.png", "Gestión de podología/1.png", "Gestión de podología/2.png", "Gestión de podología/3.png", "Gestión de podología/4.png", "Gestión de podología/5.png", "Gestión de podología/6.png", "Gestión de podología/7.png", "Gestión de podología/8.png", "Gestión de podología/9.png", "Gestión de podología/10.png", "Gestión de podología/11.png", "Gestión de podología/12.png"],
+        audio: "Gestión de podología/Voz de Luis para publicidad Mastered_Track_Steve You Tube.mp3",
         description: `GESTION DE PODOLOGIA PREMIUM - SOFTWARE PROFESIONAL
 
 Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la podología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
