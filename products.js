@@ -1726,5 +1726,53 @@ CARACTERÍSTICAS TÉCNICAS:
 
 ¡Transforme su negocio hoy mismo con Estación Central!`,
         features: ["Ventas Combustible", "Minimercado", "Equipos Comodato", "Control Cisternas", "Gestión de Caja", "Cuentas Corrientes"]
+    },
+    {
+        id: 43,
+        title: "Gestión de Psicología",
+        category: "salud",
+        price: "Consultar",
+        image: "Gestión de Psicología/Publicidad_Psicologia_Premium 2.png",
+        images: ["Gestión de Psicología/Publicidad_Psicologia_Premium 2.png", "Gestión de Psicología/1.png", "Gestión de Psicología/2.png", "Gestión de Psicología/3.png", "Gestión de Psicología/4.png", "Gestión de Psicología/4.1.png", "Gestión de Psicología/5.png", "Gestión de Psicología/6.png", "Gestión de Psicología/7.png", "Gestión de Psicología/8.png", "Gestión de Psicología/9.png", "Gestión de Psicología/10.png", "Gestión de Psicología/11.png", "Gestión de Psicología/12.png"],
+        description: `GESTION DE PSICOLOGIA PREMIUM - SOFTWARE PROFESIONAL
+
+Optimice la administración de su consultorio con una herramienta diseñada específicamente para profesionales de la psicología. Este sistema permite un control integral de pacientes, turnos e historias clínicas de forma rápida, segura y sin costos de mantenimiento.
+
+CARACTERISTICAS PRINCIPALES
+
+GESTION DE PACIENTES
+- Registro completo de datos personales y de contacto.
+- Campos especializados: Tipo de terapia (Individual, Pareja, Familiar), ocupación / profesión e indicadores sobre consumo de medicación psiquiátrica.
+- Buscador integrado para localización rápida de registros.
+
+CONTROL DE TURNOS Y ALERTAS AUTOMATICAS
+- Agenda profesional organizada por fecha y hora.
+- Visualización de turnos diarios en el tablero principal (Dashboard).
+- Gestión de estados: Pendiente, Asistió y Cancelado.
+- Sistema de Alertas Inteligentes: El software le notifica automáticamente 15 minutos antes de cada sesión con un aviso visual y sonoro en su dispositivo.
+- Recordatorios por WhatsApp: Envíe un mensaje de confirmación o recordatorio al paciente con un solo clic, con texto personalizado listo para enviar.
+
+HISTORIAL CLINICO CON SEGUIMIENTO
+- Registro detallado de diagnósticos, plan terapéutico y notas de evolución de las sesiones.
+- Sistema de apoyo visual: Cargue hasta 3 fotografías o esquemas del estado inicial y final, pensado para registro facial, dibujos proyectivos del paciente o anotaciones clínicas.
+- Visor secuencial profesional: Visualice la evolución y documentación del paciente de forma rápida y cronológica.
+
+SEGURIDAD Y PRIVACIDAD DE DATOS (Confidencialidad)
+- Privacidad total clínica: Los datos se almacenan localmente en su dispositivo. La información sensible de sus pacientes NUNCA se sube a internet, garantizando el secreto profesional.
+- No requiere suscripciones: Pago único de por vida, sin cuotas mensuales ni cargos ocultos.
+- Copias de seguridad: Función de exportación e importación para respaldar toda su información o migrarla a otro equipo de forma segura.
+
+VENTAJAS TECNICAS
+- No requiere instalación: Funciona directamente abriendo un archivo en su navegador web (Chrome, Edge, Firefox, etc.).
+- Compatible con múltiples dispositivos: Puede utilizarse en PC, Notebooks, Tablets y Celulares.
+- Interfaz moderna y profesional: Diseño optimizado para una experiencia fluida, rápida y estética, inspirada en las mejores herramientas clínicas.
+
+PERSONALIZACION Y ENTREGA
+Al ser una versión Premium, el software se entrega personalizado. Una vez realizada la compra, deberá proporcionarnos por la mensajería privada:
+1. Nombre del consultorio o del profesional (Ej: Lic. María Gomez).
+2. Logotipo para el encabezado del sistema (Opcional).
+
+Se envía un Link listo para descargar y ejecutar, sin complicaciones técnicas ni requisitos especiales.`,
+        features: ["Pacientes", "Turnos y Alertas", "Recordatorios WhatsApp", "Historial Profesional", "Privacidad Local", "Sin Mensualidades"]
     }
 ];
