@@ -682,8 +682,8 @@ BENEFICIOS:
         title: "Gestor de Celulares",
         category: "tecnologia",
         price: "Consultar",
-        image: "Gestor de celulares/Screenshot_20250611-083156.png",
-        images: ["Gestor de celulares/Screenshot_20250611-083156.png", "Gestor de celulares/Screenshot_20250611-083202.png", "Gestor de celulares/Screenshot_20250611-083209.png", "Gestor de celulares/Screenshot_20250611-083339.png", "Gestor de celulares/Screenshot_20250611-083352.png", "Gestor de celulares/Screenshot_20250611-083449.png"],
+        image: "Gestor de celulares/1.png",
+        images: ["Gestor de celulares/1.png", "Gestor de celulares/2.png", "Gestor de celulares/3.png", "Gestor de celulares/4.png", "Gestor de celulares/5.png", "Gestor de celulares/6.png"],
         description: `Gestor de Celulares - Sistema de Administración para Vendedores
 
 ¡Optimiza la gestión de tu negocio de celulares con nuestra aplicación web profesional! Diseñada específicamente para vendedores de Mercado Libre y tiendas de tecnología.
