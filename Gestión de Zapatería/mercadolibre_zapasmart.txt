@@ -8,6 +8,7 @@ Descripción:
 
 🎯 **Características Principales:**
 - **Punto de Venta Rápido (POS):** Facturación en segundos, multi-vendedor y control de caja.
+- **Catálogo Visual e Interactivo:** Carga fotos a cada producto de tu inventario. En la pantalla de ventas, tú y tus vendedores podrán hacer clic en las fotos para agrandarlas y mostrarlas a todo detalle a tus clientes. 
 - **Inventario Inteligente de Calzado:** Control exacto por Talla, Color, Marca y Modelo. ¡Nunca más te quedes sin stock de las tallas más vendidas!
 - **Control de Empleados y Comisiones:** Fija metas y comisiones por ventas para cada uno de tus vendedores al instante.
 - **Base de Datos de Clientes:** Fidelización, registro de compras y gustos para futuras promociones.
@@ -19,7 +20,6 @@ Diseño vanguardista, intuitivo y sin curvas de aprendizaje complejas. Capacita 
 
 📞 **Incluye:**
 - Instalación y configuración remota.
-- 1 Mes de Soporte Premium GRATIS.
 - Actualizaciones de por vida en tu versión adquirida.
 
 ¡Renueva la gestión de tu zapatería y da un paso seguro hacia el éxito con ZapaSmart POS! Compra ahora y agenda tu instalación.
