@@ -1461,7 +1461,7 @@ CARACTERISTICAS TECNICAS:
         category: "ventas",
         price: "Consultar",
         image: "Gestión de Zapatería/presentacion_zapasmart.png",
-        images: ["Gestión de Zapatería/presentacion_zapasmart.png", "Gestión de Zapatería/1.png", "Gestión de Zapatería/2.png", "Gestión de Zapatería/3.png", "Gestión de Zapatería/4.png", "Gestión de Zapatería/5.png", "Gestión de Zapatería/6.png", "Gestión de Zapatería/7.png", "Gestión de Zapatería/8.png", "Gestión de Zapatería/9.png", "Gestión de Zapatería/10.png"],
+        images: ["Gestión de Zapatería/presentacion_zapasmart.png", "Gestión de Zapatería/1.png", "Gestión de Zapatería/2.png", "Gestión de Zapatería/3.png", "Gestión de Zapatería/4.png", "Gestión de Zapatería/5.png", "Gestión de Zapatería/6.png", "Gestión de Zapatería/7.png", "Gestión de Zapatería/8.png", "Gestión de Zapatería/9.png", "Gestión de Zapatería/10.png", "Gestión de Zapatería/11.png", "Gestión de Zapatería/12.png"],
         description: `ZAPASMART POS - SISTEMA DE GESTIÓN PARA ZAPATERÍAS
 
 ¡Descubre ZapaSmart POS, el Software de Gestión más completo y fácil de usar, diseñado exclusivamente para el control de tu Zapatería!
@@ -1475,26 +1475,30 @@ CARACTERÍSTICAS PRINCIPALES:
 - Interfaz táctil optimizada para ventas rápidas.
 - Compatible con múltiples métodos de pago (Efectivo, Transferencia, Tarjeta).
 
-2. INVENTARIO INTELIGENTE DE CALZADO:
+2. CATÁLOGO VISUAL E INTERACTIVO:
+- Carga fotos a cada producto de tu inventario.
+- En la pantalla de ventas, tú y tus vendedores podrán hacer clic en las fotos para agrandarlas y mostrarlas a todo detalle a tus clientes. 
+
+3. INVENTARIO INTELIGENTE DE CALZADO:
 - Control exacto por Talla, Color, Marca y Modelo.
 - Nunca más te quedes sin stock de las tallas más vendidas.
 - Alertas automáticas de stock bajo.
 
-3. CONTROL DE EMPLEADOS Y COMISIONES:
+4. CONTROL DE EMPLEADOS Y COMISIONES:
 - Fija metas y comisiones por ventas para cada uno de tus vendedores al instante.
 - Reportes de rendimiento por empleado.
 
-4. BASE DE DATOS DE CLIENTES:
+5. BASE DE DATOS DE CLIENTES:
 - Fidelización, registro de compras y gustos para futuras promociones.
 - Historial completo de compras por cliente.
 
-5. REPORTES Y ESTADÍSTICAS:
+6. REPORTES Y ESTADÍSTICAS:
 - Conoce tus modelos más rentables.
 - Identifica el stock inmovilizado.
 - Visualiza las utilidades reales de tu comercio.
 - Exporta datos a Excel con un clic.
 
-6. ADAPTABLE A MÓVILES Y TABLETS:
+7. ADAPTABLE A MÓVILES Y TABLETS:
 - Tu jefe de local o tú mismo pueden revisar las estadísticas y el inventario en tiempo real desde celular.
 - 100% Responsivo: Funciona en PC, Notebooks, Tablets y Celulares.
 
