@@ -384,88 +384,35 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // PWA Installation Logic
+    // PWA Installation Logic - Simple Version
     let deferredPrompt;
-    const installModal = document.getElementById('install-modal');
-    const closeInstallModal = document.querySelector('.close-install-modal');
-    const btnInstallPwa = document.getElementById('btn-install-pwa');
-    const installBtnText = document.getElementById('install-btn-text');
-    const instructionsIos = document.getElementById('pwa-instructions-ios');
-    const instructionsAndroid = document.getElementById('pwa-instructions-android');
-    const instructionsPc = document.getElementById('pwa-instructions-pc');
+    
+    const isIos = () => {
+        const userAgent = window.navigator.userAgent.toLowerCase();
+        return /iphone|ipad|ipod/.test(userAgent);
+    };
 
-    // Detect OS
-    const isIos = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    const isAndroid = () => /Android/i.test(navigator.userAgent);
-    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone) || window.matchMedia('(display-mode: standalone)').matches;
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
 
-    // Show Install Modal
-    window.downloadApp = () => {
+    // Simple Install Function
+    window.downloadApp = async () => {
         if (isInStandaloneMode()) {
             alert('¡SoftPremium ya está instalada en tu dispositivo!');
             return;
         }
 
-        installModal.classList.add('show');
-        document.body.style.overflow = 'hidden';
-
-        // Reset instructions
-        instructionsIos.classList.add('hidden');
-        instructionsAndroid.classList.add('hidden');
-        instructionsPc.classList.add('hidden');
-
         if (isIos()) {
-            instructionsIos.classList.remove('hidden');
-            btnInstallPwa.classList.add('hidden'); // No direct button for iOS
-        } else if (isAndroid()) {
-            instructionsAndroid.classList.remove('hidden');
-            btnInstallPwa.classList.remove('hidden');
-            installBtnText.innerText = 'Instalar ahora';
+            alert('📱 Para instalar en iPhone:\n\n1. Toca el botón "Compartir" (el cuadrado con la flecha hacia arriba) en el menú inferior.\n2. Selecciona "Agregar a Inicio".');
+        } else if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            deferredPrompt = null;
         } else {
-            // PC or other
-            instructionsPc.classList.remove('hidden');
-            btnInstallPwa.classList.remove('hidden');
-            installBtnText.innerText = 'Descargar Acceso Directo';
+            alert('Para instalar, abre esta página desde tu teléfono o navegador.');
         }
     };
 
-    // Close Install Modal
-    closeInstallModal.addEventListener('click', () => {
-        installModal.classList.remove('show');
-        document.body.style.overflow = 'auto';
-    });
-
-    // Handle Install Button Click
-    btnInstallPwa.addEventListener('click', async () => {
-        if (deferredPrompt) {
-            deferredPrompt.prompt();
-            const { outcome } = await deferredPrompt.userChoice;
-            console.log(`User response to the install prompt: ${outcome}`);
-            deferredPrompt = null;
-            installModal.classList.remove('show');
-            document.body.style.overflow = 'auto';
-        } else if (!isIos() && !isAndroid()) {
-            // PC logic: download shortcut
-            const urlContent = `[InternetShortcut]\nURL=${window.location.href}\nIconIndex=0\n`;
-            const blob = new Blob([urlContent], { type: 'application/octet-stream' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'SoftPremium.url';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-            
-            alert('Se descargó un acceso directo. Arrástralo a tu escritorio para un acceso rápido.');
-            installModal.classList.remove('show');
-            document.body.style.overflow = 'auto';
-        } else {
-            alert('Para instalar, utiliza el menú de tu navegador y selecciona "Instalar aplicación" o "Agregar a inicio".');
-        }
-    });
-
-    // Capture beforeinstallprompt
+    // Capture beforeinstallprompt event
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
@@ -473,9 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // App installed event
     window.addEventListener('appinstalled', () => {
-        console.log('PWA was installed');
-        installModal.classList.remove('show');
-        document.body.style.overflow = 'auto';
+        console.log('PWA fue instalada');
     });
 
     // Register Service Worker
