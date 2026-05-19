@@ -384,3 +384,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Función para descargar la app
+function downloadApp() {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+        // Para móviles: instrucciones para agregar a pantalla de inicio
+        alert('Para agregar SoftPremium a tu pantalla de inicio:\n\n1. En iOS: Toca el botón compartir ⎋ y selecciona "Agregar a inicio"\n2. En Android: Toca el menú (⋮) y selecciona "Agregar a pantalla de inicio" o "Instalar app"');
+    } else {
+        // Para PC: descargar como acceso directo
+        const link = document.createElement('a');
+        link.href = window.location.href;
+        link.download = 'SoftPremium_AccesoDirecto.url';
+        
+        // Crear contenido del archivo .url para Windows
+        const urlContent = `[InternetShortcut]\nURL=${window.location.href}\n`;
+        const blob = new Blob([urlContent], { type: 'application/octet-stream' });
+        link.href = URL.createObjectURL(blob);
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+        
+        alert('Se descargó un acceso directo. Arrástralo a tu escritorio para tener SoftPremium siempre disponible.');
+    }
+}
