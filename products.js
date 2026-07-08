@@ -883,14 +883,15 @@ Se envía un Link listo para ejecutar, sin complicaciones técnicas.`,
         title: "VerduExpress POS",
         category: "ventas",
         price: "Consultar",
-        image: "verduleria/1.png",
-        images: ["verduleria/1.png", "verduleria/2.png", "verduleria/3.png", "verduleria/4.png", "verduleria/5.png", "verduleria/6.png"],
+        image: "verduleria/Imagen publicitaria de verdulería.png",
+        images: ["verduleria/Imagen publicitaria de verdulería.png", "verduleria/1.png", "verduleria/2.png", "verduleria/3.png", "verduleria/4.png", "verduleria/5.png", "verduleria/6.png"],
         description: `VerduExpress POS – Ventas e inventario para verdulería (local)
 
 Descripción:
-App simple que corre en el navegador. Cargás productos, vendés rápido, cobrás en efectivo con vuelto automático, imprimís ticket y ves reportes básicos. Datos guardados en tu PC. Ofrecemos la versión para PC, versión web para PC, celular y tablet.
+App simple que corre en el navegador. Cargás productos, vendés rápido, cobrás en efectivo con vuelto automático, imprimís ticket y ves reportes básicos. Datos guardados en tu navegador.
+Versión web para PC, celular y tablet.
 
-Funcionalidades Principales:
+Qué hace:
 - Inventario: nombre, categoría, precio, cantidad.
 - Ventas: carrito, total, efectivo y vuelto.
 - Ofertas rápidas: botones con nombre, detalle y precio. Modo “solo ofertas”.
@@ -904,7 +905,10 @@ Modo de uso:
 - Reportes: consultá totales y exportá/importá.
 
 Requisitos:
-- Navegador moderno. Internet solo para estilos al cargar. Operación local.`,
+- Navegador moderno. Internet solo para estilos al cargar. Operación local.
+
+Personalización:
+Una vez que realicen la compra del programa, nos tienen que proporcionar el nombre de la verdulería para incluirlo en la interfaz de la app y el ticket.`,
         features: ["Inventario Simple", "Ventas Rápidas", "Ofertas", "Ticket Imprimible", "Reportes Básicos", "Exportar JSON"]
     },
 
