@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Fábrica Merece Orden | SoftPremium</title>
+    <meta name="description"
+        content="Mini Apps a medida para tu fábrica. Reemplazá tus planillas por una app simple que calcula solo. Stock, producción, asistencia y pedidos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="icono%20de%20la%20App.png">
+
+    <style>
+        /* Factory Page Specific Styles */
+        .fab-hero {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 50%, #1a1e21 100%);
+            color: #fff;
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .fab-hero h1 {
+            color: #fff;
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .fab-hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .fab-hero .btn {
+            margin: 0.5rem;
+        }
+
+        .fab-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .fab-section {
+            padding: 4rem 0;
+        }
+
+        .fab-section-alt {
+            background-color: #f8f9fa;
+        }
+
+        .fab-section h2 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .fab-section .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 2.5rem;
+            font-size: 1.05rem;
+        }
+
+        .fab-problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .fab-problem-card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .fab-problem-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .fab-problem-card i {
+            color: #dc3545;
+            font-size: 1.3rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+
+        .fab-problem-card p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .fab-solution-box {
+            background: #fff;
+            border: 2px solid var(--primary-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .fab-solution-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .fab-solution-box p {
+            font-size: 1.05rem;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .fab-features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .fab-feature-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .fab-feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .fab-feature-card .icon-box {
+            width: 65px;
+            height: 65px;
+            background-color: rgba(13, 110, 253, 0.1);
+            color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 1rem;
+            font-size: 1.6rem;
+        }
+
+        .fab-feature-card h3 {
+            font-size: 1.15rem;
+            margin-bottom: 0.7rem;
+        }
+
+        .fab-feature-card ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .fab-feature-card ul li {
+            padding: 0.3rem 0;
+            padding-left: 1.3rem;
+            position: relative;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .fab-feature-card ul li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-size: 0.8rem;
+        }
+
+        .fab-calc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .fab-calc-card {
+            background: #fff;
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+        }
+
+        .fab-calc-card h4 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .fab-calc-card p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .fab-steps {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .fab-step {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+            align-items: flex-start;
+        }
+
+        .fab-step:last-child {
+            margin-bottom: 0;
+        }
+
+        .fab-step-num {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 700;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+        }
+
+        .fab-step-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .fab-step-content p {
+            margin: 0;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .fab-table-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        .fab-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .fab-table th {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        .fab-table td {
+            padding: 0.9rem 1.5rem;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .fab-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .fab-table tr:hover td {
+            background-color: #f8f9fa;
+        }
+
+        .fab-connect-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .fab-connect-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .fab-connect-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .fab-connect-card .icon-box {
+            width: 65px;
+            height: 65px;
+            background-color: rgba(25, 135, 84, 0.1);
+            color: var(--success-color);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 1rem;
+            font-size: 1.6rem;
+        }
+
+        .fab-connect-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .fab-connect-card p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .fab-why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .fab-why-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+        }
+
+        .fab-why-item i {
+            color: var(--success-color);
+            font-size: 1.1rem;
+            margin-top: 0.15rem;
+            flex-shrink: 0;
+        }
+
+        .fab-why-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .fab-cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: #fff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .fab-cta h2 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .fab-cta p {
+            color: rgba(25, 255, 255, 0.9);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .fab-cta-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .fab-testimonial {
+            max-width: 650px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            position: relative;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .fab-testimonial .quote-icon {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 3rem;
+            color: rgba(13, 110, 253, 0.1);
+        }
+
+        .fab-testimonial .quote-text {
+            font-style: italic;
+            color: #555;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .fab-testimonial .quote-author {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .btn-download {
+            background-color: var(--accent-color);
+            color: var(--secondary-color);
+        }
+
+        .btn-download:hover {
+            background-color: #e0a800;
+            transform: translateY(-2px);
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: #fff;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1da851;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .fab-hero h1 {
+                font-size: 2rem;
+            }
+
+            .fab-hero p {
+                font-size: 1rem;
+            }
+
+            .fab-step {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            .fab-hero .btn {
+                display: block;
+                margin: 0.5rem auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span>SoftPremium</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="index.html#catalogo" class="nav-link">Catálogo</a></li>
+                    <li><a href="index.html#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link btn-primary">Contacto</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="fab-hero">
+            <div class="container">
+                <div class="fab-badge"><i class="fa-solid fa-industry"></i> Soluciones para Fábricas</div>
+                <h1>Tu Fábrica Merece Orden</h1>
+                <p>Reemplazá tus planillas por una app simple que carga los datos desde la PC, tablet o celular y hace los cálculos por vos.</p>
+                <div>
+                    <a href="#como-funciona" class="btn btn-light"><i class="fa-solid fa-play"></i> ¿Cómo funciona?</a>
+                    <a href="TU FÁBRICA MERECE ORDEN/TU FÁBRICA MERECE ORDEN.pdf" download class="btn btn-download"><i class="fa-solid fa-file-pdf"></i> Descargar PDF</a>
+                    <a href="https://wa.me/5492664024390?text=Hola%20Esteban%2C%20vi%20la%20secci%C3%B3n%20de%20f%C3%A1bricas%20en%20tu%20web%20y%20quisiera%20consultarte%20por%20una%20app%20para%20mi%20f%C3%A1brica." target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- El Problema -->
+        <section class="fab-section">
+            <div class="container">
+                <h2>¿Cansado de escribir a mano en planillas que se pierden?</h2>
+                <p class="subtitle">Si te suena algo de esto, no sos el único.</p>
+                <div class="fab-problem-grid">
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Escribís datos a mano cada día</p>
+                    </div>
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Las planillas se acumulan y se pierden</p>
+                    </div>
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Buscar un dato viejo toma 30 minutos</p>
+                    </div>
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Se cometen errores de escritura</p>
+                    </div>
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>No sabés cuánto produjiste esta semana sin contar todo manualmente</p>
+                    </div>
+                    <div class="fab-problem-card">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Si se moja o se extravía una hoja, perdiste todo</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <p style="font-size: 1.15rem; color: var(--secondary-color); font-weight: 600; max-width: 600px; margin: 0 auto;">
+                        No es tu culpa. Es que no tenés la herramienta correcta.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Solución -->
+        <section class="fab-section fab-section-alt">
+            <div class="container">
+                <div class="fab-solution-box">
+                    <div class="icon-box" style="width: 80px; height: 80px; font-size: 2rem; margin: 0 auto 1.5rem;">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>Mini Apps a medida para tu fábrica</h3>
+                    <p>Una aplicación simple que reemplaza tus planillas. Tu empleado carga los datos desde la PC, tablet o celular, y vos ves todo organizado en un solo lugar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Qué podés controlar? -->
+        <section class="fab-section">
+            <div class="container">
+                <h2>¿Qué podés controlar?</h2>
+                <p class="subtitle">Todo lo que hoy cargás a mano, la app lo hace automáticamente.</p>
+                <div class="fab-features-grid">
+                    <div class="fab-feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <h3>Stock de Materia Prima</h3>
+                        <ul>
+                            <li>Registro automático de entradas y salidas</li>
+                            <li>Alertas cuando algo está por agotarse</li>
+                            <li>Historial completo: quién ingresó qué y cuándo</li>
+                        </ul>
+                    </div>
+                    <div class="fab-feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-industry"></i>
+                        </div>
+                        <h3>Control de Producción</h3>
+                        <ul>
+                            <li>Registro de lo que se produce por día/turno</li>
+                            <li>Cálculo automático de cantidades</li>
+                            <li>Reportes semanales y mensuales sin contar a mano</li>
+                        </ul>
+                    </div>
+                    <div class="fab-feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3>Asistencia de Personal</h3>
+                        <ul>
+                            <li>Control de entrada y salida</li>
+                            <li>Registro de horas trabajadas</li>
+                            <li>Cálculo automático de horas extras</li>
+                        </ul>
+                    </div>
+                    <div class="fab-feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                        </div>
+                        <h3>Pedidos de Clientes</h3>
+                        <ul>
+                            <li>Registro de pedidos pendientes</li>
+                            <li>Seguimiento de estado</li>
+                            <li>Historial de cada cliente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Funciones Contables -->
+        <section class="fab-section fab-section-alt">
+            <div class="container">
+                <h2>Funciones Contables Integradas</h2>
+                <p class="subtitle">Las apps incluyen cálculos automáticos para que no tengas que hacer nada a mano.</p>
+                <div class="fab-calc-grid">
+                    <div class="fab-calc-card">
+                        <h4><i class="fa-solid fa-calculator"></i> Sumas y Restas</h4>
+                        <p>Totales de stock, producción y costos calculados automáticamente.</p>
+                    </div>
+                    <div class="fab-calc-card">
+                        <h4><i class="fa-solid fa-divide"></i> Divisiones y Porcentajes</h4>
+                        <p>Costo por unidad, rendimiento, distribución de ingredientes por receta.</p>
+                    </div>
+                    <div class="fab-calc-card">
+                        <h4><i class="fa-solid fa-square-root-variable"></i> Fórmulas a Medida</h4>
+                        <p>Si tu planilla tiene una fórmula, la app la reproduce automáticamente.</p>
+                    </div>
+                    <div class="fab-calc-card">
+                        <h4><i class="fa-solid fa-chart-column"></i> Reportes con Totales</h4>
+                        <p>Resúmenes diarios, semanales y mensuales sin contar nada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Cómo funciona? -->
+        <section class="fab-section" id="como-funciona">
+            <div class="container">
+                <h2>¿Cómo funciona?</h2>
+                <p class="subtitle">Tres pasos simples para pasar de las planillas a la app.</p>
+                <div class="fab-steps">
+                    <div class="fab-step">
+                        <div class="fab-step-num">1</div>
+                        <div class="fab-step-content">
+                            <h3>Compartime tu planilla</h3>
+                            <p>Mandame por WhatsApp la planilla que usás hoy (foto, archivo Excel o como la tengas). Si no tenés planilla, respondé unas preguntas simples sobre qué cargás y qué querés ver.</p>
+                        </div>
+                    </div>
+                    <div class="fab-step">
+                        <div class="fab-step-num">2</div>
+                        <div class="fab-step-content">
+                            <h3>Yo la digitalizo</h3>
+                            <p>Transformo tu planilla en una app simple. Le agrego cálculos automáticos, reportes y alertas. Todo lo que hoy hacés a mano, la app lo hace solo.</p>
+                        </div>
+                    </div>
+                    <div class="fab-step">
+                        <div class="fab-step-num">3</div>
+                        <div class="fab-step-content">
+                            <h3>Tu empleado lo usa</h3>
+                            <p>Desde la PC, tablet o celular, cargan los datos como hacen hoy pero más rápido. Vos ves reportes organizados, sin buscar en hojas, sin errores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Por qué compartir su planilla? -->
+        <section class="fab-section fab-section-alt">
+            <div class="container">
+                <h2>¿Por qué compartir tu planilla?</h2>
+                <p class="subtitle">Porque ya tenés el modelo armado. No hay que inventar nada desde cero.</p>
+                <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 1.05rem; line-height: 1.8; color: #555;">
+                        Vos ya sabés qué datos cargás y cómo los organizás. Yo tomo eso y lo convierto en una app que hace los cálculos solo y te muestra todo limpio.
+                    </p>
+                    <div style="margin-top: 1.5rem; padding: 1.5rem; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                        <p style="font-size: 1rem; color: var(--secondary-color); margin-bottom: 0.5rem;">
+                            <i class="fa-solid fa-check-circle" style="color: var(--success-color);"></i>
+                            <strong>Si tu planilla suma, resta o divide, la app lo hace automáticamente.</strong>
+                        </p>
+                        <p style="font-size: 1rem; color: var(--secondary-color); margin: 0;">
+                            <i class="fa-solid fa-check-circle" style="color: var(--success-color);"></i>
+                            <strong>Si calculás porcentajes de ingredientes, la app los calcula por vos.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla de Ventajas -->
+        <section class="fab-section">
+            <div class="container">
+                <h2>Planillas vs Tu Aplicación</h2>
+                <p class="subtitle">La diferencia que se nota en el día a día.</p>
+                <div class="fab-table-wrapper">
+                    <table class="fab-table">
+                        <thead>
+                            <tr>
+                                <th><i class="fa-solid fa-file-lines"></i> Planillas</th>
+                                <th><i class="fa-solid fa-mobile-screen-button"></i> Tu Aplicación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Escribís a mano</td>
+                                <td>Cargás desde la PC, tablet o celular</td>
+                            </tr>
+                            <tr>
+                                <td>Se pierden hojas</td>
+                                <td>Todo guardado en el dispositivo</td>
+                            </tr>
+                            <tr>
+                                <td>Buscás 30 minutos</td>
+                                <td>Encontrás en 5 segundos</td>
+                            </tr>
+                            <tr>
+                                <td>Se equivocan seguido</td>
+                                <td>El sistema calcula solo</td>
+                            </tr>
+                            <tr>
+                                <td>No podés ver resúmenes</td>
+                                <td>Reportes automáticos</td>
+                            </tr>
+                            <tr>
+                                <td>Si se moja, perdiste todo</td>
+                                <td>Datos guardados en el navegador</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="text-align: center; margin-top: 1.5rem;">
+                    <p style="font-size: 0.95rem; color: var(--success-color); font-weight: 600;">
+                        <i class="fa-solid fa-check"></i> Funciona en tablets y celulares — tus empleados pueden cargar datos desde donde estén
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Cómo te conecto? -->
+        <section class="fab-section fab-section-alt">
+            <div class="container">
+                <h2>¿Cómo te conecto?</h2>
+                <p class="subtitle">No hace falta que nos visitemos. Todo se resuelve a distancia.</p>
+                <div class="fab-connect-grid">
+                    <div class="fab-connect-card">
+                        <div class="icon-box">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3>Videollamada por WhatsApp</h3>
+                        <p>Te muestro la app en funcionamiento desde mi pantalla. Sin movernos de donde estemos.</p>
+                    </div>
+                    <div class="fab-connect-card">
+                        <div class="icon-box" style="background-color: rgba(13, 110, 253, 0.1); color: var(--primary-color);">
+                            <i class="fa-solid fa-file-arrow-up"></i>
+                        </div>
+                        <h3>Compartí tu planilla</h3>
+                        <p>La digitalizo y te la devuelvo como app. Foto, Excel o como la tengas.</p>
+                    </div>
+                    <div class="fab-connect-card">
+                        <div class="icon-box" style="background-color: rgba(255, 193, 7, 0.15); color: #b8860b;">
+                            <i class="fa-solid fa-clipboard-question"></i>
+                        </div>
+                        <h3>Formulario de diagnóstico</h3>
+                        <p>Respondé 5 preguntas y te armo una propuesta personalizada.</p>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 2rem; font-weight: 600; color: var(--secondary-color);">
+                    Desde cualquier provincia, en cualquier momento.
+                </p>
+            </div>
+        </section>
+
+        <!-- ¿Por qué elegirnos? -->
+        <section class="fab-section">
+            <div class="container">
+                <h2>¿Por qué elegirnos?</h2>
+                <p class="subtitle">Ventajas que marcan la diferencia.</p>
+                <div class="fab-why-grid">
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Trabajamos a distancia — no importa de qué provincia seas</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Compartís tu planilla y la convertimos en app</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Cálculos automáticos: sumas, restas, porcentajes, divisiones</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Trabajamos con tecnología moderna y segura</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Funciona en PCs, tablets y celulares que ya tenés</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Sin costos ocultos — me pagás y listo</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Soporte post-venta incluido</p>
+                    </div>
+                    <div class="fab-why-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <p>Atención personalizada — no sos un número más</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonio -->
+        <section class="fab-section fab-section-alt">
+            <div class="container">
+                <div class="fab-testimonial">
+                    <i class="fa-solid fa-quote-right quote-icon"></i>
+                    <div class="quote-text">
+                        "Usaba planillas de Excel para todo. Ahora tengo todo en una app simple y no pierdo más tiempo buscando datos."
+                    </div>
+                    <div class="quote-author">— Cliente satisfecho</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="fab-cta" id="contacto">
+            <div class="container">
+                <h2>¿Listo para dejar las planillas?</h2>
+                <p>Compartime tu planilla o escribime por WhatsApp. Te armo una propuesta sin compromiso.</p>
+                <div class="fab-cta-buttons">
+                    <a href="https://wa.me/5492664024390?text=Hola%20Esteban%2C%20vi%20la%20secci%C3%B3n%20de%20f%C3%A1bricas%20en%20tu%20web%20y%20quisiera%20consultarte%20por%20una%20app%20para%20mi%20f%C3%A1brica." target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Escribime por WhatsApp</a>
+                    <a href="TU FÁBRICA MERECE ORDEN/TU FÁBRICA MERECE ORDEN.pdf" download class="btn btn-download"><i class="fa-solid fa-file-pdf"></i> Descargar PDF</a>
+                </div>
+                <div style="margin-top: 2rem; color: rgba(255,255,255,0.7); font-size: 0.9rem;">
+                    <p style="color: rgba(255,255,255,0.7); margin: 0;">
+                        <i class="fa-solid fa-phone"></i> +54 9 2664-024390 &nbsp;|&nbsp;
+                        <i class="fa-regular fa-envelope"></i> mansillaesteban783@gmail.com
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ver ejemplos -->
+        <section class="fab-section">
+            <div class="container text-center">
+                <h2>¿Querés ver ejemplos?</h2>
+                <p class="subtitle">Mirá nuestras soluciones en funcionamiento.</p>
+                <div style="margin-bottom: 1rem;">
+                    <a href="index.html" class="btn btn-primary"><i class="fa-solid fa-arrow-left"></i> Ver Catálogo Completo</a>
+                </div>
+                <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+                    <a href="https://estev1000.github.io/SoftPremium/" target="_blank" class="btn btn-outline"><i class="fa-solid fa-globe"></i> Web Oficial</a>
+                    <a href="https://estev1000.github.io/Ignacio-Fernandez-Productor-Asesor-de-Seguros/" target="_blank" class="btn btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ignacio Fernandez</a>
+                    <a href="https://estev1000.github.io/Carpinteria-San-Jose/" target="_blank" class="btn btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Carpintería San José</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>SoftPremium</h3>
+                <p>Desarrollo de software profesional y accesible para emprendedores y PyMEs.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#catalogo">Catálogo</a></li>
+                    <li><a href="fabricas.html">Fábricas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fa-regular fa-envelope"></i> mansillaesteban783@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i> +54 9 266 402 4390 (Esteban)</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61573577638494&locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/esteban-federico-mansilla-4b6b83250/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SoftPremium. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle for factory page
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navList = document.querySelector('.nav-list');
+
+        if (mobileMenuBtn && navList) {
+            mobileMenuBtn.addEventListener('click', () => {
+                if (navList.style.display === 'flex') {
+                    navList.style.display = 'none';
+                } else {
+                    navList.style.display = 'flex';
+                    navList.style.flexDirection = 'column';
+                    navList.style.position = 'absolute';
+                    navList.style.top = '80px';
+                    navList.style.left = '0';
+                    navList.style.width = '100%';
+                    navList.style.backgroundColor = '#fff';
+                    navList.style.padding = '1rem';
+                    navList.style.boxShadow = '0 5px 10px rgba(0,0,0,0.1)';
+                    navList.style.zIndex = '999';
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 768) {
+                        navList.style.display = 'none';
+                    }
+                });
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
