@@ -1516,12 +1516,6 @@ IDEAL PARA:
 - Multi-sucursales.
 - Negocios de calzado y accesorios.
 
-INCLUYE:
-- Instalación y configuración remota.
-- 1 Mes de Soporte Premium GRATIS.
-- Actualizaciones de por vida en tu versión adquirida.
-- Manual de usuario detallado.
-
 PRIVACIDAD TOTAL:
 - Los datos se guardan en tu dispositivo.
 - No requiere bases de datos externas ni servidores costosos.
