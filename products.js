@@ -1164,6 +1164,8 @@ CARACTERISTICAS PRINCIPALES
 
 • Interfaz Intuitiva: Fácil de navegar y utilizar, ideal incluso para personas sin experiencia en tecnología.
 
+• Personalización Total: Personalizamos la interfaz y la impresión de tickets con el nombre y el logo de tu heladería. Solo necesitas compartírnoslos y los integramos al sistema.
+
 
 BENEFICIOS PARA TU NEGOCIO
 -------------------------
