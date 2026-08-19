@@ -1082,11 +1082,15 @@ Que incluye la compra
 - Soporte técnico post-venta por mensajería.
 - Actualizaciones gratuitas.
 
-Instalación
-La instalación es inmediata y sencilla. Se entrega una carpeta lista para usar. No requiere configuraciones complejas de bases de datos. Simplemente abra el sistema y comience a cargar su inventario.
+PERSONALIZACIÓN INCLUIDA:
 
-Garantía y Soporte
-Ofrecemos 7 días de garantía total. Si el sistema no cumple con lo prometido, le devolvemos su dinero. El soporte técnico está disponible para ayudarlo en la puesta en marcha de sus sucursales.
+Después de tu compra, necesitaremos que nos proporciones:
+Nombre de tu farmacia o nombre profesional
+Logo de tu farmacia (formato PNG, JPG o similar)
+
+Con esta información personalizaremos completamente la aplicación web para que luzca con la identidad de tu negocio. ¡Tu farmacia tendrá su propia aplicación profesional y personalizada!
+
+Se envía un Link listo para ejecutar, sin complicaciones técnicas.
 
 Versión: 4.0 - Edición Profesional y Multi-Sucursal`,
         features: ["Control Stock FIFO/FEFO", "Vencimientos y Lotes", "Scanner Códigos Barra", "Trazabilidad Total", "Multicaja y Sucursales", "Sin Mensualidades"]
