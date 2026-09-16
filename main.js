@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // WhatsApp Link
         const message = `Hola Esteban, vi en SoftPremium el software *${product.title}* y quisiera más información. También me gustaría consultarte por crear un producto/software a medida.`;
-        const waLink = `https://wa.me/5492664024390?text=${encodeURIComponent(message)}`;
+        const waLink = `https://wa.me/5492665261144?text=${encodeURIComponent(message)}`;
         document.getElementById('modal-buy-btn').href = waLink;
 
         // Add click instruction text inside modal-image
